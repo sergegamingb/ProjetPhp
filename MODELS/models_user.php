@@ -7,8 +7,10 @@ include 'base.php';
 class models_user
 {
 
-    public function addUser($dbLink)
+    public function addUser()
     {
+
+        $dbLink=$GLOBALS['dbLink'];
         $action = $_POST['action'];
         $email = $_POST['mail'];
         $password = $_POST['mdp'];
