@@ -16,7 +16,7 @@ class models_user
         $pays = $_POST['pays'];
         $conditions = 'member';
 
-        if ($action == 'submit') {
+        if ($action == 'inscription') {
             $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state) 
         VALUES ( \'' . $email . '\' ,
          \'' . $identifiant . '\',
