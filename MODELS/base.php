@@ -14,6 +14,4 @@ include 'start_end.php';
     or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
 
 
-
-
 ?>

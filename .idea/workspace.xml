@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ec55a03-6b3e-4717-8449-093eabf0a145" name="Default Changelist" comment="" />
+    <list default="true" id="5ec55a03-6b3e-4717-8449-093eabf0a145" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MODELS/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/base.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MODELS/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -49,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -77,10 +79,10 @@
       <list>
         <option value="$PROJECT_DIR$/CONTROLLERS/tp.php" />
         <option value="$PROJECT_DIR$/MODELS/login.php" />
-        <option value="$PROJECT_DIR$/MODELS/base.php" />
         <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
         <option value="$PROJECT_DIR$/MODELS/models_message.php" />
         <option value="$PROJECT_DIR$/MODELS/models_user.php" />
+        <option value="$PROJECT_DIR$/MODELS/base.php" />
       </list>
     </option>
   </component>
@@ -172,15 +174,28 @@
       <option name="project" value="LOCAL" />
       <updated>1570095243299</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connexion BD">
+      <created>1570095466093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570095466093</updated>
+    </task>
+    <task id="LOCAL-00005" summary="connexion BD">
+      <created>1570095503471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570095503471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3115000" />
+    <option name="totallyTimeSpent" value="3396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1658" height="995" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -228,13 +243,6 @@
         <state relative-caret-position="-55" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -253,6 +261,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODELS/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
