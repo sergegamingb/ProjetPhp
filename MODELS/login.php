@@ -1,5 +1,5 @@
 <?php
-include 'Start_end.php';
+include 'start_end.php';
 start_page('login');
 ?>
 
