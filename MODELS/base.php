@@ -11,7 +11,7 @@ include 'start_end.php';
 
 
     $dbName = 'tpphp_bd';
-    global $dbLink = mysqli_connect($dbHost, $dbUser, $pwd);
+    $dbLink = mysqli_connect($dbHost, $dbUser, $pwd)
     or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
     mysqli_select_db($dbLink, $dbName)
@@ -20,5 +20,3 @@ include 'start_end.php';
 
 ?>
 
-
-controler c'est les methodes
