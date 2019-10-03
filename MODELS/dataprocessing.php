@@ -1,5 +1,11 @@
 <?php
-//
+
+include 'models_user.php';
+
+fbird_add_user();
+
+
+
 //include 'base.php';
 //
 //start_page('formulaire');
