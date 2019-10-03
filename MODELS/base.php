@@ -3,7 +3,7 @@
 include 'start_end.php';
 
 
-    $dbHost = 'mysql-tpphp_bd.alwaysdata.net';
+    $dbHost = 'mysql-tpphp.alwaysdata.net';
     $dbUser = 'tpphp';
     $pwd = 'EricZemour';
     $dbName = 'tpphp_db';
