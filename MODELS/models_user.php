@@ -4,10 +4,9 @@
 include 'base.php';
 
 
-class models_user
-{
 
-    public function addUser()
+
+     function addUser()
     {
 
         $dbLink=$GLOBALS['dbLink'];
@@ -47,7 +46,6 @@ class models_user
         } else
             echo '<br/><strong>Bouton non géré !</strong><br/>';
         end_page();
-    }
 
 }
 ?>
