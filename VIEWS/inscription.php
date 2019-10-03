@@ -1,8 +1,6 @@
-<?php
 
-?>
 
-    <form action="MODELS/dataprocessing.php" method="post">
+    <form action="../MODELS/dataprocessing.php" method="post">
         <label for="identifiant">Identifiant :</label> <br/> <input id="Identifiant" type="text" name="Identifiant"><br/>
 
         <label for="Civ1">Homme :</label> <br/> <input id="Civ1" type="radio" name="Civ" value="Homme"><br/>
@@ -29,6 +27,4 @@
 
 
     </form>
-
-<?php
 
