@@ -1,7 +1,5 @@
 <?php
 
-include 'start_end.php';
-
 
     $dbHost = 'mysql-tpphp.alwaysdata.net';
     $dbUser = 'tpphp';
@@ -12,6 +10,5 @@ include 'start_end.php';
 
     mysqli_select_db($dbLink, $dbName)
     or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
-
 
 ?>
