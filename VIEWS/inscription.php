@@ -1,5 +1,5 @@
 <?php
-include 'MODELS/start_end.php';
+//include 'MODELS/start_end.php';
 ?>
 
     <form action="data-processing.php" method="post">
