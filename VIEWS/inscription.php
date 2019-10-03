@@ -1,6 +1,5 @@
 <?php
 include 'MODELS/start_end.php';
-start_page('TD2');
 ?>
 
     <form action="data-processing.php" method="post">
@@ -32,5 +31,4 @@ start_page('TD2');
     </form>
 
 <?php
-end_page();
-?><?php
+
