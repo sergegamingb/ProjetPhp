@@ -212,7 +212,8 @@ class User
         } else {
             echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
             echo '<br/><strong>Mail envoyé !</strong><br/>';
-            echo ' <a href=../index.php> Retourner a l\'accueil </a>   ';
+
+            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
 
         }
     }
