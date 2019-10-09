@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ec55a03-6b3e-4717-8449-093eabf0a145" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/model_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/model_base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
-    </list>
+    <list default="true" id="5ec55a03-6b3e-4717-8449-093eabf0a145" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MODELS/model_base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -95,10 +88,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
-        <option value="$PROJECT_DIR$/MODELS/model_base.php" />
         <option value="$PROJECT_DIR$/MODELS/models_message.php" />
         <option value="$PROJECT_DIR$/MODELS/models_user.php" />
         <option value="$PROJECT_DIR$/CONTROLLERS/controller.php" />
+        <option value="$PROJECT_DIR$/MODELS/model_base.php" />
       </list>
     </option>
   </component>
@@ -176,7 +169,7 @@
       <workItem from="1570022572999" duration="1679000" />
       <workItem from="1570102617785" duration="1109000" />
       <workItem from="1570562996894" duration="552000" />
-      <workItem from="1570629905105" duration="1115000" />
+      <workItem from="1570629905105" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="Création MVC">
       <created>1570022544724</created>
@@ -297,11 +290,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570103111151</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="register">
+      <created>1570631059475</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1570631059476</updated>
+    </task>
+    <task id="LOCAL-00019" summary="register">
+      <created>1570631214980</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570631214980</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1115000" />
+    <option name="totallyTimeSpent" value="1374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
@@ -368,7 +375,8 @@
     <MESSAGE value="connexion BD" />
     <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
-    <option name="LAST_COMMIT_MESSAGE" value="bd" />
+    <MESSAGE value="register" />
+    <option name="LAST_COMMIT_MESSAGE" value="register" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MODELS/model_login.php">
@@ -398,17 +406,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/model_base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="183" column="40" lean-forward="true" selection-start-line="183" selection-start-column="40" selection-end-line="183" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODELS/model_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
