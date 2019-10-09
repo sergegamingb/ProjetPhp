@@ -1,6 +1,6 @@
 <?php
 
-include 'base.php';
+include 'model_base.php';
 
 class Message
 {

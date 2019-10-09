@@ -1,13 +1,13 @@
 <?php
 
-include 'start_end.php';
+include 'model_start_end.php';
 
 
 
 
     $dbHost = 'mysql-tpphp.alwaysdata.net';
     $dbUser = 'tpphp';
-    $pwd = 'EricZemour';
+    $pwd = 'ericzemour';
 
 
     $dbName = 'tpphp_bd';
