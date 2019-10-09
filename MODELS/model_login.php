@@ -4,7 +4,7 @@ start_page('login');
 
 $login=$_POST['login'];
 $password=$_POST['mdp'];
-$query = "SELECT identifiant,password FROM user WHERE identifiant='$login' and password='$password'";
+$query = "SELECT pseudo,password FROM USER WHERE pseudo='$login' and password='$password'";
 if (!($dbResult = mysqli_query($dbLink, $query))) {
     echo 'Erreur de requête<br/>';
 // Affiche le type d'erreur.
