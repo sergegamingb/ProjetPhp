@@ -1,6 +1,7 @@
 <?php
 
 include 'model_base.php';
+include 'model_user.php';
 
 class Admin extends User
 {
