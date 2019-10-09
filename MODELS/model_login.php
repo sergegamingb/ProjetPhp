@@ -15,11 +15,11 @@ if (!($dbResult = mysqli_query($dbLink, $query))) {
 }
 if($dbRow = mysqli_fetch_assoc($dbResult))
 {
-    header('Location:view_index.php');
+    header('Location:../VIEWS/view_index.php');
 }
 else
 {
-    header('Location:view_index.php');
+    header('Location:../VIEWS/view_index.php');
 }
 
 
