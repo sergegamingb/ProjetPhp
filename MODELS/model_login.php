@@ -1,5 +1,5 @@
 <?php
-include 'mdel_base.php';
+include 'model_base.php';
 start_page('login');
 
 $login=$_POST['login'];
