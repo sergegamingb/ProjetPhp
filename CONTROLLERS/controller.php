@@ -15,4 +15,6 @@ $conditions = 'member';
 if($action =='inscription')
 {
 
+    $user = new User;
+    $user->register();
 }

@@ -1,7 +1,7 @@
 <?php
 
 
-include 'base.php';
+include 'model_base.php';
 
 
 
@@ -21,7 +21,9 @@ class User
 
     public function __construct()
     {
+
     }
+
 
 
     /**
@@ -93,20 +95,6 @@ class User
      * @return mixed
      */
     public function getUserDate()
-
-class User
-{
-    private $dbLink;
-    private $action;
-    private $email;
-    private $password;
-    private $identifiant;
-    private $sexe;
-    private $telephone;
-    private $pays;
-    private $conditions;
-
-    public function __construct()
 
     {
         return $this->user_date;
@@ -185,7 +173,8 @@ class User
     }
 
 
-    function addUser()
+
+    public function register()
     {
 
         $dbLink = $GLOBALS['dbLink'];
@@ -198,12 +187,11 @@ class User
         $pays = $_POST['pays'];
         $conditions = 'member';
 
-        if ($action == 'inscription') {
-            $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state) 
 
 
-        $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state) 
-        VALUES ( \'' . $email . '\' ,
+        $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state)
+        VALUES (
+         \'' . $email . '\' ,
          \'' . $identifiant . '\',
          \'' . $password . '\' ,
          \'' . $telephone . '\' ,
@@ -226,9 +214,6 @@ class User
             echo '<br/><strong>Mail envoyé !</strong><br/>';
         }
     }
-
-    }
-
 }
 
 

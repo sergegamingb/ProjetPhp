@@ -1,6 +1,6 @@
 <?php
 
-include 'base.php';
+include 'model_base.php';
 
 class Discussion
 {
@@ -11,6 +11,7 @@ class Discussion
 
     public function __construct()
     {
+
     }
 
 
