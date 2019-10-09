@@ -178,27 +178,26 @@ class User
     {
 
         $dbLink = $GLOBALS['dbLink'];
-        $action = $_POST['action'];
-        $email = $_POST['mail'];
-        $password = $_POST['mdp'];
-        $identifiant = $_POST['identifiant'];
-        $sexe = $_POST['genre'];
-        $telephone = $_POST['phone'];
-        $pays = $_POST['pays'];
-        $conditions = 'member';
+        $this->mail = $_POST['mail'];
+        $this->password = $_POST['mdp'];
+        $this -> pseudo = $_POST['identifiant'];
+        $this -> gender = $_POST['genre'];
+        $this -> phone = $_POST['phone'];
+        $this -> country = $_POST['pays'];
+        $this -> state = 'member';
 
 
 
         $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state)
         VALUES (
-         \'' . $email . '\' ,
-         \'' . $identifiant . '\',
-         \'' . $password . '\' ,
-         \'' . $telephone . '\' ,
-         \'' . $pays . '\' ,
+         \'' . $this->mail . '\' ,
+         \'' . $this -> pseudo . '\',
+         \'' . $this->password . '\' ,
+         \'' . $this -> phone . '\' ,
+         \'' . $this -> country . '\' ,
          NOW(),
-         \'' . $sexe . '\' ,
-         \'' . $conditions . '\'
+         \'' . $this -> gender . '\' ,
+         \'' . $this -> state . '\'
          )';
 
 
