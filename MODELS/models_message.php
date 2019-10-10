@@ -1,6 +1,10 @@
 <?php
 
-include 'model_base.php';
+function __autoload($base)
+{
+    include ( 'models_' . $base. '.php');
+}
+
 
 class Message
 {

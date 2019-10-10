@@ -1,10 +1,11 @@
 <?php
 
-function __autoload($user)
+function __autoload($user, $base)
 {
-    include_once ( 'models_' . $user. '.php');
+    include ( 'models_' . $user. '.php');
+    include ( 'models_' . $base. '.php');
 }
-include 'model_base.php';
+
 
 
 
