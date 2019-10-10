@@ -6,10 +6,8 @@ function __autoload($base)
     include ( 'models_' . $base. '.php');
 }
 
+class User extends base
 
-
-
-class user
 {
     private $pseudo;
     private $password;
@@ -181,7 +179,7 @@ class user
     public function register()
     {
 
-        $db = $GLOBALS['db'];
+        $db = $this->loadDb();
         $this->mail = $_POST['mail'];
         $this->password = $_POST['mdp'];
         $this -> pseudo = $_POST['identifiant'];
@@ -233,7 +231,7 @@ class user
 
         $login = $_POST['login'];
         $password = $_POST['mdp'];
-        $db = $GLOBALS['db'];
+        $db = $this->loadDb();
         $hashedPass = hash('sha256',$password);
 
 
