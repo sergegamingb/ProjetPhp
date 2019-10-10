@@ -1,11 +1,13 @@
 <?php
 
 
-include 'model_base.php';
+function __autoload($base)
+{
+    include ( 'models_' . $base. '.php');
+}
 
+class User extends base
 
-
-class user
 {
     private $pseudo;
     private $password;
@@ -177,7 +179,7 @@ class user
     public function register()
     {
 
-        $db = $GLOBALS['db'];
+
         $this->mail = $_POST['mail'];
         $this->password = $_POST['mdp'];
         $this -> pseudo = $_POST['identifiant'];
@@ -197,8 +199,7 @@ class user
          \'' . $this->pseudo . '\',
          \'' . $hashedPass . '\' ,
          \'' . $this->phone . '\' ,
-         \'' . $this->country . '\' ùùùùùùùùjhb
-          m=p--,
+         \'' . $this->country . '\',
          NOW(),
          \'' . $this->gender . '\' ,
          \'' . $this->state . '\'
@@ -207,7 +208,7 @@ class user
 
         try
         {
-            $db->query($query);
+            $this->execRequete($query);
             echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
         }
@@ -229,7 +230,6 @@ class user
 
         $login = $_POST['login'];
         $password = $_POST['mdp'];
-        $db = $GLOBALS['db'];
         $hashedPass = hash('sha256',$password);
 
 
@@ -239,7 +239,7 @@ class user
 
         try
         {
-        $row = $db->query($query);
+        $row = $this->execRequete($query);
         if($row -> rowCount()==0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
@@ -254,8 +254,6 @@ class user
             $_SESSION['password'] = $hashedPass;
             header('Location: ../index.php');
         }
-
-
 
 
         }
