@@ -22,6 +22,7 @@ if($dbRow = mysqli_fetch_assoc($dbResult))
     $_SESSION['isLogin']='ok';
     $_SESSION['login']=$login;
     $_SESSION['password']=$password;
+    header('Location: index.php');
 }
 
 else
