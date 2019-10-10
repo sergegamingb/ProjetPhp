@@ -1,5 +1,5 @@
 LogoLogin = document.getElementById('log');
-menuLog = document.querySelector('.login');
+menuLog = document.querySelector('form.login');
 
 LogoLogin.onclick= function () {
     menuLog.classList.remove('menuAppair');
