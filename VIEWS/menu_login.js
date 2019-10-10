@@ -1,9 +1,11 @@
 LogoLogin = document.getElementById("log");
-Button = document.querySelector('pd');
-menuLog = document.querySelector('tmort');
+menuLog = document.querySelector('login');
 
-Button.onclick = function  () {
+menu = document.querySelector('.tmort');
 
-        menuLog.classList.toggle("menuAppair");
+
+LogoLogin.onclick = function  () {
+
+        menu.classList.toggle("tmortoff");
 
 }

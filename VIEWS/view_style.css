@@ -1,7 +1,7 @@
 
 .tmort {
     position: relative;
-    margin-top: -100%;
+    top: -108.5%;
     height: 8.5%;
     width: 100%;
     display: flex;
@@ -9,6 +9,10 @@
     justify-content: space-between;
     transition-duration: 0.4s;
 
+}
+
+.tmortoff {
+    top: 0;
 }
 
 .menuAppair {
