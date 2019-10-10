@@ -1,13 +1,11 @@
 <?php
 
-spl_autoload_register(function ($class_name) {
-    include $class_name . '.php';
-});
+
 include 'model_base.php';
 
 
 
-class User
+class user
 {
     private $pseudo;
     private $password;
