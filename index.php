@@ -6,7 +6,7 @@
         <li> <a href="VIEWS/inscription.html" > inscription. </a> </li>
        <li> <a href="VIEWS/view_index.html" > login </a>   </li>
         <li> <a href="VIEWS/view_test.php"> test login </a>  </li>
-        <li> <input type ="submit" name="action" value="deconnecter">    </li>
+        <li> <a href=""> se deconnecter</a>    </li>
     </ul>
 
 
