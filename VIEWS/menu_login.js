@@ -9,6 +9,6 @@ LogoLogin.onclick=function () {
 
 bodyy = document.getElementById("2");
 function clique() {
-        bodyy.style.background="red";
+        bodyy.style.backgroundColor="red";
 }
 
