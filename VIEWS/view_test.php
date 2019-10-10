@@ -2,7 +2,7 @@
 
 session_start();
 
-if($_SESSION['login']!='ok')
+if($_SESSION['isLogin']!='ok')
 {
     die('Erreurd\'authentification');
 }
