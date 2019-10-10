@@ -6,7 +6,6 @@ LogoLogin.onclick = function () {
 
 //        alert('hachek');
                 menuLog.classList.toggle("loginmenunoff");
-       bod.style.background="red";
 }
 
 bodyy = document.getElementById("2");
