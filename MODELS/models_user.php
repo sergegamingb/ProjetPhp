@@ -235,13 +235,14 @@ class User
 
 
         $query = "SELECT pseudo , password  FROM USER where USER.pseudo =  '$login'  and USER.password = '$hashedPass' ";
-
+ echo $query;
+ exit();
         try
         {
         $db->query($query);
         $_SESSION['isLogin']='ok';
         $_SESSION['login']=$login;
-        $_SESSION['password']=$password;
+        $_SESSION['password']=$hashedPass;
 
 
         header('Location: ../index.php');

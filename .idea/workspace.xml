@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
+            <state relative-caret-position="290">
+              <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -215,34 +216,6 @@
       <workItem from="1570562996894" duration="552000" />
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
-    </task>
-    <task id="LOCAL-00014" summary="bd">
-      <created>1570098242757</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1570098242757</updated>
-    </task>
-    <task id="LOCAL-00015" summary="bd">
-      <created>1570098288750</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1570098288750</updated>
-    </task>
-    <task id="LOCAL-00016" summary="bd">
-      <created>1570102868934</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1570102868934</updated>
-    </task>
-    <task id="LOCAL-00017" summary="bd">
-      <created>1570103111151</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1570103111151</updated>
     </task>
     <task id="LOCAL-00018" summary="bd">
       <created>1570632162957</created>
@@ -559,11 +532,39 @@
       <option name="project" value="LOCAL" />
       <updated>1570712712175</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="test login">
+      <created>1570712879458</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1570712879458</updated>
+    </task>
+    <task id="LOCAL-00064" summary="test login">
+      <created>1570712931784</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1570712931784</updated>
+    </task>
+    <task id="LOCAL-00065" summary="test login">
+      <created>1570713073737</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713073737</updated>
+    </task>
+    <task id="LOCAL-00066" summary="test login">
+      <created>1570713283783</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713283783</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4904000" />
+    <option name="totallyTimeSpent" value="5600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
@@ -731,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
+        <state relative-caret-position="290">
+          <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
         </state>
       </provider>
     </entry>
