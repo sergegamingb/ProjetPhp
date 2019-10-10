@@ -1,7 +1,7 @@
 LogoLogin = document.getElementById('log');
-menuLog = document.querySelector("form.login");
+menuLog = document.getElementById('login');
 
 LogoLogin.onclick= function () {
-    menuLog.classList.add('menuAppair');
+    menuLog.classList.toggle('menuAppair');
 
 }
