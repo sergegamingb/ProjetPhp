@@ -4,8 +4,7 @@ bod = document.getElementById('1');
 
 LogoLogin.onclick = function () {
 
-//        alert('hachek');
-                menuLog.classList.toggle("loginmenunoff");
+    menuLog.classList.toggle("loginmenunoff");
 }
 
 bodyy = document.getElementById("2");
