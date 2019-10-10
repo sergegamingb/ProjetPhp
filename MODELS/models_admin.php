@@ -1,91 +1,76 @@
 <?php
 
-include 'model_base.php';
-include 'model_user.php';
-
+function __autoload($user, $base)
+{
+    include ( 'models_' . $base. '.php');
+    include ( 'models_' . $user. '.php');
+}
 
 class Admin extends User
 {
 
 
 
-
     public function deleteMessage($message_id)
     {
-        $db = $GLOBALS['db'];
         $query = ('DELETE FROM MESSAGE WHERE MESSAGE.message_id = \''.$message_id.'\'');
-        $db->query($query);
+        $this->execRequete($query);
 
     }
 
     public function deleteDiscussion($disc_id)
     {
-        $db = $GLOBALS['db'];
-        $re2 = ('DELETE FROM DISCUSSION WHERE DISCUSSION.disc_id = \''.$disc_id.'\'');
 
-        $db->query($re2);
+        $query = ('DELETE FROM DISCUSSION WHERE DISCUSSION.disc_id = \''.$disc_id.'\'');
+        $this->execRequete($query);
     }
 
     public function deleteUser($user_id)
     {
-        $db = $GLOBALS['db'];
-        $re3 = ('DELETE FROM USER WHERE USER.user_id= \''.$user_id.'\'');
-
-        $db->query($re3);
+        $query = ('DELETE FROM USER WHERE USER.user_id= \''.$user_id.'\'');
+        $this->execRequete($query);
     }
 
 
     public function updateMessage($message_id, $content)
     {
-        $db = $GLOBALS['db'];
-        $re4 = ('UPDATE MESSAGE SET MESSAGE.content = \''.$content.'\' WHERE MESSAGE.message_id = \''.$message_id.'\'');
-
-        $db->query($re4);
+        $query = ('UPDATE MESSAGE SET MESSAGE.content = \''.$content.'\' WHERE MESSAGE.message_id = \''.$message_id.'\'');
+        $this->execRequete($query);
     }
 
     public function updateDiscussion($discussion_id, $state)
     {
-        $db = $GLOBALS['db'];
-        $re4 = ('UPDATE DISCUSSION SET DISCUSSION.state = \''.$state.'\' WHERE DISCUSSION.disc_id= \''.$discussion_id.'\'');
-
-        $db->query($re4);
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.state = \''.$state.'\' WHERE DISCUSSION.disc_id= \''.$discussion_id.'\'');
+        $this->execRequete($query);
     }
 
-//abpublic function updateUser($user_id)
-//{
-//
-//}
+
 
     public function createMessage($message_id, $content, $user_id)
     {
-        $db = $GLOBALS['db'];
-        $re5 = "INSERT INTO MESSAGE (message_id, content, message_date, user_id) VALUES ($message_id, $content, NOW(), $user_id)";
 
-        $db->query($re5);
+        $query = "INSERT INTO MESSAGE (message_id, content, message_date, user_id) VALUES ($message_id, $content, NOW(), $user_id)";
+        $this->execRequete($query);
     }
 
     public function createDiscussion($disc_id, $user_id, $message_id, $state)
     {
-        $db = $GLOBALS['db'];
-        $re6 = "INSERT INTO MESSAGE (disc_id, user_id, message_id, state) VALUES ($disc_id, $user_id, $message_id, $state)";
 
-        $db->query($re6);
+        $query = "INSERT INTO MESSAGE (disc_id, user_id, message_id, state) VALUES ($disc_id, $user_id, $message_id, $state)";
+        $this->execRequete($query);
     }
 
     public function readMessage($message_id, $content)
     {
-        $db = $GLOBALS['db'];
-        $re7 = ('SELECT content FROM MESSAGE WHERE MESSAGE.message_id = \''.$message_id.'\'');
-
-        $db->query($re7);
+        $query = ('SELECT content FROM MESSAGE WHERE MESSAGE.message_id = \''.$message_id.'\'');
+        $this->execRequete($query);
     }
 
     public function readDiscussion($disc_id)
     {
-        $db = $GLOBALS['db'];
-        $re8 = ('SELECT * FROM MESSAGE WHERE DISCUSSION.disc_id = \''.$disc_id.'\'');
 
-        $db->query($re8);
+        $query = ('SELECT * FROM MESSAGE WHERE DISCUSSION.disc_id = \''.$disc_id.'\'');
+        $this->execRequete($query);
     }
 
 }
