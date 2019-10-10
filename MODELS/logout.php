@@ -1,4 +1,7 @@
 <?php
 
-unset($_SESSION['isLogin']);
+session_start();
+
+$_SESSION['isLogin']='no';
 header('Location: ../index.php');
+//
