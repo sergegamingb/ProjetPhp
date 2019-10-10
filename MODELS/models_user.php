@@ -251,10 +251,11 @@ class User
             $_SESSION['isLogin'] = 'ok';
             $_SESSION['login'] = $login;
             $_SESSION['password'] = $hashedPass;
+            header('Location: ../index.php');
         }
 
 
-        header('Location: ../index.php');
+
 
         }
 
