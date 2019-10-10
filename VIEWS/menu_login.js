@@ -1,6 +1,6 @@
 LogoLogin = document.getElementById("log");
 Button = document.querySelector('pd');
-menuLog = document.querySelector('login');
+menuLog = document.querySelector('tmort');
 
 function mafonction () {
     if(Button.onclick)
