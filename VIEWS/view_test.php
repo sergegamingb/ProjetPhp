@@ -4,7 +4,7 @@ session_start();
 
 if($_SESSION['isLogin']!='ok')
 {
-    die('Erreurd\'authentification');
+    die('Erreur d\'authentification');
 }
 else
 {
