@@ -235,14 +235,23 @@ class User
 
 
         $query = "SELECT pseudo , password  FROM USER where USER.pseudo =  '$login'  and USER.password = '$hashedPass' ";
- echo $query;
- exit();
+
         try
         {
-        $db->query($query);
-        $_SESSION['isLogin']='ok';
-        $_SESSION['login']=$login;
-        $_SESSION['password']=$hashedPass;
+        $row = $db->query($query);
+        if($db -> rowCount($row)==0)
+        {
+            echo 'echo \'<br/><strong>erreur d\'authentification</strong><br/>\';';
+            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+        }
+        else
+        {
+
+
+            $_SESSION['isLogin'] = 'ok';
+            $_SESSION['login'] = $login;
+            $_SESSION['password'] = $hashedPass;
+        }
 
 
         header('Location: ../index.php');
