@@ -1,4 +1,6 @@
-
+.blu {
+    background-color: blue;
+}
 .loginmenu {
     position: absolute;
     top: -100%;
@@ -14,7 +16,7 @@
     width: 10%;
 }
 .loginmenunoff {
-    top: 10%;
+    top: 15%;
     transition-duration: 0.4s;
 }
 
