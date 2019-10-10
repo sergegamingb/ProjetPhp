@@ -198,7 +198,6 @@ class User
         try {
             $db->query($query);
             echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
-            echo '<br/><strong>Mail envoyé !</strong><br/>';
 
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
 
