@@ -30,6 +30,7 @@ else
     echo 'erreur d\'authentification';
     echo '<br/> <a href="../VIEWS/view_index.html"> retourner au login</a> ';
 }
+//
 ?>
 
 
