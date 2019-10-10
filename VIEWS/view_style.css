@@ -13,6 +13,7 @@
 
 .logimenunoff {
     top: 0px;
+    transition-duration: 0.4s;
 }
 
 .menuV {
