@@ -63,13 +63,13 @@ class Admin extends User
     public function readMessage($message_id, $content)
     {
         $re7 = ('SELECT content FROM MESSAGE WHERE MESSAGE.message_id = $message_id');
-        mysqli_query(re7);
+        mysqli_query($re7);
     }
 
     public function readDiscussion($disc_id)
     {
         $re8 = ('SELECT * FROM MESSAGE WHERE DISCUSSION.disc_id = $disc_id');
-        mysqli_query(re8);
+        mysqli_query($re8);
     }
 
 }
