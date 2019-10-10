@@ -205,7 +205,7 @@ class User
 //            echo 'Erreur dans requête<br />';
 //// Affiche le type d'erreur.
 //            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-//// Affiche la requête envoyée.
+//// Affoiiche la requête envoyée.
 //            echo 'Requête : ' . $query . '<br/>';
 //            exit();
 //        } else {
