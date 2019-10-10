@@ -12,6 +12,16 @@ if (!($dbResult = mysqli_query($dbLink, $query))) {
 // Affiche la requête envoyée.
     echo 'Requête : ' . $query . '<br/>';
     exit();
+
+//    try {
+//        $db->query($query);
+//        echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
+//
+//        echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+//
+//    } catch (PDOException $e) {
+//        echo $e->getMessage();
+//    }
 }
 if($dbRow = mysqli_fetch_assoc($dbResult))
 {
