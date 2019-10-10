@@ -6,10 +6,10 @@ bout = document.getElementById('bouton');
 
 LogoLogin.onclick = function  () {
 
-        menuLog.classList.toggle("loginmenuoff");
+        menuLog.classList.toggle("logimenunoff");
 
 }
 
-bout.onclick =function () {
-        Vmenu.classList.toggle('menuVoff');
+bout.onclick = function () {
+        Vmenu.classList.toggle("menuVoff");
 }
