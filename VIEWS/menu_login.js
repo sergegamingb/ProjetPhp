@@ -1,4 +1,4 @@
-LogoLogin = document.getElementById("log");
+LogoLogin = document.getElementById("logo");
 menuLog = document.querySelector('.loginmenu');
 
 
