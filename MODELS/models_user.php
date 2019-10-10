@@ -185,36 +185,6 @@ class User
         $this -> phone = $_POST['phone'];
         $this -> country = $_POST['pays'];
         $this -> state = 'member';
-//
-//
-//
-//        $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state)
-//        VALUES (
-//         \'' . $this->mail . '\' ,
-//         \'' . $this -> pseudo . '\',
-//         \'' . $this->password . '\' ,
-//         \'' . $this -> phone . '\' ,
-//         \'' . $this -> country . '\' ,
-//         NOW(),
-//         \'' . $this -> gender . '\' ,
-//         \'' . $this -> state . '\'
-//         )';
-//
-//
-//        if (!($dbResult = mysqli_query($dbLink, $query))) {
-//            echo 'Erreur dans requête<br />';
-//// Affiche le type d'erreur.
-//            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-//// Affiche la requête envoyée.
-//            echo 'Requête : ' . $query . '<br/>';
-//            exit();
-//        } else {
-//            echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
-//            echo '<br/><strong>Mail envoyé !</strong><br/>';
-//
-//            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
-//
-//        }
 
 
 
@@ -241,7 +211,7 @@ class User
             echo $e->getMessage();
         }
 
-//
+
 
 
     }
@@ -254,11 +224,6 @@ class User
         $login = $_POST['login'];
         $password = $_POST['mdp'];
         $db = $GLOBALS['db'];
-
-
-
-
-
 
 
         $query = "SELECT pseudo , password  FROM USER where USER.pseudo =  '$login'  and USER.password = '$password' ";
@@ -280,25 +245,6 @@ class User
 
 
 
-//
-//        if (!($dbResult = mysqli_query($dbLink, $query))) {
-//            echo 'Erreur de requête<br/>';
-//// Affiche le type d'erreur.
-//            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-//// Affiche la requête envoyée.
-//            echo 'Requête : ' . $query . '<br/>';
-//            exit();
-//        }
-//        if($dbRow = mysqli_fetch_assoc($dbResult))
-//        {
-//
-//        }
-//
-//        else
-//        {
-//            echo 'erreur d\'authentification';
-//            echo '<br/> <a href="../VIEWS/view_index.html"> retourner au login</a> ';
-//        }
     }
 }
 
