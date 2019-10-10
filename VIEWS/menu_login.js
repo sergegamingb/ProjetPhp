@@ -4,12 +4,12 @@ Vmenu = document.querySelector('.menuV');
 bout = document.getElementById('bouton');
 
 
-LogoLogin.onclick = function  () {
+LogoLogin.onClick = function  () {
 
-        menuLog.classList.toggle("logimenunoff");
+        menuLog.classList.toggle("loginmenunoff");
 
 }
 
-bout.onclick = function () {
+bout.onClick = function () {
         Vmenu.classList.toggle("menuVoff");
 }
