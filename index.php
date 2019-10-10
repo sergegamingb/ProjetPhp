@@ -1,5 +1,12 @@
-<?php
+<!doctype html>
+<html lang="fr">
+<head>
 
-echo "le début" . PHP_EOL;
+    <ul>
+        <li> <a href="VIEWS/inscription.html" > inscription </a> </li>
+       <li> <a href="VIEWS/view_index.html" </a>   </li>
+    </ul>
 
-?>
+
+</head>
+</html>
