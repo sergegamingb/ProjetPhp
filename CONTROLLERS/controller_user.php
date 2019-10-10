@@ -4,6 +4,9 @@ include '../MODELS/models_user.php';
 
 $action = $_POST['action'];
 
+//
+
+
 if($action =='inscription')
 {
 
@@ -16,8 +19,4 @@ if($action == 'login')
     $user = new User;
     $user -> login();
 
-}
-if($action =='deconnecter')
-{
-    session_destroy();
 }
