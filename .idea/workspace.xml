@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+              <caret line="240" column="34" lean-forward="true" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -216,20 +216,6 @@
       <workItem from="1570562996894" duration="552000" />
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
-    </task>
-    <task id="LOCAL-00018" summary="bd">
-      <created>1570632162957</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1570632162957</updated>
-    </task>
-    <task id="LOCAL-00019" summary="bd">
-      <created>1570632549168</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1570632549168</updated>
     </task>
     <task id="LOCAL-00020" summary="bd">
       <created>1570633433905</created>
@@ -560,11 +546,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570713283783</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="test login">
+      <created>1570713579323</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713579323</updated>
+    </task>
+    <task id="LOCAL-00068" summary="test login">
+      <created>1570714309403</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1570714309403</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5600000" />
+    <option name="totallyTimeSpent" value="6392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
@@ -733,7 +733,7 @@
     <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+          <caret line="240" column="34" lean-forward="true" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="34" />
         </state>
       </provider>
     </entry>

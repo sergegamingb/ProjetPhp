@@ -239,7 +239,7 @@ class User
         try
         {
         $row = $db->query($query);
-        if($db -> rowCount($row)==0)
+        if($row -> rowCount()==0)
         {
             echo 'echo \'<br/><strong>erreur d\'authentification</strong><br/>\';';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
