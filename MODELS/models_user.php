@@ -1,6 +1,8 @@
 <?php
 
-
+spl_autoload_register(function ($class_name) {
+    include $class_name . '.php';
+});
 include 'model_base.php';
 
 
@@ -197,7 +199,8 @@ class User
          \'' . $this->pseudo . '\',
          \'' . $hashedPass . '\' ,
          \'' . $this->phone . '\' ,
-         \'' . $this->country . '\' ,
+         \'' . $this->country . '\' ùùùùùùùùjhb
+          m=p--,
          NOW(),
          \'' . $this->gender . '\' ,
          \'' . $this->state . '\'
