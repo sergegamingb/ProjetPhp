@@ -4,7 +4,7 @@ Vmenu = document.querySelector('.menuV');
 bout = document.getElementById('bouton');
 
 
-LogoLogin.onclick = function  () {
+LogoLogin.onclick = function  clique() {
         menuLog.classList.toggle("loginmenunoff");
 }
 
