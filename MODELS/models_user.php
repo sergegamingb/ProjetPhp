@@ -179,7 +179,7 @@ class User extends base
     public function register()
     {
 
-        $db = $this->loadDb();
+
         $this->mail = $_POST['mail'];
         $this->password = $_POST['mdp'];
         $this -> pseudo = $_POST['identifiant'];
@@ -199,8 +199,7 @@ class User extends base
          \'' . $this->pseudo . '\',
          \'' . $hashedPass . '\' ,
          \'' . $this->phone . '\' ,
-         \'' . $this->country . '\' ùùùùùùùùjhb
-          m=p--,
+         \'' . $this->country . '\',
          NOW(),
          \'' . $this->gender . '\' ,
          \'' . $this->state . '\'
@@ -209,7 +208,7 @@ class User extends base
 
         try
         {
-            $db->query($query);
+            $this->execRequete($query);
             echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
         }
@@ -231,7 +230,6 @@ class User extends base
 
         $login = $_POST['login'];
         $password = $_POST['mdp'];
-        $db = $this->loadDb();
         $hashedPass = hash('sha256',$password);
 
 
@@ -241,7 +239,7 @@ class User extends base
 
         try
         {
-        $row = $db->query($query);
+        $row = $this->execRequete($query);
         if($row -> rowCount()==0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
