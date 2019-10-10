@@ -1,7 +1,7 @@
 
 form.loginmenu {
     position: relative;
-    top: -108.5%;
+    top: -100px;
     height: 8.5%;
     width: 50%;
     display: flex;
@@ -15,12 +15,12 @@ form.loginmenu {
     top: 0;
 }
 
-form {
+.menuV {
     position: relative;
-    top:-108.5%;
+    top:-100px;
 }
 
 .menuVoff {
     position: absolute;
-    top: 0%;
+    top: 0px;
 }
