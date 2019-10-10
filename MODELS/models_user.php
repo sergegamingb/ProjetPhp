@@ -188,7 +188,7 @@ class User
 
 
 
-        $hashedPass = hash(PASSWORD_DEFAULT,$this->password);
+        $hashedPass = hash('sha256',$this->password);
 
 
         $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state)
