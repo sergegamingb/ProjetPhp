@@ -6,7 +6,7 @@ bout = document.getElementById('bouton');
 
 LogoLogin.onclick = function  () {
 
-        menuLog.classList.toggle("loginmenuoff");
+        menuLog.classList.toggle("logimenunoff");
 
 }
 
