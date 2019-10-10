@@ -8,7 +8,7 @@ $password = $_POST['mdp'];
 $dbLink = $GLOBALS['dbLink'];
 
 
-$query = "SELECT identifiant , pass FROM user where USER.pseudo =  '$login'  and USER.password = '$password' ";
+$query = "SELECT pseudo , password  FROM USER where USER.pseudo =  '$login'  and USER.password = '$password' ";
 if (!($dbResult = mysqli_query($dbLink, $query))) {
     echo 'Erreur de requête<br/>';
 // Affiche le type d'erreur.
@@ -22,7 +22,7 @@ if($dbRow = mysqli_fetch_assoc($dbResult))
     $_SESSION['isLogin']='ok';
     $_SESSION['login']=$login;
     $_SESSION['password']=$password;
-    header('Location: index.php');
+    header('Location: ../index.php');
 }
 
 else
