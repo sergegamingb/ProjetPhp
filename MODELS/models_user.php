@@ -255,8 +255,6 @@ class User
         }
 
 
-
-
         }
 
     catch (PDOException $e)
