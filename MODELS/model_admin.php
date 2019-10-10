@@ -43,7 +43,7 @@ class Admin extends User
         mysqli_query($re4);
     }
 
-//apublic function updateUser($user_id)
+//abpublic function updateUser($user_id)
 //{
 //
 //}
