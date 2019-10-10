@@ -1,4 +1,4 @@
-LogoLogin = document.getElementById("logo");
+LogoLogin = document.querySelector(".coin");
 menuLog = document.querySelector('.loginmenu');
 bod = document.getElementById('1');
 
