@@ -177,7 +177,7 @@ class User
     public function register()
     {
 
-        $dbLink = $GLOBALS['dbLink'];
+        $db = $GLOBALS['db'];
         $this->mail = $_POST['mail'];
         $this->password = $_POST['mdp'];
         $this -> pseudo = $_POST['identifiant'];
@@ -188,33 +188,37 @@ class User
 
 
 
+        $hashedPass = hash('sha256',$this->password);
+
+
         $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state)
         VALUES (
          \'' . $this->mail . '\' ,
-         \'' . $this -> pseudo . '\',
-         \'' . $this->password . '\' ,
-         \'' . $this -> phone . '\' ,
-         \'' . $this -> country . '\' ,
+         \'' . $this->pseudo . '\',
+         \'' . $hashedPass . '\' ,
+         \'' . $this->phone . '\' ,
+         \'' . $this->country . '\' ,
          NOW(),
-         \'' . $this -> gender . '\' ,
-         \'' . $this -> state . '\'
+         \'' . $this->gender . '\' ,
+         \'' . $this->state . '\'
          )';
 
 
-        if (!($dbResult = mysqli_query($dbLink, $query))) {
-            echo 'Erreur dans requête<br />';
-// Affiche le type d'erreur.
-            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-// Affiche la requête envoyée.
-            echo 'Requête : ' . $query . '<br/>';
-            exit();
-        } else {
+        try
+        {
+            $db->query($query);
             echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
-            echo '<br/><strong>Mail envoyé !</strong><br/>';
-
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
-
         }
+
+        catch (PDOException $e)
+        {
+            echo $e->getMessage();
+        }
+
+//
+
+
     }
 
     public function login()
@@ -224,31 +228,44 @@ class User
 
         $login = $_POST['login'];
         $password = $_POST['mdp'];
-        $dbLink = $GLOBALS['dbLink'];
+        $db = $GLOBALS['db'];
+        $hashedPass = hash('sha256',$password);
 
 
-        $query = "SELECT pseudo , password  FROM USER where USER.pseudo =  '$login'  and USER.password = '$password' ";
-        if (!($dbResult = mysqli_query($dbLink, $query))) {
-            echo 'Erreur de requête<br/>';
-// Affiche le type d'erreur.
-            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-// Affiche la requête envoyée.
-            echo 'Requête : ' . $query . '<br/>';
-            exit();
-        }
-        if($dbRow = mysqli_fetch_assoc($dbResult))
+
+
+        $query = "SELECT pseudo , password  FROM USER where USER.pseudo =  '$login'  and USER.password = '$hashedPass' ";
+
+        try
         {
-            $_SESSION['isLogin']='ok';
-            $_SESSION['login']=$login;
-            $_SESSION['password']=$password;
+        $row = $db->query($query);
+        if($row -> rowCount()==0)
+        {
+            echo '<br/><strong>erreur d\'authentification</strong><br/>';
+            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+        }
+        else
+        {
+
+
+            $_SESSION['isLogin'] = 'ok';
+            $_SESSION['login'] = $login;
+            $_SESSION['password'] = $hashedPass;
             header('Location: ../index.php');
         }
 
-        else
-        {
-            echo 'erreur d\'authentification';
-            echo '<br/> <a href="../VIEWS/view_index.html"> retourner au login</a> ';
+
+
+
         }
+
+    catch (PDOException $e)
+    {
+        echo $e->getMessage();
+    }
+
+
+
     }
 }
 

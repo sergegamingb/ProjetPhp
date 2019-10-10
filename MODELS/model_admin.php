@@ -3,8 +3,10 @@
 include 'model_base.php';
 include 'model_user.php';
 
+
 class Admin extends User
 {
+
 
     public function __construct()
     {
@@ -13,8 +15,9 @@ class Admin extends User
 
     public function deleteMessage($message_id)
     {
-        $re = ('DELETE FROM MESSAGE WHERE MESSAGE.message_id = $message_id');
-        mysqli_query($re);
+        $db = $GLOBALS['db'];
+        $query = ('DELETE FROM MESSAGE WHERE MESSAGE.message_id = $message_id');
+        $db->query($query);
 
     }
 
@@ -63,13 +66,13 @@ class Admin extends User
     public function readMessage($message_id, $content)
     {
         $re7 = ('SELECT content FROM MESSAGE WHERE MESSAGE.message_id = $message_id');
-        mysqli_query(re7);
+        mysqli_query($re7);
     }
 
     public function readDiscussion($disc_id)
     {
         $re8 = ('SELECT * FROM MESSAGE WHERE DISCUSSION.disc_id = $disc_id');
-        mysqli_query(re8);
+        mysqli_query($re8);
     }
 
 }
