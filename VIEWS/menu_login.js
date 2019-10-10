@@ -7,4 +7,8 @@ LogoLogin.onclick=function () {
         bod.style.background="red";
 }
 
+bodyy = document.getElementById("2");
+function clique() {
+        bodyy.style.background="red";
+}
 
