@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/VIEWS/menu_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/menu_login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_page2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +71,6 @@
       <workItem from="1570562996894" duration="552000" />
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
-    </task>
-    <task id="LOCAL-00013" summary="bd">
-      <created>1570098188101</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1570098188101</updated>
     </task>
     <task id="LOCAL-00014" summary="bd">
       <created>1570098242757</created>
@@ -414,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570718582324</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="test menu">
+      <created>1570718892988</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1570718892988</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
