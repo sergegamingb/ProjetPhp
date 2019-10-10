@@ -1,10 +1,14 @@
 <?php
 
+function __autoload($user)
+{
+    include_once ( 'models_' . $user. '.php');
+}
 include 'model_base.php';
-include 'model_user.php';
 
 
-class Admin extends User
+
+class  Admin extends User
 {
 
 
