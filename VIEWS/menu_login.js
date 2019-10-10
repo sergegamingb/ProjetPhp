@@ -1,11 +1,11 @@
 LogoLogin = document.getElementById("log");
-menuLog = document.querySelector('.login');
+menuLog = document.querySelector('.loginmenu');
 
 
 
 
 LogoLogin.onclick = function  () {
 
-        menuLog.classList.toggle("loginoff");
+        menuLog.classList.toggle("loginmenuoff");
 
 }
