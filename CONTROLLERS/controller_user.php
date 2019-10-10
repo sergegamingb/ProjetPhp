@@ -17,7 +17,7 @@ if($action == 'login')
     $user -> login();
 
 }
-if($action=='deconnecter')
+if($action =='deconnecter')
 {
     session_destroy();
 }
