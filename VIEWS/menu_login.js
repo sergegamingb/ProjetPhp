@@ -1,15 +1,17 @@
 LogoLogin = document.getElementById("logo");
-menuLog = document.querySelector('.loginmenu');
+menuLog = document.getElementById('.loginmenu');
 Vmenu = document.querySelector('.menuV');
 bout = document.getElementById('bouton');
 
 
 LogoLogin.onclick = function  () {
 
-        menuLog.classList.toggle("logimenunoff");
+        menuLog.classList.toggle("loginmenunoff");
 
 }
 
-bout.onclick = function () {
+bout.onClick = function () {
         Vmenu.classList.toggle("menuVoff");
 }
+
+
