@@ -18,12 +18,18 @@ class User
     private $gender;
 
 
-
-    public function __construct()
+    public function __construct($mail, $password, $pseudo, $gender, $phone, $country, $state)
     {
 
-    }
+        $this->mail = $mail;
+        $this->password = $password;
+        $this->pseudo = $pseudo;
+        $this->gender = $gender;
+        $this->phone = $phone;
+        $this->country = $country;
+        $this->state = $state;
 
+    }
 
 
     /**
@@ -173,55 +179,35 @@ class User
     }
 
 
-
     public function register()
     {
-
-        $dbLink = $GLOBALS['dbLink'];
-        $this->mail = $_POST['mail'];
-        $this->password = $_POST['mdp'];
-        $this -> pseudo = $_POST['identifiant'];
-        $this -> gender = $_POST['genre'];
-        $this -> phone = $_POST['phone'];
-        $this -> country = $_POST['pays'];
-        $this -> state = 'member';
-
-
-
+        $db = new PDO('mysql:host=mysql-tpphp.alwaysdata.net;dbname=tpphp_bd', 'tpphp', 'ericzemour');
         $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state)
         VALUES (
          \'' . $this->mail . '\' ,
-         \'' . $this -> pseudo . '\',
+         \'' . $this->pseudo . '\',
          \'' . $this->password . '\' ,
-         \'' . $this -> phone . '\' ,
-         \'' . $this -> country . '\' ,
+         \'' . $this->phone . '\' ,
+         \'' . $this->country . '\' ,
          NOW(),
-         \'' . $this -> gender . '\' ,
-         \'' . $this -> state . '\'
+         \'' . $this->gender . '\' ,
+         \'' . $this->state . '\'
          )';
 
 
-        if (!($dbResult = mysqli_query($dbLink, $query))) {
-            echo 'Erreur dans requête<br />';
-// Affiche le type d'erreur.
-            echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
-// Affiche la requête envoyée.
-            echo 'Requête : ' . $query . '<br/>';
-            exit();
-        } else {
+        try {
+            $db->query($query);
             echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
             echo '<br/><strong>Mail envoyé !</strong><br/>';
 
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
 
+        } catch (PDOException $e) {
+            echo $e->getMessage();
         }
+
+
     }
+
+
 }
-
-
-
-
-?>
-
-
-
