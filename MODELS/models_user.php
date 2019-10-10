@@ -1,11 +1,15 @@
 <?php
 
 
-include 'model_base.php';
+function __autoload($base)
+{
+    include ( 'models_' . $base. '.php');
+}
 
 
 
-class User
+
+class user
 {
     private $pseudo;
     private $password;
@@ -197,7 +201,8 @@ class User
          \'' . $this->pseudo . '\',
          \'' . $hashedPass . '\' ,
          \'' . $this->phone . '\' ,
-         \'' . $this->country . '\' ,
+         \'' . $this->country . '\' ùùùùùùùùjhb
+          m=p--,
          NOW(),
          \'' . $this->gender . '\' ,
          \'' . $this->state . '\'
