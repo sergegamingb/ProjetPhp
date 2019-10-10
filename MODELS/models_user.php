@@ -187,18 +187,22 @@ class User
         $this -> state = 'member';
 
 
+        $hashedPass = hash($this->password,PASSWORD_DEFAULT);
+
 
         $query = 'INSERT INTO USER (mail, pseudo, password, phone, country, user_date, gender, state)
         VALUES (
          \'' . $this->mail . '\' ,
          \'' . $this->pseudo . '\',
-         \'' . $this->password . '\' ,
+         \'' . $hashedPass . '\' ,
          \'' . $this->phone . '\' ,
          \'' . $this->country . '\' ,
          NOW(),
          \'' . $this->gender . '\' ,
          \'' . $this->state . '\'
          )';
+
+
         try
         {
             $db->query($query);
