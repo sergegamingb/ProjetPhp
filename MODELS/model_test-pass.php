@@ -8,7 +8,7 @@ $password = $_POST['mdp'];
 $dbLink = $GLOBALS['dbLink'];
 
 
-$query = "SELECT identifiant , pass FROM user where USER.pseudo =  '$login'  and USER.password = '$password' ";
+$query = "SELECT identifiant , pass FROM USER where USER.pseudo =  '$login'  and USER.password = '$password' ";
 if (!($dbResult = mysqli_query($dbLink, $query))) {
     echo 'Erreur de requête<br/>';
 // Affiche le type d'erreur.
