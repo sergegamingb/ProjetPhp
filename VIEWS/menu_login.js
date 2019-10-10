@@ -1,4 +1,4 @@
-LogoLogin = document.getElementById('log');
+LogoLogin = document.getElementById("log");
 menuLog = document.querySelector('login');
 
 function mafonction () {
