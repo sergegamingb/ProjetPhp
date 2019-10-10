@@ -2,8 +2,8 @@ LogoLogin = document.getElementById("log");
 Button = document.querySelector('pd');
 menuLog = document.querySelector('tmort');
 
-function mafonction () {
-    if(Button.onclick)
+Button.onclick = function  () {
+
         menuLog.classList.toggle('menuAppair');
 
 }
