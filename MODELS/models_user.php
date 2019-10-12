@@ -183,6 +183,7 @@ class User extends base
         $this->mail = $_POST['mail'];
         $this->password = $_POST['mdp'];
         if(preg_match("#^[a-zA-Z0-9]{4,6}$#",$_POST['identifiant'])) $this -> pseudo = $_POST['identifiant'];
+        else $query=null;
         $this -> gender = $_POST['genre'];
         $this -> phone = $_POST['phone'];
         $this -> country = $_POST['pays'];
