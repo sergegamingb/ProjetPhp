@@ -14,7 +14,8 @@ class Discussion
 
     public function __construct()
     {
-
+          $query=('SELECT * FROM DISCUSSION');
+          $this->execrequete($query);
     }
 
 
@@ -55,7 +56,8 @@ class Discussion
      */
     public function setDiscId($disc_id)
     {
-        $this->disc_id = $disc_id;
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.disc_id = $disc_id');
+        $this->execquery($query);
     }
 
     /**
@@ -63,7 +65,8 @@ class Discussion
      */
     public function setState($state)
     {
-        $this->state = $state;
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.state = $state');
+        $this->execquery($query);
     }
 
     /**
@@ -71,7 +74,8 @@ class Discussion
      */
     public function setUserId($user_id)
     {
-        $this->user_id = $user_id;
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.user_id = $user_id');
+        $this->execquery($query);
     }
 
     /**
@@ -79,7 +83,8 @@ class Discussion
      */
     public function setMessageId($message_id)
     {
-        $this->message_id = $message_id;
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.message_id = $message_id');
+        $this->execquery($query);
     }
 }
 

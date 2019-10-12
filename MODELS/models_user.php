@@ -23,7 +23,8 @@ class User extends base
 
     public function __construct()
     {
-
+       $query =('SELECT * FROM USER');
+       $this->execquery($query);
     }
 
 
@@ -107,7 +108,8 @@ class User extends base
      */
     public function setCountry($country)
     {
-        $this->country = $country;
+        $query = ('UPDATE country SET USER.country = $country');
+        $this->execquery($query);
     }
 
     /**
@@ -115,7 +117,8 @@ class User extends base
      */
     public function setGender($gender)
     {
-        $this->gender = $gender;
+        $query = ('UPDATE USER SET USER.gender = $gender');
+        $this->execquery($query);
     }
 
     /**
@@ -123,7 +126,8 @@ class User extends base
      */
     public function setMail($mail)
     {
-        $this->mail = $mail;
+        $query = ('UPDATE USER SET USER.mail = $mail');
+        $this->execquery($query);
     }
 
     /**
@@ -131,7 +135,8 @@ class User extends base
      */
     public function setPassword($password)
     {
-        $this->password = $password;
+        $query = ('UPDATE USER SET USER.password = $password');
+        $this->execquery($query);
     }
 
     /**
@@ -139,7 +144,8 @@ class User extends base
      */
     public function setPhone($phone)
     {
-        $this->phone = $phone;
+        $query = ('UPDATE USER SET USER.phone = $phone');
+        $this->execquery($query);
     }
 
     /**
@@ -147,7 +153,8 @@ class User extends base
      */
     public function setPseudo($pseudo)
     {
-        $this->pseudo = $pseudo;
+        $query = ('UPDATE USER SET USER.pseudo = $pseudo');
+        $this->execquery($query);
     }
 
     /**
@@ -155,7 +162,8 @@ class User extends base
      */
     public function setUserDate($user_date)
     {
-        $this->user_date = $user_date;
+        $query = ('UPDATE USER SET USER.date = $date');
+        $this->execquery($query);
     }
 
     /**
@@ -163,7 +171,8 @@ class User extends base
      */
     public function setUserId($user_id)
     {
-        $this->user_id = $user_id;
+        $query = ('UPDATE USER SET USER.user_id = $user_id');
+        $this->execquery($query);
     }
 
     /**
@@ -171,7 +180,8 @@ class User extends base
      */
     public function setState($state)
     {
-        $this->state = $state;
+        $query = ('UPDATE USER SET USER.state = $state');
+        $this->execquery($query);
     }
 
     public function Protectionformulaire() {
