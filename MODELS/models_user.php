@@ -18,7 +18,7 @@ class User extends base
     private $country;
     private $user_date;
     private $gender;
-
+    private $password2;
 
 
     public function __construct()
@@ -174,13 +174,15 @@ class User extends base
         $this->state = $state;
     }
 
+
     public function Protectionformulaire() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
         $row = $this->execRequete($query);
         if($row -> rowCount()==1) return false;
 
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
-        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {echo"mauvaise addresse"; exit(); /*return  false;*/}
+        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {echo"mauvaise addresse"; exit(); return false;}
+        if($this->password != $this->password2) return false;
 
      return true;
     }
@@ -197,6 +199,7 @@ class User extends base
         $this -> phone = $_POST['phone'];
         $this -> country = $_POST['pays'];
         $this -> state = 'member';
+        $this-> password2 = $_POST['cmdp'];
 
 
 

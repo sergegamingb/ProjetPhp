@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_base.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,21 +72,7 @@
       <workItem from="1570562996894" duration="552000" />
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
-      <workItem from="1570874037666" duration="6912000" />
-    </task>
-    <task id="LOCAL-00045" summary="test menu">
-      <created>1570703842759</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1570703842759</updated>
-    </task>
-    <task id="LOCAL-00046" summary="test menu">
-      <created>1570707996031</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1570707996031</updated>
+      <workItem from="1570874037666" duration="8514000" />
     </task>
     <task id="LOCAL-00047" summary="test menu">
       <created>1570708073684</created>
@@ -418,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570877383820</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="test menu">
+      <created>1570884410325</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1570884410325</updated>
+    </task>
+    <task id="LOCAL-00095" summary="securité formulaire">
+      <created>1570884447285</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1570884447285</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,6 +457,7 @@
     <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="test menu" />
+    <MESSAGE value="securité formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="securité formulaire" />
   </component>
 </project>
