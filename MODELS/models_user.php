@@ -181,7 +181,7 @@ class User extends base
         if($row -> rowCount()==1) return false;
 
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
-        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {echo"mauvaise addresse"; exit(); return false;}
+        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {return false;}
         if($this->password != $this->password2) return false;
 
      return true;
