@@ -108,7 +108,7 @@ class User extends base
      */
     public function setCountry($country)
     {
-        $query = ('UPDATE country SET USER.country = $country');
+        $query = ('UPDATE country SET USER.country =\''.$country.'\'');
         $this->execquery($query);
     }
 
@@ -117,7 +117,7 @@ class User extends base
      */
     public function setGender($gender)
     {
-        $query = ('UPDATE USER SET USER.gender = $gender');
+        $query = ('UPDATE USER SET USER.gender =\''.$gender.'\'');
         $this->execquery($query);
     }
 
@@ -126,7 +126,7 @@ class User extends base
      */
     public function setMail($mail)
     {
-        $query = ('UPDATE USER SET USER.mail = $mail');
+        $query = ('UPDATE USER SET USER.mail =\''.$mail.'\'');
         $this->execquery($query);
     }
 
@@ -135,7 +135,7 @@ class User extends base
      */
     public function setPassword($password)
     {
-        $query = ('UPDATE USER SET USER.password = $password');
+        $query = ('UPDATE USER SET USER.password =\''.$password.'\'');
         $this->execquery($query);
     }
 
@@ -144,7 +144,7 @@ class User extends base
      */
     public function setPhone($phone)
     {
-        $query = ('UPDATE USER SET USER.phone = $phone');
+        $query = ('UPDATE USER SET USER.phone =\''.$phone.'\'');
         $this->execquery($query);
     }
 
@@ -153,7 +153,7 @@ class User extends base
      */
     public function setPseudo($pseudo)
     {
-        $query = ('UPDATE USER SET USER.pseudo = $pseudo');
+        $query = ('UPDATE USER SET USER.pseudo =\''.$pseudo.'\'');
         $this->execquery($query);
     }
 
@@ -162,7 +162,7 @@ class User extends base
      */
     public function setUserDate($user_date)
     {
-        $query = ('UPDATE USER SET USER.date = $date');
+        $query = ('UPDATE USER SET USER.date =\''.$user_date.'\'');
         $this->execquery($query);
     }
 
@@ -171,7 +171,7 @@ class User extends base
      */
     public function setUserId($user_id)
     {
-        $query = ('UPDATE USER SET USER.user_id = $user_id');
+        $query = ('UPDATE USER SET USER.user_id =\''.$user_id.'\'');
         $this->execquery($query);
     }
 
@@ -180,7 +180,7 @@ class User extends base
      */
     public function setState($state)
     {
-        $query = ('UPDATE USER SET USER.state = $state');
+        $query = ('UPDATE USER SET USER.state =\''.$state.'\'');
         $this->execquery($query);
     }
 

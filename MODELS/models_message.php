@@ -56,7 +56,7 @@ class Message
      */
     public function setContent($content)
     {
-        $query = ('UPDATE MESSAGE SET MESSAGE.content = $content');
+        $query = ('UPDATE MESSAGE SET MESSAGE.content =\''.$content.'\'');
         $this->execquery($query);
     }
 
@@ -65,7 +65,7 @@ class Message
      */
     public function setMessageDate($message_date)
     {
-        $query = ('UPDATE MESSAGE SET MESSAGE.message_date = $message_date');
+        $query = ('UPDATE MESSAGE SET MESSAGE.message_date =\''.$message_date.'\'');
         $this->execquery($query);
     }
 
@@ -74,7 +74,7 @@ class Message
      */
     public function setMessageId($message_id)
     {
-        $query = ('UPDATE MESSAGE SET MESSAGE.message_id = $message_id');
+        $query = ('UPDATE MESSAGE SET MESSAGE.message_id =\''.$message_id.'\'');
         $this->execquery($query);
     }
 
@@ -83,7 +83,7 @@ class Message
      */
     public function setUserId($user_id)
     {
-        $query = ('UPDATE MESSAGE SET MESSAGE.user_id = $user_id');
+        $query = ('UPDATE MESSAGE SET MESSAGE.user_id =\''.$user_id.'\'');
         $this->execquery($query);
     }
 

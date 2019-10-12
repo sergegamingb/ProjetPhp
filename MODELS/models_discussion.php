@@ -56,7 +56,7 @@ class Discussion
      */
     public function setDiscId($disc_id)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.disc_id = $disc_id');
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.disc_id =\'' .$disc_id.'\'');
         $this->execquery($query);
     }
 
@@ -65,7 +65,7 @@ class Discussion
      */
     public function setState($state)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.state = $state');
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.state =\''.$state.'\'');
         $this->execquery($query);
     }
 
@@ -74,7 +74,7 @@ class Discussion
      */
     public function setUserId($user_id)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.user_id = $user_id');
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.user_id =\''.$user_id.'\'');
         $this->execquery($query);
     }
 
@@ -83,7 +83,7 @@ class Discussion
      */
     public function setMessageId($message_id)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.message_id = $message_id');
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.message_id =\''.$message_id.'\'');
         $this->execquery($query);
     }
 }
