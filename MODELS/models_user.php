@@ -182,7 +182,7 @@ class User extends base
 
         $this->mail = $_POST['mail'];
         $this->password = $_POST['mdp'];
-        $this -> pseudo = $_POST['identifiant'];
+        if(preg_match("#^[a-zA-Z0-9]{4,6}$#",$_POST['identifiant'])) $this -> pseudo = $_POST['identifiant'];
         $this -> gender = $_POST['genre'];
         $this -> phone = $_POST['phone'];
         $this -> country = $_POST['pays'];
@@ -209,7 +209,7 @@ class User extends base
         try
         {
             $this->execRequete($query);
-            echo '<br/><strong>bonsoir, votre inscription a bien été enregistrée.</strong><br/>';
+            echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
         }
 
