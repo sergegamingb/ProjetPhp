@@ -13,5 +13,7 @@ class base
     {
         return $this->loadDb()->query($query);
     }
+    public function compar($query) {
 
+    }
 }

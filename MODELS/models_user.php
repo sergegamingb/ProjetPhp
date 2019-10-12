@@ -174,7 +174,16 @@ class User extends base
         $this->state = $state;
     }
 
+    public function Protectionformulaire() {
+        $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
+        $row = $this->execRequete($query);
+        if($row -> rowCount()==1) return false;
 
+        if(strlen($this->password) <5 || strlen($this->password) >20) return false;
+        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {echo"mauvaise addresse"; exit(); /*return false;*/}
+
+     return true;
+    }
 
     public function register()
     {
@@ -209,11 +218,12 @@ class User extends base
 
         try
         {
-            if (preg_match("#^[a-zA-Z0-9]{4,6}$#",$_POST['identifiant'])) {
+            if ($this->Protectionformulaire()) {
             $this->execRequete($query);
             echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
-            }
+        }
+
         }
 
         catch (PDOException $e)
