@@ -231,7 +231,7 @@ class User extends base
          \'' . $this->state . '\'
          )';
 
-        if(!preg_match('#^[a-zA-Z0-9]*$#', $this->pseudo))
+        if(!preg_match('#^[a-zA-Z0-9_]*$#', $this->pseudo))
         {
             echo 'mauvais pseudo';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
@@ -267,7 +267,7 @@ class User extends base
 
         $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
-        if(!preg_match('#^[a-zA-Z0-9]*$#', $login))
+        if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
             echo 'mauvais pseudo';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
