@@ -230,21 +230,16 @@ class User extends base
          )';
 
 
-        try
-        {
-            if ($this->Protectionformulaire()) {
-            $this->execRequete($query);
-            echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
-        }
+        if ($this->Protectionformulaire()) {
+            try {
 
+                $this->execRequete($query);
+                echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
+                echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            } catch (PDOException $e) {
+                echo $e->getMessage();
+            }
         }
-
-        catch (PDOException $e)
-        {
-            echo $e->getMessage();
-        }
-
 //
 
 
