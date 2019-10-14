@@ -23,8 +23,8 @@ class User extends base
 
     public function __construct()
     {
-       $query =('SELECT * FROM USER');
-       $this->execquery($query);
+//       $query =('SELECT * FROM USER');
+//       $this->execquery($query);
     }
 
 

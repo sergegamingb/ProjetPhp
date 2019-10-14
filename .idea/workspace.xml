@@ -74,14 +74,7 @@
       <workItem from="1570874037666" duration="2671000" />
       <workItem from="1570883847949" duration="5080000" />
       <workItem from="1570890236982" duration="356000" />
-      <workItem from="1571034530105" duration="321000" />
-    </task>
-    <task id="LOCAL-00047" summary="test menu">
-      <created>1570708073684</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1570708073684</updated>
+      <workItem from="1571034530105" duration="592000" />
     </task>
     <task id="LOCAL-00048" summary="test menu">
       <created>1570708630600</created>
@@ -419,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570889905842</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="formulaire">
+      <created>1571034880493</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1571034880495</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,10 +456,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Création MVC" />
     <MESSAGE value="connexion BD" />
-    <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
     <MESSAGE value="class avancée" />
-    <option name="LAST_COMMIT_MESSAGE" value="class avancée" />
+    <MESSAGE value="formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="formulaire" />
   </component>
 </project>
