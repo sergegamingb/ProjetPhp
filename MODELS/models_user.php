@@ -108,7 +108,7 @@ class User extends base
      */
     public function setCountry($country)
     {
-        $query = ('UPDATE country SET USER.country =\''.$country.'\'');
+        $query = ('UPDATE USER SET USER.country =\''.$country.'\'');
         $this->execquery($query);
     }
 
@@ -257,7 +257,7 @@ class User extends base
 
 
 
-        $query = "SELECT pseudo , password  FROM USER where USER.pseudo =  '$login'  and USER.password = '$hashedPass' ";
+        $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
         try
         {
