@@ -267,6 +267,13 @@ class User extends base
 
         $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
+        if(!preg_match('#^[a-zA-Z0-9]*$#', $login))
+        {
+            echo 'mauvais pseudo';
+            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            exit();
+        }
+
         try
         {
         $row = $this->execRequete($query);
