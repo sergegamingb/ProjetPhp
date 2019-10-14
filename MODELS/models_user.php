@@ -195,6 +195,7 @@ class User extends base
         if($this->password != $this->password2) return false;
         if(is_null($this->password)||is_null($this->password2)) return false;
 
+
      return true;
     }
 
@@ -214,6 +215,7 @@ class User extends base
 
 
 
+
         $hashedPass = hash('sha256',$this->password);
 
 
@@ -229,6 +231,11 @@ class User extends base
          \'' . $this->state . '\'
          )';
 
+        if(!preg_match('#^[a-zA-Z0-9]*$#', $this->pseudo))
+        {
+            echo 'mauvais pseudo';
+            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+        }
 
         if ($this->Protectionformulaire()) {
             try {
