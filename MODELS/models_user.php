@@ -235,6 +235,7 @@ class User extends base
         {
             echo 'mauvais pseudo';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            exit();
         }
 
         if ($this->Protectionformulaire()) {
