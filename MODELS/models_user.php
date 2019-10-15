@@ -320,7 +320,7 @@ class User extends base
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
             echo 'le mot de passe doit faire entre 5 et 20 caracteres';
-            echo ' <br/>  <a href=../VIEWS/view_login.html>  réessayer </a>   ';
+            echo ' <br/>  <a href=../VIEWS/view_changePass.html>  réessayer </a>   ';
             exit();
         }
 
