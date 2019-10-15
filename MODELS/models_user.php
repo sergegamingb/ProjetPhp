@@ -185,7 +185,7 @@ class User extends base
     }
 
 
-    public function Protectionformulaire() {
+    public function isSafe() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
         $row = $this->execRequete($query);
         if($row -> rowCount()==1) return false;
@@ -238,7 +238,7 @@ class User extends base
             exit();
         }
 
-        if ($this->Protectionformulaire()) {
+        if ($this->isSafe()) {
             try {
 
                 $this->execRequete($query);
