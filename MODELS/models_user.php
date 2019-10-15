@@ -289,8 +289,9 @@ class User extends base
 
         try
         {
-        $row = $this->try_it($query);
-        if($row -> rowCount() == 0)
+        //$row = $this->try_it($query);
+        //if($row -> rowCount() == 0)
+            if($sql)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
