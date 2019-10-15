@@ -275,6 +275,8 @@ class User extends base
         $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
         $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
         $result = $sql->fetch();
+        echo $result;
+        exit();
         //$query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
