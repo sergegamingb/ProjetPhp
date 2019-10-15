@@ -274,6 +274,7 @@ class User extends base
         $sql = $this->loadDb()->prepare($query);
         $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
         $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
+        $sql = $this->execRequete($query);
         //$result = $sql->fetchAll();
 
         //$query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
