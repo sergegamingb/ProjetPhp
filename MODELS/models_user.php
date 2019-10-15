@@ -276,8 +276,8 @@ class User extends base
 //        $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
 //
         //$result = $sql->fetchAll();
-        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo = ? and password = ?");
-        $sql->execute(array($login, $hashedPass));
+//        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo = ? and password = ?");
+//        $sql->execute(array($login, $hashedPass));
         $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
@@ -289,7 +289,7 @@ class User extends base
 
         try
         {
-        $row = $this->execRequete($sql);
+        $row = $this->execRequete($query);
         if($row -> rowCount() == 0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
