@@ -292,7 +292,7 @@ class User extends base
         {
         //$row = $this->try_it($query);
         //if($row -> rowCount() == 0)
-            if(!$sql)
+            if($sql->rowCount()==0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
