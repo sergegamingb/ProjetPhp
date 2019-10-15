@@ -257,11 +257,6 @@ class User extends base
     {
 
         session_start();
-        if($_SESSION['isLogin']!='ok')
-        {
-            die('vous n\'etes pas connectés');
-            exit();
-        }
 
         $login = $_POST['login'];
         $password = $_POST['mdp'];
@@ -308,6 +303,12 @@ class User extends base
     public function changePassword()
     {
         session_start();
+        if($_SESSION['isLogin']!='ok')
+        {
+            die('vous n\'etes pas connectés');
+        }
+
+
         $login = $_SESSION['login'];
         $pass = $_SESSION['password'];
 
