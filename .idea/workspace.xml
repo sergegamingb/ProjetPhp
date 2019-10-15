@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,11 +72,78 @@
       <workItem from="1570562996894" duration="552000" />
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
-      <workItem from="1570874037666" duration="2671000" />
-      <workItem from="1570883847949" duration="5080000" />
-      <workItem from="1570890236982" duration="356000" />
-      <workItem from="1571034530105" duration="4252000" />
-      <workItem from="1571128042446" duration="3525000" />
+      <workItem from="1570874037666" duration="10260000" />
+      <workItem from="1571129587850" duration="2241000" />
+    </task>
+    <task id="LOCAL-00051" summary="test menu">
+      <created>1570711050664</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1570711050664</updated>
+    </task>
+    <task id="LOCAL-00052" summary="test menu">
+      <created>1570716616950</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1570716616950</updated>
+    </task>
+    <task id="LOCAL-00053" summary="test menu">
+      <created>1570716674633</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1570716674633</updated>
+    </task>
+    <task id="LOCAL-00054" summary="test menu">
+      <created>1570717097610</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1570717097610</updated>
+    </task>
+    <task id="LOCAL-00055" summary="test menu">
+      <created>1570717621970</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1570717621970</updated>
+    </task>
+    <task id="LOCAL-00056" summary="test menu">
+      <created>1570717725754</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1570717725754</updated>
+    </task>
+    <task id="LOCAL-00057" summary="test menu">
+      <created>1570717830854</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1570717830854</updated>
+    </task>
+    <task id="LOCAL-00058" summary="test menu">
+      <created>1570718039212</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1570718039212</updated>
+    </task>
+    <task id="LOCAL-00059" summary="test menu">
+      <created>1570718112101</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1570718112101</updated>
+    </task>
+    <task id="LOCAL-00060" summary="test menu">
+      <created>1570718314209</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1570718314209</updated>
     </task>
     <task id="LOCAL-00061" summary="test menu">
       <created>1570718582324</created>
@@ -301,126 +369,56 @@
       <option name="project" value="LOCAL" />
       <updated>1570876929709</updated>
     </task>
-    <task id="LOCAL-00093" summary="class avancée">
-      <created>1570889858748</created>
+    <task id="LOCAL-00093" summary="test menu">
+      <created>1570877383820</created>
       <option name="number" value="00093" />
       <option name="presentableId" value="LOCAL-00093" />
       <option name="project" value="LOCAL" />
-      <updated>1570889858748</updated>
+      <updated>1570877383820</updated>
     </task>
-    <task id="LOCAL-00094" summary="class avancée">
-      <created>1570889888106</created>
+    <task id="LOCAL-00094" summary="test menu">
+      <created>1570884410325</created>
       <option name="number" value="00094" />
       <option name="presentableId" value="LOCAL-00094" />
       <option name="project" value="LOCAL" />
-      <updated>1570889888106</updated>
+      <updated>1570884410325</updated>
     </task>
-    <task id="LOCAL-00095" summary="class avancée">
-      <created>1570889905842</created>
+    <task id="LOCAL-00095" summary="securité formulaire">
+      <created>1570884447285</created>
       <option name="number" value="00095" />
       <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1570889905842</updated>
+      <updated>1570884447285</updated>
     </task>
-    <task id="LOCAL-00096" summary="formulaire">
-      <created>1571034880493</created>
+    <task id="LOCAL-00096" summary="securité formulaire">
+      <created>1570886074380</created>
       <option name="number" value="00096" />
       <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1571034880495</updated>
+      <updated>1570886074380</updated>
     </task>
-    <task id="LOCAL-00097" summary="formulaire">
-      <created>1571035134835</created>
+    <task id="LOCAL-00097" summary="securité formulaire">
+      <created>1570886341659</created>
       <option name="number" value="00097" />
       <option name="presentableId" value="LOCAL-00097" />
       <option name="project" value="LOCAL" />
-      <updated>1571035134835</updated>
+      <updated>1570886341659</updated>
     </task>
-    <task id="LOCAL-00098" summary="formulaire">
-      <created>1571036002668</created>
+    <task id="LOCAL-00098" summary="securité formulaire">
+      <created>1570886596811</created>
       <option name="number" value="00098" />
       <option name="presentableId" value="LOCAL-00098" />
       <option name="project" value="LOCAL" />
-      <updated>1571036002668</updated>
+      <updated>1570886596811</updated>
     </task>
-    <task id="LOCAL-00099" summary="formulaire">
-      <created>1571036798331</created>
+    <task id="LOCAL-00099" summary="securité formulaire">
+      <created>1570888255540</created>
       <option name="number" value="00099" />
       <option name="presentableId" value="LOCAL-00099" />
       <option name="project" value="LOCAL" />
-      <updated>1571036798331</updated>
+      <updated>1570888255540</updated>
     </task>
-    <task id="LOCAL-00100" summary="formulaire">
-      <created>1571036915789</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1571036915789</updated>
-    </task>
-    <task id="LOCAL-00101" summary="formulaire">
-      <created>1571037041922</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1571037041922</updated>
-    </task>
-    <task id="LOCAL-00102" summary="protection form et login">
-      <created>1571037261801</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1571037261801</updated>
-    </task>
-    <task id="LOCAL-00103" summary="protection form et login">
-      <created>1571037343255</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1571037343255</updated>
-    </task>
-    <task id="LOCAL-00104" summary="protection form et login">
-      <created>1571037546420</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1571037546421</updated>
-    </task>
-    <task id="LOCAL-00105" summary="protection form et login">
-      <created>1571128183946</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1571128183947</updated>
-    </task>
-    <task id="LOCAL-00106" summary="changer pass">
-      <created>1571130793848</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1571130793849</updated>
-    </task>
-    <task id="LOCAL-00107" summary="changer pass">
-      <created>1571131272786</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1571131272786</updated>
-    </task>
-    <task id="LOCAL-00108" summary="changer pass">
-      <created>1571131448332</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1571131448332</updated>
-    </task>
-    <task id="LOCAL-00109" summary="changer pass">
-      <created>1571131482433</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1571131482433</updated>
-    </task>
-    <option name="localTasksCounter" value="110" />
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,12 +455,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Création MVC" />
     <MESSAGE value="connexion BD" />
+    <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
-    <MESSAGE value="class avancée" />
-    <MESSAGE value="formulaire" />
-    <MESSAGE value="protection form et login" />
-    <MESSAGE value="changer pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="changer pass" />
+    <MESSAGE value="securité formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="securité formulaire" />
   </component>
 </project>

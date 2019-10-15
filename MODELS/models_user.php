@@ -185,7 +185,7 @@ class User extends base
     }
 
 
-    public function isSafe() {
+    public function isSafeForm() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
         $row = $this->execRequete($query);
         if($row -> rowCount()==1) return false;
@@ -238,7 +238,7 @@ class User extends base
             exit();
         }
 
-        if ($this->isSafe()) {
+        if ($this->isSafeForm()) {
             try {
 
                 $this->execRequete($query);
@@ -250,6 +250,12 @@ class User extends base
         }
 //
 
+
+    }
+    public function isSafeLogin() {
+//        $query = 'SELECT password, pseudo FROM USER WHERE pseudo = \''.$login.'\' and password = \'' .$password.'\'';
+//        $row = $this->execRequete($query);
+//        if($row-> rowCount()==0) return false;
 
     }
 
@@ -264,8 +270,10 @@ class User extends base
 
 
 
-
-        $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
+        $sql = prepare('SELECT pseudo, password FROM USER WHERE  pseudo = :pseudo and password = :password');
+        $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
+        $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
+        //$query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
@@ -276,7 +284,7 @@ class User extends base
 
         try
         {
-        $row = $this->execRequete($query);
+        $row = $this->execRequete($sql);
         if($row -> rowCount()==0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
