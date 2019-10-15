@@ -289,7 +289,7 @@ class User extends base
 
         try
         {
-        $row = $this->$sql;
+        $row = $this->execRequete($sql);
         if($row -> rowCount() == 0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
