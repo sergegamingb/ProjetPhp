@@ -274,7 +274,7 @@ class User extends base
         $sql = $this->loadDb()->prepare($query);
         $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
         $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
-        $result = $sql->fetch();
+        //$result = $sql->fetchAll();
 
         //$query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
@@ -288,7 +288,7 @@ class User extends base
         try
         {
        // $row = $this->execRequete($result);
-        if($result -> rowCount()==0)
+        if($sql -> rowCount() == 0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
