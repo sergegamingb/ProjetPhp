@@ -20,3 +20,9 @@ if($action == 'login')
     $user -> login();
 
 }
+
+if($action == 'modifier')
+{
+    $user = new User;
+    $user->changePassword();
+}

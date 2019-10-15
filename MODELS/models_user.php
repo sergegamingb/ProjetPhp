@@ -299,8 +299,47 @@ class User extends base
     {
         echo $e->getMessage();
     }
+    }
+    public function changePassword()
+    {
+        session_start();
+        $login = $_SESSION['login'];
+        $pass = $_SESSION['password'];
 
 
+        $oldMdp=$_POST['oldMdp'];
+        $newMdp=$_POST['newMdp'];
+        $confirmMdp=$_POST['confirmMdp'];
+
+        if ($newMdp != $confirmMdp)
+        {
+            echo "les mots de passe ne correspondent pas";
+            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            exit();
+        }
+        $hashedOldPass = hash('sha256',$oldMdp);
+        $hashedNewPass = hash('sha256',$newMdp);
+
+        if ($hashedOldPass == $pass)
+
+        {
+            try
+            {
+                $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
+                $this->execRequete($query);
+                echo '<br/><strong>Votre mot de passe a bien été modifié !</strong><br/>';
+            }
+            catch (PDOException $e)
+            {
+                echo $e->getMessage();
+            }
+        }
+        else
+        {
+            echo "mauvais mot de passe";
+            echo ' <br/>  <a href=../VIEWS/view_login.html>  réessayer </a>   ';
+            exit();
+        }
 
     }
 }
