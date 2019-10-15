@@ -306,7 +306,6 @@ class User extends base
         if($_SESSION['isLogin']!='ok')
         {
             die('vous n\'etes pas connectés');
-            exit();
         }
 
 
