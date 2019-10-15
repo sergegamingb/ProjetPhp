@@ -278,7 +278,7 @@ class User extends base
         //$result = $sql->fetch();
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         $sql->execute(array($login, $hashedPass));
-//        $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
+        $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
@@ -289,7 +289,7 @@ class User extends base
 
         try
         {
-        $row = $this->try_it($sql);
+        $row = $this->try_it($query);
         if($row -> rowCount() == 0)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
