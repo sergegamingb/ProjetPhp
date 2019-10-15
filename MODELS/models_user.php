@@ -270,15 +270,16 @@ class User extends base
 
 
 
-        $query='SELECT pseudo, password FROM USER WHERE  pseudo = :pseudo and password = :password';
-        $sql = $this->loadDb()->prepare($query);
-        $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
-        $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
+//        $query='SELECT pseudo, password FROM USER WHERE  pseudo = :pseudo and password = :password'; --plus long mais pareil que juste apres
+//        $sql = $this->loadDb()->prepare($query);
+//        $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
+//        $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
+//        $result = $sql->fetch();
 
-        $result = $sql->fetch();
-//        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
-//        $sql->execute(array($login, $hashedPass));
-//       $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
+        //plus rapide
+        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
+        $sql->execute(array($login, $hashedPass));
+       $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
@@ -291,7 +292,7 @@ class User extends base
         {
         //$row = $this->try_it($query);
         //if($row -> rowCount() == 0)
-            if(!$result)
+            if(!$sql)
         {
             echo '<br/><strong>erreur d\'authentification</strong><br/>';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
