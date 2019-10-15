@@ -257,6 +257,10 @@ class User extends base
     {
 
         session_start();
+        if($_SESSION['isLogin']!='ok')
+        {
+            die('vous n\'etes pas connectés');
+        }
 
         $login = $_POST['login'];
         $password = $_POST['mdp'];
