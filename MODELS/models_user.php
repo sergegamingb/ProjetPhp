@@ -311,6 +311,13 @@ class User extends base
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
 
+        if(strlen($newMdp) <5 || strlen($newMdp) >20 )
+        {
+            echo 'le mot de passe doit faire entre 5 et 20 caracteres';
+            echo ' <br/>  <a href=../VIEWS/view_login.html>  réessayer </a>   ';
+            exit();
+        }
+
         if ($newMdp != $confirmMdp)
         {
             echo "les mots de passe ne correspondent pas";
@@ -328,6 +335,7 @@ class User extends base
                 $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
                 $this->execRequete($query);
                 echo '<br/><strong>Votre mot de passe a bien été modifié !</strong><br/>';
+                echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
             }
             catch (PDOException $e)
             {

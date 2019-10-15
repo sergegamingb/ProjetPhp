@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VIEWS/view_changePass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VIEWS/view_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_page2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_page3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,14 +75,7 @@
       <workItem from="1570883847949" duration="5080000" />
       <workItem from="1570890236982" duration="356000" />
       <workItem from="1571034530105" duration="4252000" />
-      <workItem from="1571128042446" duration="2673000" />
-    </task>
-    <task id="LOCAL-00057" summary="test menu">
-      <created>1570717830854</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1570717830854</updated>
+      <workItem from="1571128042446" duration="2961000" />
     </task>
     <task id="LOCAL-00058" summary="test menu">
       <created>1570718039212</created>
@@ -428,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571128183947</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="changer pass">
+      <created>1571130793848</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1571130793849</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,6 +462,7 @@
     <MESSAGE value="class avancée" />
     <MESSAGE value="formulaire" />
     <MESSAGE value="protection form et login" />
-    <option name="LAST_COMMIT_MESSAGE" value="protection form et login" />
+    <MESSAGE value="changer pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="changer pass" />
   </component>
 </project>
