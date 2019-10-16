@@ -69,7 +69,7 @@
 
 
 @media (max-width: 992px) {
-    .loginmenu,.registerMenu{
+    .registerMenu{
         left : 30%;
 
   }
@@ -82,4 +82,7 @@
         z-index: 1;
     }
 
+    .loginmenu{
+        left: 20%;
+    }
 }
