@@ -8,20 +8,20 @@ session_start();
 ?>
 
 <hr>
+<div class="container">
+    <table class="col-lg-12">
 
-<table class="col-lg-12">
+        <tr> <td> Pseudo : <?php $_SESSION['login']  ?> </td> </tr>
+        <tr> <td> Changer mot de passe </td> </tr>
+        <td> <td> </td>Email  <?php $_SESSION['mail']?> </td> </tr>
+        <tr> <td> Numéro  <?php $_SESSION['phone'] ?> </td> </tr>
+        <tr> <td> Pays <?php $_SESSION['country']?> </td> </tr>
 
-    <tr> <td> Pseudo : <?php $_SESSION['login']  ?> </td> </tr>
-    <tr> <td> Changer mot de passe </td> </tr>
-    <td> <td> </td>Email  <?php $_SESSION['mail']?> </td> </tr>
-    <tr> <td> Numéro  <?php $_SESSION['phone'] ?> </td> </tr>
-    <tr> <td> Pays <?php $_SESSION['country']?> </td> </tr>
+    </table>
 
-</table>
+    <hr>
 
-<hr>
-
-
+</div>
 <?php $content = ob_get_clean(); ?>
 
 <?php require('template.php'); ?>
