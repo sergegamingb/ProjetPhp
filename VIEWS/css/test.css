@@ -45,11 +45,20 @@ a
     color: black;
 }
 
-
+.row
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+}
 .button
 {
-
+    display: flex;
     width: 100%;
-
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
 
 }
