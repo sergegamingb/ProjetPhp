@@ -62,7 +62,7 @@ spl_autoload_register(function ($class_name) {
             }
             else
             {
-                echo '<a href="profilePage.php"><input class="avatar"  type="image"  alt="avatar"  src="Media/login.png"></a>';
+                echo '<a href="view_profilePage.php"><input class="avatar"  type="image"  alt="avatar"  src="Media/login.png"></a>';
             }
 
             ?>

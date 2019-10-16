@@ -4,7 +4,7 @@ spl_autoload_register(function ($class_name) {
     include  '../MODELS/models_' . $class_name . '.php';
 });
 
-class Admin extends User
+class Admin extends user
 {
 
 public function __construct()

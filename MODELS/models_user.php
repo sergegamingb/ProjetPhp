@@ -3,6 +3,7 @@
 
 spl_autoload_register(function ($class_name) {
     include  '../MODELS/models_' . $class_name . '.php';
+
 });
 
 class user extends base

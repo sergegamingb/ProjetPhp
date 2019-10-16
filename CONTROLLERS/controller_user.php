@@ -2,6 +2,7 @@
 session_start();
 spl_autoload_register(function ($class_name) {
     include  '../MODELS/models_' . $class_name . '.php';
+    include  '../VIEWS/view_' . $class_name . '.php';
 });
 
 $action = $_POST['action'];
