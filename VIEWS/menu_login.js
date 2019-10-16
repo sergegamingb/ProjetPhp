@@ -7,11 +7,10 @@ RegisterLog = document.querySelector('.registerMenu');
 Login.onclick = function () {
 
     menuLog.classList.toggle("loginmenunoff");
-    RegisterLog.classList.remove("registerMenu");
-
+    RegisterLog.classList.replace("registerMenu","registerMenuOff");
 }
 
 Register.onclick = function () {
     RegisterLog.classList.toggle("registerMenuOff");
-    menuLog.classList.remove("loginmenu");
+    RegisterLog.classList.replace("loginmenu","loginmenuoff");
 }
