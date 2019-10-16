@@ -29,7 +29,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
         <div class="col-xs-2 col-lg-2 text-center form" >
             <?php
 
-            session_start();
+
             if ($_SESSION['isLogin']!='ok')
             {
                 echo '<a class="coin" > se connecter </a>';
