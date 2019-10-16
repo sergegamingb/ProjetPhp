@@ -23,3 +23,12 @@ table,th,td{
     border: 2Px solid black;
     border-collapse: collapse;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
