@@ -86,16 +86,7 @@ a
     color: black;
 }
 
-.btn
-{
-    width: 3em;
-    height: 2.4em;
-    display: flex;
-    border-style: groove;
-    border-color: black;
-    border-right-style: hidden;
-    height: 2.5em;
-}
+
 
 
 .col-lg-4 col-md-4 col-sm-12 text-center

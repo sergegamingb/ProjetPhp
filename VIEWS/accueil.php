@@ -12,9 +12,7 @@ session_start();
         <section class="col-lg-12">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center"><input class="newbouton" type="button" value="Nouvelle Discussion"> </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center"><input class="search" type="search" placeholder="Trouver une Discussion">
-                <button class="btn"></button>
-                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center"><input class="search" type="search" placeholder="Trouver une Discussion"></div>
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center"> <input class="refreshbouton" type="button" value="Actualiser"></div>
             </div>
 <hr>
