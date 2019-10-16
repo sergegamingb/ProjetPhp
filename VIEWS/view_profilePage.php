@@ -1,10 +1,12 @@
-<?php $title ='Profil'; ?>
+<?php $title ='Profil';
 
-<?php ob_start(); ?>
-
-<?php
-session_start();
 $user=$_SESSION['user'];
+
+ ob_start();
+
+
+session_start();
+
 
 ?>
 
