@@ -70,19 +70,20 @@
 
 @media (max-width: 992px) {
     .registerMenu{
-        left : 30%;
+        left : 80%;
 
   }
     .loginmenuoff, .registerMenuOff
     {
-        position: absolute;
-        margin-top: 30%;
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 2%;
         width: available;
         background-color: gray;
         z-index: 1;
     }
 
     .loginmenu{
-        left: 20%;
+        left: 70%;
     }
 }
