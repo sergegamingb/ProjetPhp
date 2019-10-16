@@ -1,6 +1,6 @@
 <?php
 
-include '../MODELS/models_user.php';
+include '../MODELS/models_User.php';
 
 $action = $_POST['action'];
 
