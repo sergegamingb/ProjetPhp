@@ -4,7 +4,7 @@ function __autoload($discussion)
 {
 include ( '../MODELS/models_' . $discussion. '.php');
 }
-
+include '../MODELS/models_user.php';
 ?>
 
 <!DOCTYPE html>
