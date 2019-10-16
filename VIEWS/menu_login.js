@@ -12,5 +12,5 @@ Login.onclick = function () {
 
 Register.onclick = function () {
     RegisterLog.classList.toggle("registerMenuOff");
-    RegisterLog.classList.replace("loginmenu","loginmenuoff");
+    menuLog.classList.replace("loginmenu","loginmenuoff");
 }
