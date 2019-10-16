@@ -1,10 +1,14 @@
+html{
+    font-family: Verdana;
+}
+
 body {
     padding-top: 10px;
 }
 /*[class*="col-"], footer {*/
 /*    background-color: lightgreen;*/
 /*    border: 2px solid black;*/
-/*    border-radius: 6px;*/
+/**    border-radius: 6px;*/
 /*    line-height: 40px;*/
 /*    text-align: center;*/
 /*}*/
@@ -16,12 +20,14 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 3px;
+
 }
 
 
 table,th,td{
     border: 2Px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
 
 footer {
@@ -30,4 +36,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    color: black;
 }
+
+
