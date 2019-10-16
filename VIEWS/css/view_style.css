@@ -79,7 +79,6 @@
         position: relative;
         margin-top: 6%;
         margin-bottom: 20%;
-        width: available;
         z-index: 1;
     }
 
@@ -88,7 +87,6 @@
         position: relative;
         top: 0;
         margin-bottom: 5%;
-        width: available;
         z-index: 1;
     }
 
