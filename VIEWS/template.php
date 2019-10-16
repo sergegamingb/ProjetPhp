@@ -24,7 +24,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
 
     <header class="row">
         <div class="col-xs-2 col-lg-2 text-center"> logo </div>
-        <div class="col-xs-7 col-lg-7 text-center"> <h1>FreeNote</h1> </div>
+        <div class="col-xs-7 col-lg-7 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
         <div class="col-xs-2 col-lg-2 text-center" >
             <?php
 
