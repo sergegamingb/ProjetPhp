@@ -188,7 +188,7 @@ class user extends base
 
     public function isSafeForm() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
-        $row = $this->execRequete($query);
+        $row = $this->execQuery($query);
         if($row -> rowCount()==1) return false;
 
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
