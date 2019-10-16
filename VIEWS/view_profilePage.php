@@ -1,10 +1,10 @@
 <?php $title ='Profil';
 
 
-$user=$_SESSION['user'];
+
 
  ob_start();
-
+$user=$_SESSION['user'];
 ?>
 
 <hr>
