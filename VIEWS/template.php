@@ -37,7 +37,6 @@ include ( '../MODELS/models_' . $discussion. '.php');
             else
             {
                 echo ' Bienvenue ' . $_SESSION['login'] . ' !'  ;
-                echo '<a href="profilePage.php"><input  type="image"  alt="avatar"  src="Media/login.png" style="width: 80%"></a>';
             }
 
             ?>
@@ -58,6 +57,10 @@ include ( '../MODELS/models_' . $discussion. '.php');
             if($_SESSION['isLogin'] != 'ok')
             {
                 echo '<a class="reg"> s\'inscrire </a>';
+            }
+            else
+            {
+                echo '<a href="profilePage.php"><input  type="image"  alt="avatar"  src="Media/login.png" style="width: 80%"></a>';
             }
 
             ?>
