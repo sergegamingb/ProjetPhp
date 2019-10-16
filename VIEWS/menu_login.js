@@ -1,7 +1,7 @@
 Login = document.querySelector(".coin");
 menuLog = document.querySelector('.loginmenu');
 
-
+Register = document.querySelector(".reg");
 RegisterLog = document.querySelector('.registerMenu');
 
 Login.onclick = function () {
@@ -10,5 +10,5 @@ Login.onclick = function () {
 }
 
 Register.onclick = function () {
-    RegisterLog = document.querySelector(".registerMenuOff");
+    RegisterLog.classList.toggle("registerMenuOff");
 }

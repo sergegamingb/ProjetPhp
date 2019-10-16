@@ -16,6 +16,11 @@
 .coin {
     width: 10%;
 }
+.reg {
+    width: 10%;
+}
+
+
 .loginmenunoff {
     top: 15%;
     transition-duration: 0.4s;
