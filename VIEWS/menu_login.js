@@ -6,6 +6,10 @@ RegisterLog = document.querySelector('.registerMenu');
 
 Login.onclick = function login () {
 
+    if(!RegisterLog.classList.toggle("registerMenuOff"))
+    {
+        this.register();
+    }
     menuLog.classList.toggle("loginmenunoff");
 }
 
