@@ -1,5 +1,7 @@
 body {
     padding-top: 10px;
+    font-family: Verdana;
+
 }
 /*[class*="col-"], footer {*/
 /*    background-color: lightgreen;*/
@@ -16,12 +18,14 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 3px;
+
 }
 
 
 table,th,td{
     border: 2Px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
 
 footer {
