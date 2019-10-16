@@ -84,16 +84,13 @@
     .loginmenuoff
     {
         position: relative;
-        left : 15%;
         top:0;
-        z-index: 1;
     }
 
     .registerMenuOff{
         position: relative;
         align-items: center;
         top:0;
-        z-index: 1;
     }
 
     .loginmenu{
