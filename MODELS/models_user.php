@@ -291,6 +291,7 @@ class User extends base
         try
         {
         //$row = $this->try_it($query);
+
         //if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
         {

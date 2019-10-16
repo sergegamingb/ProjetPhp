@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/test.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/view_style.css">
+    <style type="text/css">
+        .col-lg-8 { line-height: 200px; }
+        .col-lg-12 { line-height: 80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header class="row">
+        <div class="col-xs-2 col-lg-2 text-center"> logo </div>
+        <div class="col-xs-7 col-lg-7 text-center"> <h1>FreeNote</h1> </div>
+        <div class="col-xs-2 col-lg-2 text-center" >
+            <a class="coin" id="logo" href="../VIEWS/view_login.html"> se connecter </a>
+
+            <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
+                <input type="text" name="login"  placeholder="Identifiant"/>
+                <input type="password" name="mdp" placeholder="Mot de passe"/>
+                <input type="submit" name="action" value="login"/>
+            </form>
+            <script src="menu_login.js"></script>
+        </div>
+
+        <div class="col-xs-1 col-lg-1 text-center"> <a  href="../VIEWS/inscription.html"> s'inscrire </a> </div>
+    </header>
+<hr>
+        <section class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-4 text-center"> <a> nouvelle discussion </a> </div>
+                <div class="col-lg-5 text-center"> <a> rechercher </a> </div>
+                <div class="col-lg-3 text-center"> <a> actualiser </a> </div>
+            </div>
+<hr>
+
+                <table class="col-lg-12">
+                    <tr>
+                        <td>Nom de la discussion</td>
+                        <td>Statut</td>
+                        <td>Dernier message</td>
+                        <td>Auteur</td>
+                        <td>Date</td>
+                    </tr>
+                    <tr>
+                        <td>Nom de la discussion</td>
+                        <td>Statut</td>
+                        <td>Dernier message</td>
+                        <td>Auteur</td>
+                        <td>Date</td>
+                    </tr>
+                    <tr>
+                        <td>Nom de la discussion</td>
+                        <td>Statut</td>
+                        <td>Dernier message</td>
+                        <td>Auteur</td>
+                        <td>Date</td>
+                    </tr>
+                </table>
+            <div class="col-lg-12 text-center">
+                <input type="image" alt="previous" src="gauche.jpg" width="30px" height="30px">
+                <input type="image" alt="next" src="droite.jpg" width="30px" height="30px" >
+            </div>
+
+        </section>
+
+
+    <footer class="row">
+
+        <div class ="col-lg-12 text-center"> Copyright © | FreeNote </div>
+        <div class="col-lg-3 text-center"> Vincent Simonetti-Diez </div>
+        <div class="col-lg-3 text-center"> Alexandre Salles  </div>
+        <div class="col-lg-3 text-center"> Ibrahim Bouhlarouz </div>
+        <div class="col-lg-3 text-center"> Anthony Ziane </div>
+
+
+    </footer>
+    </div>
+
+
+</div>
+</body>
+</html>
