@@ -45,11 +45,12 @@ a
     color: black;
 }
 
-button
+
+.button
 {
     display: flex;
-    width: 10%;
-    justify-content: center;
+    width: 20%;
+    justify-content: space-around;
     align-content: center;
 
 }
