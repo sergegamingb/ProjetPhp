@@ -4,10 +4,6 @@
 
 <?php
 session_start();
-$pseudo=$_SESSION['user']->getPseudo;
-$mail=$_SESSION['user']->getMail;
-$phone = $_SESSION['user']->getPhone;
-$country = $_SESSION['user']->getCountry;
 
 ?>
 
@@ -15,11 +11,11 @@ $country = $_SESSION['user']->getCountry;
 <div class="container">
     <table class="col-lg-12">
 
-        <tr> <td> Pseudo : <?php echo $phone  ?> </td> </tr>
+        <tr> <td> Pseudo : <?php echo $_SESSION['login']  ?> </td> </tr>
         <tr> <td> <a href="view_changePass.html"> Changer mot de passe  </a>          </td>  </tr>
-        <tr> <td> Email :  <?php echo $mail?>       </td> </tr>
-        <tr> <td> Numéro : <?php echo $phone ?>    </td> </tr>
-        <tr> <td> Pays : <?php echo $country?>      </td> </tr>
+        <tr> <td> Email :  <?php echo $_SESSION['mail']?>       </td> </tr>
+        <tr> <td> Numéro : <?php echo $_SESSION['phone'] ?>    </td> </tr>
+        <tr> <td> Pays : <?php echo $_SESSION['country']?>      </td> </tr>
 
     </table>
 
