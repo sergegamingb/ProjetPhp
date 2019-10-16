@@ -86,11 +86,13 @@
         position: relative;
         top:0;
         margin-bottom: 15px;
+        bottom: 30px;
     }
 
     .registerMenuOff{
         position: relative;
         align-items: center;
+        margin-bottom: 15px;
         top:0;
     }
 
