@@ -74,6 +74,7 @@
         position: relative;
         width: available;
         left : 30%;
+        top:0;
         margin-top: 2%;
         margin-bottom: 20%;
         background-color: gray;
