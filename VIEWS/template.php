@@ -1,9 +1,8 @@
 <?php
 
-function __autoload($discussion,$user)
+function __autoload($discussion)
 {
 include ( '../MODELS/models_' . $discussion. '.php');
-    include ( '../MODELS/models_' . $user. '.php');
 }
 
 ?>
