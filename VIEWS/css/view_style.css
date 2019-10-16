@@ -84,6 +84,7 @@
     .loginmenuoff
     {
         position: relative;
+        align-items: center;
         top:0;
         margin-bottom: 15px;
         bottom: 30px;
