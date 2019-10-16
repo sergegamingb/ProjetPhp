@@ -68,6 +68,7 @@
 
 @media (max-width: 992px) {
     .loginmenu,.registerMenu{
+        top : -2000%;
         left : 50%;
 
   }
