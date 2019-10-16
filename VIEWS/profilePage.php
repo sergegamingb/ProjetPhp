@@ -9,12 +9,12 @@ session_start();
 
 
 <table class="col-lg-12">
-    <tr>
-        <td> Pseudo : <?php $_SESSION['login']  ?></td>
-        <td>Changer mot de passe  </td>
-        <td>Email  <?php $_SESSION['mail']?>  </td>
-        <td>Numéro  <?php $_SESSION['phone'] ?>  </td>
-        <td>Pays <?php $_SESSION['country']?> </td>
+
+        <tr> Pseudo : <?php $_SESSION['login']  ?></tr>
+        <tr>Changer mot de passe  </tr>
+        <tr>Email  <?php $_SESSION['mail']?>  </tr>
+        <tr>Numéro  <?php $_SESSION['phone'] ?>  </tr>
+        <tr>Pays <?php $_SESSION['country']?> </tr>
 
 </table>
 
