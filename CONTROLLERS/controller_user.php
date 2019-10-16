@@ -8,21 +8,21 @@ session_start();
 $action = $_POST['action'];
 
 $_SESSION['user']=new user;
-$user=$_SESSION['user'];
+
 
 if($action =='inscription')
 {
 
-    $user->register();
+    $_SESSION['user']->register();
 }
 
 if($action == 'login')
 {
-    $user -> login();
+    $_SESSION['user'] -> login();
 
 }
 
 if($action == 'modifier')
 {
-    $user->changePassword();
+    $_SESSION['user']->changePassword();
 }
