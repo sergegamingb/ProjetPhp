@@ -75,8 +75,10 @@
   }
     .loginmenuoff, .registerMenuOff
     {
-        position: relative;
+        position: absolute;
         margin-top: 30%;
+        width: available;
+        background-color: gray;
     }
 
 }
