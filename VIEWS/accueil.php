@@ -11,7 +11,7 @@ session_start();
 <div class="container">
 
         <section class="col-lg-12">
-            <div class="bbloc">
+            <div class="row bbloc">
                 <p class="longtext"> Bienvenue sur FreeNote, le nouveau réseau social. Comme ses concurrents,
                     FreeNote est basé sur la communication entre utilisateurs autour de discussions.
                     Mais ce dernier se démarque des autres car les discussions sont limitées, chaque utilisateur peut ajouter au maximum
