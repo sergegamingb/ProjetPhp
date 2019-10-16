@@ -35,7 +35,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
             }
             else
             {
-                echo '<img  src="login.png" >';
+                echo ' Bienvenue' . $_SESSION['login']  ;
             }
 
             ?>
