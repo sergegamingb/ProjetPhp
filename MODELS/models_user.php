@@ -281,6 +281,7 @@ class user extends base
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
+            echo $this->mail;//test
             echo 'mauvais pseudo';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
             exit();
