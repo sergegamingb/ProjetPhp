@@ -1,7 +1,7 @@
 Login = document.querySelector(".coin");
 menuLog = document.querySelector('.loginmenu');
 
-Register = document.querySelector(".reg");
+Register = document.querySelector(".coin");
 RegisterLog = document.querySelector('.registerMenu');
 
 Login.onclick = function () {
