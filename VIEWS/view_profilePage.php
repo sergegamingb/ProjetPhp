@@ -1,6 +1,7 @@
 <?php $title ='Profil';
 
  ob_start();
+ session_start();
 $user=$_SESSION['user'];
 ?>
 
