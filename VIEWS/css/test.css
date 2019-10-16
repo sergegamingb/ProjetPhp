@@ -47,5 +47,9 @@ a
 
 button
 {
-    width: 15%;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-content: center;
+
 }
