@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
+            <state relative-caret-position="770">
+              <caret line="104" column="13" lean-forward="true" selection-start-line="94" selection-start-column="2" selection-end-line="104" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -197,20 +197,6 @@
       <workItem from="1570697181270" duration="1451000" />
       <workItem from="1571212452940" duration="646000" />
       <workItem from="1571213406020" duration="693000" />
-    </task>
-    <task id="LOCAL-00019" summary="bd">
-      <created>1570632549168</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1570632549168</updated>
-    </task>
-    <task id="LOCAL-00020" summary="bd">
-      <created>1570633433905</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1570633433905</updated>
     </task>
     <task id="LOCAL-00021" summary="bd">
       <created>1570633629926</created>
@@ -541,11 +527,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571213837553</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="accueil">
+      <created>1571215203503</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1571215203503</updated>
+    </task>
+    <task id="LOCAL-00069" summary="accueil">
+      <created>1571215340509</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1571215340509</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4671000" />
+    <option name="totallyTimeSpent" value="4952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
@@ -616,9 +616,9 @@
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
     <MESSAGE value="autoload" />
-    <MESSAGE value="accueil" />
     <MESSAGE value="html accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="html accueil" />
+    <MESSAGE value="accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="accueil" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MODELS/model_base.php" />
@@ -712,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
+        <state relative-caret-position="770">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="94" selection-start-column="2" selection-end-line="104" selection-end-column="13" />
         </state>
       </provider>
     </entry>
