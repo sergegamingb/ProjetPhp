@@ -17,23 +17,23 @@
     width: 10%;
 }
 
-.coin:hover
-{
-    background-color: #dadada;
-    border-style: solid;
-    border-radius: 15%;
-}
+/*.coin:hover*/
+/*{*/
+/*    background-color: #dadada;*/
+/*    border-style: solid;*/
+/*    border-radius: 15%;*/
+/*}*/
 
 .reg {
     width: 10%;
 }
 
-.reg:hover
-{
-    background-color: #dadada;
-    border-style: solid;
-    border-radius: 15%;
-}
+/*.reg:hover*/
+/*{*/
+/*    background-color: #dadada;*/
+/*    border-style: solid;*/
+/*    border-radius: 15%;*/
+/*}*/
 
 .loginmenuoff {
     top: 15%;
