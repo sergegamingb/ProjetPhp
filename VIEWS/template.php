@@ -24,8 +24,8 @@ include ( '../MODELS/models_' . $discussion. '.php');
 
     <header class="row">
         <div class="col-xs-2 col-lg-2 text-center"> <img  alt="logo"   src="Media/loginFreeNote.png" style="width: 40%"> </div>
-        <div class="col-xs-4 col-lg-4 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
-        <div class="col-xs-5 col-lg-5 text-center" >
+        <div class="col-xs-7 col-lg-7 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
+        <div class="col-xs-2 col-lg-2 text-center" >
             <?php
 
             session_start();
@@ -36,7 +36,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
             else
             {
                 echo ' Bienvenue ' . $_SESSION['login'] . ' !'  ;
-                echo '<img  alt="avatar"   src="Media/login.png" style="width: 90%">';
+                echo '<input type="image"  alt="avatar"  src="Media/login.png" style="width: 50%">';
             }
 
             ?>
