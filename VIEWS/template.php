@@ -30,6 +30,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
             <?php
 
 
+            session_start();
             if ($_SESSION['isLogin']!='ok')
             {
                 echo '<a class="coin" > se connecter </a>';
