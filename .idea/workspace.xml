@@ -79,48 +79,6 @@
       <workItem from="1571158501935" duration="3006000" />
       <workItem from="1571242792478" duration="3967000" />
     </task>
-    <task id="LOCAL-00088" summary="test menu">
-      <created>1570728188158</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1570728188158</updated>
-    </task>
-    <task id="LOCAL-00089" summary="test menu">
-      <created>1570728265828</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1570728265828</updated>
-    </task>
-    <task id="LOCAL-00090" summary="test menu">
-      <created>1570728311014</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1570728311014</updated>
-    </task>
-    <task id="LOCAL-00091" summary="test menu">
-      <created>1570875407133</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1570875407134</updated>
-    </task>
-    <task id="LOCAL-00092" summary="test menu">
-      <created>1570876929709</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1570876929709</updated>
-    </task>
-    <task id="LOCAL-00093" summary="class avancée">
-      <created>1570889858748</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1570889858748</updated>
-    </task>
     <task id="LOCAL-00094" summary="class avancée">
       <created>1570889888106</created>
       <option name="number" value="00094" />
@@ -422,7 +380,49 @@
       <option name="project" value="LOCAL" />
       <updated>1571257568956</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="html/css index">
+      <created>1571257654861</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1571257654861</updated>
+    </task>
+    <task id="LOCAL-00138" summary="html/css index">
+      <created>1571257708335</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1571257708335</updated>
+    </task>
+    <task id="LOCAL-00139" summary="html/css index">
+      <created>1571257758945</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1571257758945</updated>
+    </task>
+    <task id="LOCAL-00140" summary="html/css index">
+      <created>1571257782381</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1571257782381</updated>
+    </task>
+    <task id="LOCAL-00141" summary="html/css index">
+      <created>1571257807320</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1571257807320</updated>
+    </task>
+    <task id="LOCAL-00142" summary="html/css index">
+      <created>1571257832879</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1571257832879</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
