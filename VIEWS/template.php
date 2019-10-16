@@ -26,7 +26,20 @@ include ( '../MODELS/models_' . $discussion. '.php');
         <div class="col-xs-2 col-lg-2 text-center"> logo </div>
         <div class="col-xs-7 col-lg-7 text-center"> <h1>FreeNote</h1> </div>
         <div class="col-xs-2 col-lg-2 text-center" >
-            <a class="coin" > se connecter </a>
+            <?php
+
+            session_start();
+            if ($_SESSION['isLogin']!='ok')
+            {
+                echo '<a class="coin" > se connecter </a>';
+            }
+            else
+            {
+                echo '<img  src="login.png" >';
+            }
+
+            ?>
+
 
             <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
                 <input type="text" name="login"  placeholder="Identifiant"/>
@@ -37,7 +50,15 @@ include ( '../MODELS/models_' . $discussion. '.php');
         </div >
 
         <div class="col-xs-1 col-lg-1 text-center">
-            <a class="reg"> s'inscrire </a>
+
+            <?php
+
+            if($_SESSION['isLogin'] != 'ok')
+            {
+                echo '<a class="reg"> s\'inscrire </a>';
+            }
+
+            ?>
 
             <form class="registerMenu" action="../CONTROLLERS/controller_user.php" method="post">
                 <input type="text" placeholder="identifiant" name="identifiant" /> <br>
