@@ -58,9 +58,9 @@ class user extends base
     /**
      * @return mixed
      */
-    public function getCountry()
+    public function getCountry($pseudo)
     {
-        return $this->country;
+        return $this->get('country',$pseudo);
     }
 
     /**
@@ -84,20 +84,15 @@ class user extends base
      */
     public function getPassword($pseudo)
     {
-        $query = ('SELECT phone FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
-        foreach ($this->execRequete($query) as $row)
-        {
-            $result=$row['mail'];
-        }
-        return $result;
+
     }
 
     /**
      * @return mixed
      */
-    public function getPhone()
+    public function getPhone($pseudo)
     {
-        return $this->phone;
+       return $this->get('phone',$pseudo);
     }
 
     /**
@@ -319,8 +314,8 @@ class user extends base
             $_SESSION['login'] = $login;
             $_SESSION['password'] = $hashedPass;
             $_SESSION['mail']=$this->getMail($login);
-            $_SESSION['phone']=$this->phone;
-            $_SESSION['country']=$this->country;
+            $_SESSION['phone']=$this->getPhone($login);
+            $_SESSION['country']=$this->getCountry($login);
             header('Location: ../VIEWS/view_accueil.php');
         }
 
