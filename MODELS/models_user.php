@@ -262,8 +262,6 @@ class User extends base
     public function login()
     {
 
-        session_start();
-
         $login = $_POST['login'];
         $password = $_POST['mdp'];
         $hashedPass = hash('sha256',$password);
@@ -321,7 +319,6 @@ class User extends base
     }
     public function changePassword()
     {
-        session_start();
         if($_SESSION['isLogin']!='ok')
         {
             die('vous n\'etes pas connectés');
