@@ -84,11 +84,13 @@
     .loginmenuoff
     {
         position: relative;
+        top:0;
         z-index: 1;
     }
 
     .registerMenuOff{
         position: relative;
+        top:0;
         z-index: 1;
     }
 
