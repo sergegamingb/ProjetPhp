@@ -3,6 +3,7 @@
     width: 100%;
 }
 .loginmenu {
+    border: black;
     position: absolute;
     top: -180%;
     left: 160%;
@@ -28,6 +29,7 @@
 
 .registerMenu {
     position: absolute;
+    border: black;
     top: -1000%;
     left: 160%;
     height: 8.5%;
