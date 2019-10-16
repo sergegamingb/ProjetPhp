@@ -1,4 +1,4 @@
-<?php $title ='Profil'; ?>
+<?php $title ='FreeNote'; ?>
 
 <?php ob_start(); ?>
 

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c5c6c51-e808-4a8e-b55b-d7fb053fa2a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/profilePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/profilePage.php" afterDir="false" />
-    </list>
+    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,158 +13,28 @@
       <executable />
     </execution>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VIEWS/profilePage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/view_login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/view_test.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MODELS/model_admin.php" />
-        <option value="$PROJECT_DIR$/MODELS/models_admin.php" />
-        <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
-        <option value="$PROJECT_DIR$/MODELS/models_message.php" />
-        <option value="$PROJECT_DIR$/VIEWS/index2.php" />
-        <option value="$PROJECT_DIR$/VIEWS/template2.php" />
-        <option value="$PROJECT_DIR$/VIEWS/style2.css" />
-        <option value="$PROJECT_DIR$/VIEWS/css/test.css" />
-        <option value="$PROJECT_DIR$/VIEWS/accueil.html" />
-        <option value="$PROJECT_DIR$/VIEWS/css/view_style.css" />
-        <option value="$PROJECT_DIR$/VIEWS/accueil.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/MODELS/models_user.php" />
-        <option value="$PROJECT_DIR$/VIEWS/template.php" />
-        <option value="$PROJECT_DIR$/CONTROLLERS/controller_user.php" />
-        <option value="$PROJECT_DIR$/VIEWS/profilePage.php" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="28" />
-    <option name="width" value="840" />
-    <option name="height" value="994" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Rw0kPHN0vwT9hFLFkKQQgvSROt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="CONTROLLERS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="MODELS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
-              <item name="Media" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -188,22 +55,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="template.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjetPhp/VIEWS/template.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.template.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6922ca2-a9d6-4897-a0d4-afa6bfe4d088" name="Default Changelist" comment="" />
+      <changelist id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="" />
       <created>1570022380635</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -214,8 +71,45 @@
       <workItem from="1570562996894" duration="552000" />
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
-      <workItem from="1571212452940" duration="646000" />
-      <workItem from="1571213406020" duration="693000" />
+      <workItem from="1570874037666" duration="2671000" />
+      <workItem from="1570883847949" duration="5080000" />
+      <workItem from="1570890236982" duration="618000" />
+      <workItem from="1571158501935" duration="3006000" />
+    </task>
+    <task id="LOCAL-00050" summary="test menu">
+      <created>1570710275238</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1570710275238</updated>
+    </task>
+    <task id="LOCAL-00051" summary="test menu">
+      <created>1570711050664</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1570711050664</updated>
+    </task>
+    <task id="LOCAL-00052" summary="test menu">
+      <created>1570716616950</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1570716616950</updated>
+    </task>
+    <task id="LOCAL-00053" summary="test menu">
+      <created>1570716674633</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1570716674633</updated>
+    </task>
+    <task id="LOCAL-00054" summary="test menu">
+      <created>1570717097610</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1570717097610</updated>
     </task>
     <task id="LOCAL-00055" summary="test menu">
       <created>1570717621970</created>
@@ -273,323 +167,260 @@
       <option name="project" value="LOCAL" />
       <updated>1570718892988</updated>
     </task>
-    <task id="LOCAL-00063" summary="autoload">
-      <created>1570719061329</created>
+    <task id="LOCAL-00063" summary="test menu">
+      <created>1570718983315</created>
       <option name="number" value="00063" />
       <option name="presentableId" value="LOCAL-00063" />
       <option name="project" value="LOCAL" />
-      <updated>1570719061329</updated>
+      <updated>1570718983315</updated>
     </task>
-    <task id="LOCAL-00064" summary="autoload">
-      <created>1570720124981</created>
+    <task id="LOCAL-00064" summary="test menu">
+      <created>1570719082882</created>
       <option name="number" value="00064" />
       <option name="presentableId" value="LOCAL-00064" />
       <option name="project" value="LOCAL" />
-      <updated>1570720124981</updated>
+      <updated>1570719082882</updated>
     </task>
-    <task id="LOCAL-00065" summary="accueil">
-      <created>1571212912292</created>
+    <task id="LOCAL-00065" summary="test menu">
+      <created>1570719178070</created>
       <option name="number" value="00065" />
       <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1571212912292</updated>
+      <updated>1570719178070</updated>
     </task>
-    <task id="LOCAL-00066" summary="html accueil">
-      <created>1571213729551</created>
+    <task id="LOCAL-00066" summary="test menu">
+      <created>1570721446195</created>
       <option name="number" value="00066" />
       <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1571213729552</updated>
+      <updated>1570721446195</updated>
     </task>
-    <task id="LOCAL-00067" summary="html accueil">
-      <created>1571213837553</created>
+    <task id="LOCAL-00067" summary="test menu">
+      <created>1570721482447</created>
       <option name="number" value="00067" />
       <option name="presentableId" value="LOCAL-00067" />
       <option name="project" value="LOCAL" />
-      <updated>1571213837553</updated>
+      <updated>1570721482447</updated>
     </task>
-    <task id="LOCAL-00068" summary="accueil">
-      <created>1571215203503</created>
+    <task id="LOCAL-00068" summary="test menu">
+      <created>1570721603815</created>
       <option name="number" value="00068" />
       <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1571215203503</updated>
+      <updated>1570721603815</updated>
     </task>
-    <task id="LOCAL-00069" summary="accueil">
-      <created>1571215340509</created>
+    <task id="LOCAL-00069" summary="test menu">
+      <created>1570721739161</created>
       <option name="number" value="00069" />
       <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1571215340509</updated>
+      <updated>1570721739161</updated>
     </task>
-    <task id="LOCAL-00070" summary="accueil">
-      <created>1571215481755</created>
+    <task id="LOCAL-00070" summary="test menu">
+      <created>1570721811401</created>
       <option name="number" value="00070" />
       <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1571215481755</updated>
+      <updated>1570721811401</updated>
     </task>
-    <task id="LOCAL-00071" summary="accueil">
-      <created>1571215543978</created>
+    <task id="LOCAL-00071" summary="test menu">
+      <created>1570721893631</created>
       <option name="number" value="00071" />
       <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1571215543978</updated>
+      <updated>1570721893631</updated>
     </task>
-    <task id="LOCAL-00072" summary="accueil">
-      <created>1571215692018</created>
+    <task id="LOCAL-00072" summary="test menu">
+      <created>1570721944871</created>
       <option name="number" value="00072" />
       <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1571215692020</updated>
+      <updated>1570721944871</updated>
     </task>
-    <task id="LOCAL-00073" summary="accueil">
-      <created>1571215722639</created>
+    <task id="LOCAL-00073" summary="test menu">
+      <created>1570721994974</created>
       <option name="number" value="00073" />
       <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1571215722639</updated>
+      <updated>1570721994974</updated>
     </task>
-    <task id="LOCAL-00074" summary="accueil">
-      <created>1571215813869</created>
+    <task id="LOCAL-00074" summary="test menu">
+      <created>1570722142215</created>
       <option name="number" value="00074" />
       <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1571215813869</updated>
+      <updated>1570722142215</updated>
     </task>
-    <task id="LOCAL-00075" summary="accueil">
-      <created>1571215856256</created>
+    <task id="LOCAL-00075" summary="test menu">
+      <created>1570722215225</created>
       <option name="number" value="00075" />
       <option name="presentableId" value="LOCAL-00075" />
       <option name="project" value="LOCAL" />
-      <updated>1571215856256</updated>
+      <updated>1570722215225</updated>
     </task>
-    <task id="LOCAL-00076" summary="accueil">
-      <created>1571215895463</created>
+    <task id="LOCAL-00076" summary="test menu">
+      <created>1570726858748</created>
       <option name="number" value="00076" />
       <option name="presentableId" value="LOCAL-00076" />
       <option name="project" value="LOCAL" />
-      <updated>1571215895463</updated>
+      <updated>1570726858748</updated>
     </task>
-    <task id="LOCAL-00077" summary="accueil">
-      <created>1571216308651</created>
+    <task id="LOCAL-00077" summary="test menu">
+      <created>1570726941731</created>
       <option name="number" value="00077" />
       <option name="presentableId" value="LOCAL-00077" />
       <option name="project" value="LOCAL" />
-      <updated>1571216308651</updated>
+      <updated>1570726941731</updated>
     </task>
-    <task id="LOCAL-00078" summary="accueil">
-      <created>1571216581556</created>
+    <task id="LOCAL-00078" summary="test menu">
+      <created>1570726984725</created>
       <option name="number" value="00078" />
       <option name="presentableId" value="LOCAL-00078" />
       <option name="project" value="LOCAL" />
-      <updated>1571216581556</updated>
+      <updated>1570726984725</updated>
     </task>
-    <task id="LOCAL-00079" summary="profil">
-      <created>1571217897531</created>
+    <task id="LOCAL-00079" summary="test menu">
+      <created>1570727052116</created>
       <option name="number" value="00079" />
       <option name="presentableId" value="LOCAL-00079" />
       <option name="project" value="LOCAL" />
-      <updated>1571217897531</updated>
+      <updated>1570727052116</updated>
     </task>
-    <task id="LOCAL-00080" summary="profil">
-      <created>1571218049649</created>
+    <task id="LOCAL-00080" summary="test menu">
+      <created>1570727339053</created>
       <option name="number" value="00080" />
       <option name="presentableId" value="LOCAL-00080" />
       <option name="project" value="LOCAL" />
-      <updated>1571218049649</updated>
+      <updated>1570727339053</updated>
     </task>
-    <task id="LOCAL-00081" summary="profil">
-      <created>1571218156907</created>
+    <task id="LOCAL-00081" summary="test menu">
+      <created>1570727504734</created>
       <option name="number" value="00081" />
       <option name="presentableId" value="LOCAL-00081" />
       <option name="project" value="LOCAL" />
-      <updated>1571218156907</updated>
+      <updated>1570727504734</updated>
     </task>
-    <task id="LOCAL-00082" summary="profil">
-      <created>1571218272929</created>
+    <task id="LOCAL-00082" summary="test menu">
+      <created>1570727662028</created>
       <option name="number" value="00082" />
       <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1571218272929</updated>
+      <updated>1570727662028</updated>
     </task>
-    <task id="LOCAL-00083" summary="profil">
-      <created>1571218320890</created>
+    <task id="LOCAL-00083" summary="test menu">
+      <created>1570727727384</created>
       <option name="number" value="00083" />
       <option name="presentableId" value="LOCAL-00083" />
       <option name="project" value="LOCAL" />
-      <updated>1571218320890</updated>
+      <updated>1570727727384</updated>
     </task>
-    <task id="LOCAL-00084" summary="profil">
-      <created>1571218461412</created>
+    <task id="LOCAL-00084" summary="test menu">
+      <created>1570727833448</created>
       <option name="number" value="00084" />
       <option name="presentableId" value="LOCAL-00084" />
       <option name="project" value="LOCAL" />
-      <updated>1571218461412</updated>
+      <updated>1570727833448</updated>
     </task>
-    <task id="LOCAL-00085" summary="profil">
-      <created>1571218530250</created>
+    <task id="LOCAL-00085" summary="test menu">
+      <created>1570727884468</created>
       <option name="number" value="00085" />
       <option name="presentableId" value="LOCAL-00085" />
       <option name="project" value="LOCAL" />
-      <updated>1571218530250</updated>
+      <updated>1570727884468</updated>
     </task>
-    <task id="LOCAL-00086" summary="profil">
-      <created>1571218684546</created>
+    <task id="LOCAL-00086" summary="test menu">
+      <created>1570728000988</created>
       <option name="number" value="00086" />
       <option name="presentableId" value="LOCAL-00086" />
       <option name="project" value="LOCAL" />
-      <updated>1571218684546</updated>
+      <updated>1570728000988</updated>
     </task>
-    <task id="LOCAL-00087" summary="profil">
-      <created>1571218785064</created>
+    <task id="LOCAL-00087" summary="test menu">
+      <created>1570728065841</created>
       <option name="number" value="00087" />
       <option name="presentableId" value="LOCAL-00087" />
       <option name="project" value="LOCAL" />
-      <updated>1571218785064</updated>
+      <updated>1570728065841</updated>
     </task>
-    <task id="LOCAL-00088" summary="profil">
-      <created>1571219369805</created>
+    <task id="LOCAL-00088" summary="test menu">
+      <created>1570728188158</created>
       <option name="number" value="00088" />
       <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1571219369805</updated>
+      <updated>1570728188158</updated>
     </task>
-    <task id="LOCAL-00089" summary="profil">
-      <created>1571219791804</created>
+    <task id="LOCAL-00089" summary="test menu">
+      <created>1570728265828</created>
       <option name="number" value="00089" />
       <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1571219791804</updated>
+      <updated>1570728265828</updated>
     </task>
-    <task id="LOCAL-00090" summary="profil">
-      <created>1571219858271</created>
+    <task id="LOCAL-00090" summary="test menu">
+      <created>1570728311014</created>
       <option name="number" value="00090" />
       <option name="presentableId" value="LOCAL-00090" />
       <option name="project" value="LOCAL" />
-      <updated>1571219858271</updated>
+      <updated>1570728311014</updated>
     </task>
-    <task id="LOCAL-00091" summary="profil">
-      <created>1571219883298</created>
+    <task id="LOCAL-00091" summary="test menu">
+      <created>1570875407133</created>
       <option name="number" value="00091" />
       <option name="presentableId" value="LOCAL-00091" />
       <option name="project" value="LOCAL" />
-      <updated>1571219883298</updated>
+      <updated>1570875407134</updated>
     </task>
-    <task id="LOCAL-00092" summary="profil">
-      <created>1571219906224</created>
+    <task id="LOCAL-00092" summary="test menu">
+      <created>1570876929709</created>
       <option name="number" value="00092" />
       <option name="presentableId" value="LOCAL-00092" />
       <option name="project" value="LOCAL" />
-      <updated>1571219906224</updated>
+      <updated>1570876929709</updated>
     </task>
-    <task id="LOCAL-00093" summary="profil">
-      <created>1571220292693</created>
+    <task id="LOCAL-00093" summary="class avancée">
+      <created>1570889858748</created>
       <option name="number" value="00093" />
       <option name="presentableId" value="LOCAL-00093" />
       <option name="project" value="LOCAL" />
-      <updated>1571220292693</updated>
+      <updated>1570889858748</updated>
     </task>
-    <task id="LOCAL-00094" summary="profil">
-      <created>1571220349358</created>
+    <task id="LOCAL-00094" summary="class avancée">
+      <created>1570889888106</created>
       <option name="number" value="00094" />
       <option name="presentableId" value="LOCAL-00094" />
       <option name="project" value="LOCAL" />
-      <updated>1571220349358</updated>
+      <updated>1570889888106</updated>
     </task>
-    <task id="LOCAL-00095" summary="profil">
-      <created>1571220558382</created>
+    <task id="LOCAL-00095" summary="class avancée">
+      <created>1570889905842</created>
       <option name="number" value="00095" />
       <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1571220558382</updated>
+      <updated>1570889905842</updated>
     </task>
-    <task id="LOCAL-00096" summary="profil">
-      <created>1571220777258</created>
+    <task id="LOCAL-00096" summary="class avancée">
+      <created>1570890795741</created>
       <option name="number" value="00096" />
       <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1571220777258</updated>
+      <updated>1570890795741</updated>
     </task>
-    <task id="LOCAL-00097" summary="profil">
-      <created>1571221193137</created>
+    <task id="LOCAL-00097" summary="html/css index">
+      <created>1571169285362</created>
       <option name="number" value="00097" />
       <option name="presentableId" value="LOCAL-00097" />
       <option name="project" value="LOCAL" />
-      <updated>1571221193137</updated>
+      <updated>1571169285362</updated>
     </task>
-    <task id="LOCAL-00098" summary="profil">
-      <created>1571221287853</created>
+    <task id="LOCAL-00098" summary="html/css index">
+      <created>1571169363433</created>
       <option name="number" value="00098" />
       <option name="presentableId" value="LOCAL-00098" />
       <option name="project" value="LOCAL" />
-      <updated>1571221287853</updated>
+      <updated>1571169363433</updated>
     </task>
-    <task id="LOCAL-00099" summary="profil">
-      <created>1571221350739</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1571221350740</updated>
-    </task>
-    <task id="LOCAL-00100" summary="profil">
-      <created>1571221498943</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1571221498943</updated>
-    </task>
-    <task id="LOCAL-00101" summary="profil">
-      <created>1571221580003</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1571221580003</updated>
-    </task>
-    <task id="LOCAL-00102" summary="profil">
-      <created>1571221781043</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1571221781044</updated>
-    </task>
-    <task id="LOCAL-00103" summary="profil">
-      <created>1571221910895</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1571221910895</updated>
-    </task>
-    <option name="localTasksCounter" value="104" />
+    <option name="localTasksCounter" value="99" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11821000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590062" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298731" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298731" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -600,12 +431,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -634,168 +459,8 @@
     <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
-    <MESSAGE value="autoload" />
-    <MESSAGE value="html accueil" />
-    <MESSAGE value="accueil" />
-    <MESSAGE value="profil" />
-    <option name="LAST_COMMIT_MESSAGE" value="profil" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MODELS/model_base.php" />
-    <entry file="file://$PROJECT_DIR$/MODELS/model_admin.php" />
-    <entry file="file://$PROJECT_DIR$/VIEWS/inscription.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/logout.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/gauche.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/droite.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/css/view_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="66" selection-start-line="66" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/template2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/css/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/menu_login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/issuu-logo-symbol-black.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/login.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/Media/loginFreeNote.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/accueil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/profilePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="class avancée" />
+    <MESSAGE value="html/css index" />
+    <option name="LAST_COMMIT_MESSAGE" value="html/css index" />
   </component>
 </project>
