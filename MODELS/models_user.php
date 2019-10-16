@@ -243,7 +243,7 @@ class user extends base
         if ($this->isSafeForm()) {
             try {
 
-                $this->execRequete($query);
+                $this->execQuery($query);
                 echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
                 echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             } catch (PDOException $e) {
@@ -357,7 +357,7 @@ class user extends base
             try
             {
                 $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
-                $this->execRequete($query);
+                $this->execQuery($query);
                 echo '<br/><strong>Votre mot de passe a bien été modifié !</strong><br/>';
                 echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             }
