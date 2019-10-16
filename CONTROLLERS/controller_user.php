@@ -7,8 +7,6 @@ spl_autoload_register(function ($class_name) {
 $action = $_POST['action'];
 
 $user=new user;
-$_SESSION['user']=$user;
-
 
 if($action =='inscription')
 {
@@ -19,6 +17,7 @@ if($action =='inscription')
 if($action == 'login')
 {
     $user -> login();
+    $_SESSION['user']=$user;
 
 }
 
