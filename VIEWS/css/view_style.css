@@ -12,12 +12,28 @@
     flex-direction: column;
     justify-content: space-between;
     transition-duration: 0.4s;
-
 }
 .coin {
     width: 10%;
 }
 .loginmenunoff {
+    top: 15%;
+    transition-duration: 0.4s;
+}
+
+.registerMenu {
+    position: absolute;
+    top: -400%;
+    left: 160%;
+    height: 8.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: 0.4s;
+}
+
+.registerMenuOff {
     top: 15%;
     transition-duration: 0.4s;
 }
