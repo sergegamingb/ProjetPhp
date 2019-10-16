@@ -67,7 +67,7 @@ a
 
 .newbouton
 {
-    font-size: 3%;
+    font-size: 1.3em;
 }
 
 .col-lg-4 col-md-4 col-sm-12 text-center
@@ -75,8 +75,8 @@ a
     display: flex;
     border-style: groove;
     border-color: black;
-    height: 20%;
-    margin: 10%;
+    height: 2em;
+    margin: 1em;
 }
 
 .search
