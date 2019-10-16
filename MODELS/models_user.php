@@ -314,7 +314,7 @@ class user extends base
             $_SESSION['login'] = $login;
             $_SESSION['password'] = $hashedPass;
             $_SESSION['mail']=$this->getMail($login);
-            $_SESSION['phone']=$this->getPhone($login);
+            $_SESSION['phone']=$this->getMail($login);
             $_SESSION['country']=$this->getCountry($login);
             header('Location: ../VIEWS/view_accueil.php');
         }
