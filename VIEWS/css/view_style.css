@@ -75,20 +75,20 @@
   }
     .loginmenuoff
     {
+        border-color: black;
         position: relative;
         margin-top: 6%;
         margin-bottom: 20%;
         width: available;
-        background-color: white;
         z-index: 1;
     }
 
     .registerMenuOff{
+        border-color: black;
         position: relative;
         top: 0;
         margin-bottom: 5%;
         width: available;
-        background-color: white;
         z-index: 1;
     }
 

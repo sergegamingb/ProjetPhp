@@ -79,41 +79,6 @@
       <workItem from="1571158501935" duration="3006000" />
       <workItem from="1571242792478" duration="3967000" />
     </task>
-    <task id="LOCAL-00108" summary="html/css index">
-      <created>1571245680501</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1571245680501</updated>
-    </task>
-    <task id="LOCAL-00109" summary="html/css index">
-      <created>1571245751357</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1571245751357</updated>
-    </task>
-    <task id="LOCAL-00110" summary="html/css index">
-      <created>1571246142157</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1571246142157</updated>
-    </task>
-    <task id="LOCAL-00111" summary="html/css index">
-      <created>1571246176337</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1571246176337</updated>
-    </task>
-    <task id="LOCAL-00112" summary="html/css index">
-      <created>1571246276223</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1571246276224</updated>
-    </task>
     <task id="LOCAL-00113" summary="html/css index">
       <created>1571246393093</created>
       <option name="number" value="00113" />
@@ -422,7 +387,42 @@
       <option name="project" value="LOCAL" />
       <updated>1571258897482</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="html/css index">
+      <created>1571258955212</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1571258955212</updated>
+    </task>
+    <task id="LOCAL-00158" summary="html/css index">
+      <created>1571259000620</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259000620</updated>
+    </task>
+    <task id="LOCAL-00159" summary="responsive accueil">
+      <created>1571259052684</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259052684</updated>
+    </task>
+    <task id="LOCAL-00160" summary="responsive accueil">
+      <created>1571259108706</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259108706</updated>
+    </task>
+    <task id="LOCAL-00161" summary="responsive accueil">
+      <created>1571259170299</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259170299</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +464,7 @@
     <MESSAGE value="test menu" />
     <MESSAGE value="class avancée" />
     <MESSAGE value="html/css index" />
-    <option name="LAST_COMMIT_MESSAGE" value="html/css index" />
+    <MESSAGE value="responsive accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive accueil" />
   </component>
 </project>
