@@ -68,7 +68,7 @@ class user extends base
     public function getMail($pseudo)
     {
         $query = ('SELECT mail FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
-        return $this->execquery($query);
+        return $this->execRequete($query);
     }
 
     /**
@@ -188,7 +188,7 @@ class user extends base
 
     public function isSafeForm() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
-        $row = $this->execQuery($query);
+        $row = $this->execRequete($query);
         if($row -> rowCount()==1) return false;
 
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
@@ -243,7 +243,7 @@ class user extends base
         if ($this->isSafeForm()) {
             try {
 
-                $this->execQuery($query);
+                $this->execRequete($query);
                 echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
                 echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             } catch (PDOException $e) {
@@ -305,7 +305,7 @@ class user extends base
             $_SESSION['isLogin'] = 'ok';
             $_SESSION['login'] = $login;
             $_SESSION['password'] = $hashedPass;
-            $_SESSION['mail']=$this->getMail($login);
+            $_SESSION['mail']=$this->mail;
             $_SESSION['phone']=$this->phone;
             $_SESSION['country']=$this->country;
             header('Location: ../VIEWS/view_accueil.php');
@@ -357,7 +357,7 @@ class user extends base
             try
             {
                 $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
-                $this->execQuery($query);
+                $this->execRequete($query);
                 echo '<br/><strong>Votre mot de passe a bien été modifié !</strong><br/>';
                 echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             }
