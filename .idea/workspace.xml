@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c03019ea-055d-4a88-ac4e-29b84b7334ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/menu_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/menu_login.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,13 +74,6 @@
       <workItem from="1570697181270" duration="1451000" />
       <workItem from="1570874037666" duration="10260000" />
       <workItem from="1571129587850" duration="3436000" />
-    </task>
-    <task id="LOCAL-00106" summary="securité formulaire">
-      <created>1571135913377</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1571135913377</updated>
     </task>
     <task id="LOCAL-00107" summary="securité formulaire">
       <created>1571136026783</created>
@@ -417,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571189428812</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="test page d'accueil">
+      <created>1571189626415</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1571189626415</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -10,7 +10,7 @@ Login.onclick = function login () {
     {
         RegisterLog.classList.toggle("registerMenuOff");
     }
-    menuLog.classList.toggle("loginmenunoff");
+    menuLog.classList.toggle("loginmenuoff");
 }
 
 Register.onclick = function register() {
