@@ -36,7 +36,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
             else
             {
                 echo ' Bienvenue ' . $_SESSION['login'] . ' !'  ;
-                echo '<input type="image"  alt="avatar"  src="Media/login.png" style="width: 50%">';
+                echo '<a href="profilePage.php"><input  type="image"  alt="avatar"  src="Media/login.png" style="width: 80%"></a>';
             }
 
             ?>
