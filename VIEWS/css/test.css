@@ -1,6 +1,9 @@
+html{
+    font-family: Verdana;
+}
+
 body {
     padding-top: 10px;
-    font-family: Verdana;
 }
 /*[class*="col-"], footer {*/
 /*    background-color: lightgreen;*/
@@ -33,6 +36,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    color: black;
 }
 
 
