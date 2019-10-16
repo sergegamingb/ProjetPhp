@@ -1,10 +1,11 @@
 <?php
 
-function __autoload($fic)
-{
-include ( '../MODELS/models_' . $fic. '.php');
-}
-__autoload('user');
+
+spl_autoload_register(function ($class_name) {
+    include  '../MODELS/models_' . $class_name . '.php';
+});
+
+
 ?>
 
 <!DOCTYPE html>

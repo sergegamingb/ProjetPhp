@@ -1,6 +1,9 @@
 <?php
 
-include '../MODELS/models_user.php';
+spl_autoload_register(function ($class_name) {
+    include  '../MODELS/models_' . $class_name . '.php';
+});
+
 
 $action = $_POST['action'];
 
