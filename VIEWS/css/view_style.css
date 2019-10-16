@@ -65,10 +65,10 @@
     top: 0%;
 }
 
-/*
-/*@media (min-width: 992px) {*/
-/*    .loginmenu,.registerMenu{*/
-/*        left : 0;*/
-/*  }*/
 
-/*}*/
+@media (min-width: 992px) {
+    .loginmenu,.registerMenu{
+        left : 0;
+  }
+
+}
