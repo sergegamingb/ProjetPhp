@@ -28,6 +28,15 @@ class user extends base
     }
 
 
+    public function get($attribut,$pseudo)
+    {
+        $query = ('SELECT' . $attribut . 'FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
+        foreach ($this->execRequete($query) as $row)
+        {
+            $result=$row['mail'];
+        }
+        return $result;
+    }
 
     /**
      * @return mixed
@@ -67,20 +76,20 @@ class user extends base
      */
     public function getMail($pseudo)
     {
-        $query = ('SELECT mail FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
-        foreach ($this->execRequete($query) as $row)
-        {
-            $result=$row['mail'];
-        }
-      return $result;
-}
+        return $this->get('mail',$pseudo);
+    }
 
     /**
      * @return mixed
      */
-    public function getPassword()
+    public function getPassword($pseudo)
     {
-        return $this->password;
+        $query = ('SELECT phone FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
+        foreach ($this->execRequete($query) as $row)
+        {
+            $result=$row['mail'];
+        }
+        return $result;
     }
 
     /**
