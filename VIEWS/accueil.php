@@ -11,8 +11,8 @@ session_start();
 <div class="container">
         <section class="col-lg-12">
             <div class="row">
-                <button><div class="col-lg-4 text-center"> <a> Nouvelle Discussion </a> </div></button>
-                <button><div class="col-lg-4 text-center"> <a> Trouver une Discussion </a> </div></button>
+                <button><div class="col-lg-4 col-md-4 col-sm-12 text-center"> <a> Nouvelle Discussion </a> </div></button>
+                <button><div class="col-lg-4 col-md-4 col-sm-12 text-center"> <a> Trouver une Discussion </a> </div></button>
                 <button><div class="col-lg-4 col-md-4 col-sm-12 text-center"> <a> Actualiser </a> </div></button>
             </div>
 <hr>
