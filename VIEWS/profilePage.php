@@ -4,7 +4,6 @@
 
 <?php
 session_start();
-$user= new User();
 
 ?>
 
