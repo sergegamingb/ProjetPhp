@@ -1,10 +1,10 @@
 <?php
 
-function __autoload($discussion)
+function __autoload($fic)
 {
-include ( '../MODELS/models_' . $discussion. '.php');
+include ( '../MODELS/models_' . $fic. '.php');
 }
-include '../MODELS/models_user.php';
+__autoload('user');
 ?>
 
 <!DOCTYPE html>
