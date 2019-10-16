@@ -19,8 +19,9 @@
 
 .coin:hover
 {
-    background-color: red;
+    background-color: #dadada;
     border-style: groove;
+    border-radius: 2%;
 }
 
 .reg {
