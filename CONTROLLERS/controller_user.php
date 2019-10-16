@@ -1,13 +1,14 @@
 <?php
-session_start();
+
 spl_autoload_register(function ($class_name) {
     include  '../MODELS/models_' . $class_name . '.php';
     include  '../VIEWS/view_' . $class_name . '.php';
 });
-
+session_start();
 $action = $_POST['action'];
 
-$user=new user;
+$_SESSION['user']=new user;
+$user=$_SESSION['user'];
 
 if($action =='inscription')
 {
@@ -18,7 +19,6 @@ if($action =='inscription')
 if($action == 'login')
 {
     $user -> login();
-    $_SESSION['user']=$user;
 
 }
 
