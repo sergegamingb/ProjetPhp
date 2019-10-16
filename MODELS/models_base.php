@@ -9,7 +9,7 @@ class base
         return $db = new PDO('mysql:host=mysql-tpphp.alwaysdata.net;dbname=tpphp_bd', 'tpphp', 'ericzemour');
     }
 
-    public function execRequete($query)
+    public function execquery($query)
     {
         return $this->loadDb()->query($query);
     }
