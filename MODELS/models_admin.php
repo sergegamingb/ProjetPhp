@@ -1,10 +1,8 @@
 <?php
 
-function __autoload($user, $base)
-{
-    include ( 'models_' . $base. '.php');
-    include ( 'models_' . $user. '.php');
-}
+spl_autoload_register(function ($class_name) {
+    include  '../MODELS/models_' . $class_name . '.php';
+});
 
 class Admin extends User
 {
