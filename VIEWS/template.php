@@ -60,7 +60,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
             }
             else
             {
-                echo '<a href="profilePage.php"><input  type="image"  alt="avatar"  src="Media/login.png" style="width: 300%"></a>';
+                echo '<a class="avatar" href="profilePage.php"><input  type="image"  alt="avatar"  src="Media/login.png" ></a>';
             }
 
             ?>
