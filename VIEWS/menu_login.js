@@ -14,9 +14,9 @@ Login.onclick = function login () {
 }
 
 Register.onclick = function register() {
-    // if (MenuLog.classList.contains("loginmenuoff"))
-    // {
-    //     RegisterLog.classList.toggle("loginmenuoff");
-    // }
+    if (menuLog.classList.contains("loginmenuoff"))
+    {
+        RegisterLog.classList.toggle("loginmenuoff");
+    }
     RegisterLog.classList.toggle("registerMenuOff");
 }
