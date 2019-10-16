@@ -29,7 +29,7 @@
 .registerMenu {
     position: absolute;
     top: -1000%;
-    left: 160%;
+    left: 145%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
