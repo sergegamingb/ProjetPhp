@@ -74,20 +74,6 @@
       <workItem from="1570874037666" duration="10260000" />
       <workItem from="1571129587850" duration="3436000" />
     </task>
-    <task id="LOCAL-00101" summary="securité formulaire">
-      <created>1571132051484</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1571132051484</updated>
-    </task>
-    <task id="LOCAL-00102" summary="securité formulaire">
-      <created>1571133939390</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1571133939391</updated>
-    </task>
     <task id="LOCAL-00103" summary="securité formulaire">
       <created>1571134325729</created>
       <option name="number" value="00103" />
@@ -417,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571189028341</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="test page d'accueil">
+      <created>1571189096672</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1571189096672</updated>
+    </task>
+    <task id="LOCAL-00151" summary="test page d'accueil">
+      <created>1571189265928</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1571189265928</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

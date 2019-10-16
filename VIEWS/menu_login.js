@@ -6,7 +6,7 @@ RegisterLog = document.querySelector('.registerMenu');
 
 Login.onclick = function login () {
 
-    if (RegisterLog.classList.contains("registerMenu"))
+    if (RegisterLog.classList.contains("registerMenuOff"))
     {
         RegisterLog.classList.toggle("registerMenuOff");
     }
@@ -14,7 +14,7 @@ Login.onclick = function login () {
 }
 
 Register.onclick = function register() {
-    if (MenuLog.classList.contains("loginmenu"))
+    if (MenuLog.classList.contains("loginmenuoff"))
     {
         RegisterLog.classList.toggle("loginmenuoff");
     }
