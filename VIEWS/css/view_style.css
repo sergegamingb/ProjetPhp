@@ -101,7 +101,9 @@
     }
 
     .form{
+        display: flex;
         border-style: groove;
         border-color: black;
+        justify-content: center;
     }
 }
