@@ -6,7 +6,7 @@ function __autoload($base)
     include ( 'models_' . $base. '.php');
 }
 
-class User extends base
+class user extends base
 
 {
     private $pseudo;
