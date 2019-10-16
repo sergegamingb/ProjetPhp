@@ -16,7 +16,7 @@
         <div class="col-xs-2 col-lg-2 text-center"> logo </div>
         <div class="col-xs-7 col-lg-7 text-center"> <h1>FreeNote</h1> </div>
         <div class="col-xs-2 col-lg-2 text-center" >
-            <a class="coin" id="logo" > se connecter </a>
+            <a class="coin" > se connecter </a>
 
             <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
                 <input type="text" name="login"  placeholder="Identifiant"/>
@@ -26,7 +26,29 @@
             <script src="menu_login.js"></script>
         </div >
 
-        <div class="col-xs-1 col-lg-1 text-center"> <a  href="../VIEWS/inscription.html"> s'inscrire </a> </div>
+        <div class="col-xs-1 col-lg-1 text-center">
+            <a class="coin"> s'inscrire </a>
+            <form action="../CONTROLLERS/controller_user.php" method="post">
+                <input type="text" placeholder="identifiant" name="identifiant" /> <br>
+                <label> sexe </label> <br>
+                <input type="radio" value="homme" name="genre" checked/> homme <br>
+                <input type="radio" value="femme" name="genre" checked/> femme <br>
+                <input type="text" placeholder="mail" name="mail"/>   <br>
+                <input type="password" placeholder="mot de passe" name="mdp"/> <br>
+                <input type="password" placeholder="confirmer mot de passe" name="cmdp"/> <br>
+                <input type="text" placeholder="telephone" name="phone" /> <br>
+                <select  name="pays">
+                    <option> france </option>
+                    <option> espagne </option>
+                    <option> nigeria</option>
+                    <option> afgranistan </option>
+                </select> <br>
+                <label> conditions générales </label>
+                <input type="checkbox" name="conditions"/> <br>
+                <input type="submit" name="action" value="inscription"/> <br>
+            </form>
+
+        </div>
     </header>
 <hr>
         <section class="col-lg-12">
