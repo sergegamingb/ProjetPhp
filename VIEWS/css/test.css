@@ -82,3 +82,23 @@ a
 {
     color: black;
 }
+
+.bbloc
+{
+
+    display: flex;
+    border-style: groove;
+    border-color: black;
+    justify-content: space-around;
+    align-items: center;
+    height: 15em;
+    width: 100%;
+    margin-top: 3.3em;
+
+
+}
+
+.longtext
+{
+    text-align: center;
+}
