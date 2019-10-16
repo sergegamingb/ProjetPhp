@@ -79,34 +79,6 @@
       <workItem from="1571158501935" duration="3006000" />
       <workItem from="1571242792478" duration="3967000" />
     </task>
-    <task id="LOCAL-00119" summary="html/css index">
-      <created>1571256602288</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1571256602288</updated>
-    </task>
-    <task id="LOCAL-00120" summary="html/css index">
-      <created>1571256636506</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1571256636506</updated>
-    </task>
-    <task id="LOCAL-00121" summary="html/css index">
-      <created>1571256677803</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1571256677803</updated>
-    </task>
-    <task id="LOCAL-00122" summary="html/css index">
-      <created>1571256754116</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1571256754116</updated>
-    </task>
     <task id="LOCAL-00123" summary="html/css index">
       <created>1571256784683</created>
       <option name="number" value="00123" />
@@ -422,7 +394,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571259680956</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="responsive accueil">
+      <created>1571259770873</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259770873</updated>
+    </task>
+    <task id="LOCAL-00169" summary="responsive accueil">
+      <created>1571259833043</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259833043</updated>
+    </task>
+    <task id="LOCAL-00170" summary="responsive accueil">
+      <created>1571259927117</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259927117</updated>
+    </task>
+    <task id="LOCAL-00171" summary="responsive accueil">
+      <created>1571259962131</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259962131</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
