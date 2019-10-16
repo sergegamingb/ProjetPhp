@@ -13,7 +13,7 @@ session_start();
 
         <tr> <td> Pseudo : <?php $_SESSION['login']  ?> </td> </tr>
         <tr> <td> Changer mot de passe </td> </tr>
-        <td> <td> </td>Email  <?php $_SESSION['mail']?> </td> </tr>
+        <td> <td> Email  <?php $_SESSION['mail']?> </td> </tr>
         <tr> <td> Numéro  <?php $_SESSION['phone'] ?> </td> </tr>
         <tr> <td> Pays <?php $_SESSION['country']?> </td> </tr>
 
