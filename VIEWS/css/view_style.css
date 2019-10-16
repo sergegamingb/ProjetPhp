@@ -76,10 +76,10 @@
     .loginmenuoff
     {
         position: relative;
-        margin-top: 2%;
+        margin-top: 6%;
         margin-bottom: 20%;
         width: available;
-        background-color: gray;
+        background-color: white;
         z-index: 1;
     }
 
@@ -88,7 +88,7 @@
         top: 0;
         margin-bottom: 5%;
         width: available;
-        background-color: gray;
+        background-color: white;
         z-index: 1;
     }
 
