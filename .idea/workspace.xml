@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c03019ea-055d-4a88-ac4e-29b84b7334ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VIEWS/accueil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VIEWS/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VIEWS/css/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +73,6 @@
       <workItem from="1570697181270" duration="1451000" />
       <workItem from="1570874037666" duration="10260000" />
       <workItem from="1571129587850" duration="3436000" />
-    </task>
-    <task id="LOCAL-00069" summary="test menu">
-      <created>1570721739161</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1570721739161</updated>
-    </task>
-    <task id="LOCAL-00070" summary="test menu">
-      <created>1570721811401</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1570721811401</updated>
     </task>
     <task id="LOCAL-00071" summary="test menu">
       <created>1570721893631</created>
@@ -425,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571168898353</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="test page d'accueil">
+      <created>1571185056604</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1571185056604</updated>
+    </task>
+    <task id="LOCAL-00119" summary="test page d'accueil">
+      <created>1571185159403</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1571185159403</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,6 +459,7 @@
     <MESSAGE value="test menu" />
     <MESSAGE value="securité formulaire" />
     <MESSAGE value="securité login" />
-    <option name="LAST_COMMIT_MESSAGE" value="securité login" />
+    <MESSAGE value="test page d'accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="test page d'accueil" />
   </component>
 </project>
