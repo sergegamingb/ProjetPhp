@@ -99,6 +99,11 @@
     }
 
     .loginmenu{
-        left: 0;
+        left: 20%;
+    }
+
+    .form{
+        border-style: groove;
+        border-color: black;
     }
 }

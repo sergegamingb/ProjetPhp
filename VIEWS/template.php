@@ -26,7 +26,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
     <header class="row">
         <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/accueil.php"> <img  alt="logo" src="Media/loginFreeNote.png" style="width: 40%"> </a></div>
         <div class="col-xs-7 col-lg-7 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
-        <div class="col-xs-2 col-lg-2 text-center" >
+        <div class="col-xs-2 col-lg-2 text-center form" >
             <?php
 
             session_start();
@@ -51,7 +51,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
             <script src="menu_login.js"></script>
         </div >
 
-        <div class="col-xs-1 col-lg-1 text-center">
+        <div class="col-xs-1 col-lg-1 text-center form">
 
             <?php
 
