@@ -68,8 +68,12 @@ class user extends base
     public function getMail($pseudo)
     {
         $query = ('SELECT mail FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
-        return $this->execRequete($query)['mail'];
-    }
+        foreach ($this->execRequete($query) as $row)
+        {
+            $result=$row['mail'];
+        }
+      return $result;
+}
 
     /**
      * @return mixed
