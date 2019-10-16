@@ -305,6 +305,9 @@ class User extends base
             $_SESSION['isLogin'] = 'ok';
             $_SESSION['login'] = $login;
             $_SESSION['password'] = $hashedPass;
+            $_SESSION['mail']=$this->mail;
+            $_SESSION['phone']=$this->phone;
+            $_SESSION['country']=$this->country;
             header('Location: ../index.php');
         }
 
