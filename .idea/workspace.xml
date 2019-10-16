@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6922ca2-a9d6-4897-a0d4-afa6bfe4d088" name="Default Changelist" comment="autoload">
+    <list default="true" id="f6922ca2-a9d6-4897-a0d4-afa6bfe4d088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VIEWS/issuu-logo-symbol-black.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/index2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,44 +25,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/gauche.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/droite.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-765" />
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEWS/css/view_style.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VIEWS/index2.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VIEWS/style2.css">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODELS/models_message.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -84,6 +69,7 @@
         <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
         <option value="$PROJECT_DIR$/MODELS/models_message.php" />
         <option value="$PROJECT_DIR$/MODELS/models_user.php" />
+        <option value="$PROJECT_DIR$/VIEWS/index2.php" />
       </list>
     </option>
   </component>
@@ -101,6 +87,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,11 +105,16 @@
               <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
               <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
+              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,14 +158,8 @@
       <workItem from="1570562996894" duration="552000" />
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
-      <workItem from="1571212452940" duration="270000" />
-    </task>
-    <task id="LOCAL-00016" summary="bd">
-      <created>1570102868934</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1570102868934</updated>
+      <workItem from="1571212452940" duration="646000" />
+      <workItem from="1571213406020" duration="273000" />
     </task>
     <task id="LOCAL-00017" summary="bd">
       <created>1570103111151</created>
@@ -511,17 +497,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570720124981</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="accueil">
+      <created>1571212912292</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1571212912292</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3380000" />
+    <option name="totallyTimeSpent" value="4029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1682" height="995" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25887394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2619339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -586,7 +579,8 @@
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
     <MESSAGE value="autoload" />
-    <option name="LAST_COMMIT_MESSAGE" value="autoload" />
+    <MESSAGE value="accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="accueil" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MODELS/model_base.php" />
@@ -631,27 +625,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/style2.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/index2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/template2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/VIEWS/gauche.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/VIEWS/droite.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" selection-start-line="54" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/style2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/template2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
+    <entry file="file://$PROJECT_DIR$/VIEWS/css/view_style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/index2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765" />
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
       </provider>
     </entry>
   </component>

@@ -7,7 +7,7 @@
 
 
 <header>
-    <img src="images.png" alt="logo" />
+    <img src="issuu-logo-symbol-black.jpg" alt="logo" />
     <p class="titre"> FreeNote </p>
     <div class="texte">
         <a class="connecter" href="connection.html" target="_blank">se connecter</a>
