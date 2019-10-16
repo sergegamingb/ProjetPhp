@@ -65,7 +65,6 @@ a
 
 .newbouton
 {
-
     color: black;
 }
 
@@ -78,8 +77,7 @@ a
 
 .search
 {
-    justify-content: center;
-    text-align: center;
+
     color: black;
 }
 
@@ -89,13 +87,10 @@ a
 .col-lg-4 col-md-4 col-sm-12 text-center
 {
     display: flex;
-    border-style: groove;
-    border-color: black;
     height: 2em;
 }
 
 .refreshbouton
 {
-    font-family: Verdana;
     color: black;
 }
