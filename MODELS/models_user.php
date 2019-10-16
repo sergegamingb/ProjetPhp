@@ -65,9 +65,10 @@ class user extends base
     /**
      * @return mixed
      */
-    public function getMail()
+    public function getMail($pseudo)
     {
-        return $this->mail;
+        $query = ('SELECT mail FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
+        return $this->execquery($query);
     }
 
     /**
@@ -304,7 +305,7 @@ class user extends base
             $_SESSION['isLogin'] = 'ok';
             $_SESSION['login'] = $login;
             $_SESSION['password'] = $hashedPass;
-            $_SESSION['mail']=$this->mail;
+            $_SESSION['mail']=$this->getMail($login);
             $_SESSION['phone']=$this->phone;
             $_SESSION['country']=$this->country;
             header('Location: ../VIEWS/view_accueil.php');
