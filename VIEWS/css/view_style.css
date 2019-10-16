@@ -67,7 +67,7 @@
 
 
 @media (min-width: 992px) {
-    .loginmenu,.registerMenu{
+    .loginmenuoff,.registerMenuOff{
         left : 50%;
 
   }
