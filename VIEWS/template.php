@@ -14,6 +14,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/test.css" rel="stylesheet">
     <link rel="stylesheet" href="css/view_style.css">
+    <link rel="icon" type="image/png" href="Media/loginFreeNote.png" />
     <style type="text/css">
         .col-lg-8 { line-height: 200px; }
         .col-lg-12 { line-height: 80px; }
@@ -23,7 +24,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
 <div class="container">
 
     <header class="row">
-        <div class="col-xs-2 col-lg-2 text-center"> <img  alt="logo"   src="Media/loginFreeNote.png" style="width: 40%"> </div>
+        <div class="col-xs-2 col-lg-2 text-center"> <img  alt="logo"   src="Media/loginFreeNote.png" style="width: 40%" ><a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/accueil.php"</a> </div>
         <div class="col-xs-7 col-lg-7 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
         <div class="col-xs-2 col-lg-2 text-center" >
             <?php
