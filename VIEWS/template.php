@@ -1,3 +1,12 @@
+<?php
+
+function __autoload($discussion)
+{
+include ( '../MODELS/models_' . $discussion. '.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

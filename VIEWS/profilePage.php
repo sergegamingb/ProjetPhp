@@ -2,7 +2,21 @@
 
 <?php ob_start(); ?>
 
-<p>coucou </p>
+<?php
+session_start();
+
+?>
+
+
+<table class="col-lg-12">
+    <tr>
+        <td> Pseudo : <?php $_SESSION['login']  ?></td>
+        <td>Changer mot de passe  </td>
+        <td>Email  <?php $_SESSION['mail']?>  </td>
+        <td>Numéro  <?php $_SESSION['phone'] ?>  </td>
+        <td>Pays <?php $_SESSION['country']?> </td>
+
+</table>
 
 
 
