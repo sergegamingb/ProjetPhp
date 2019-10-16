@@ -243,7 +243,7 @@ class user extends base
 
                 $this->execRequete($query);
                 echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
-                echo ' <br/>  <a href=../VIEWS/accueil.php> Retourner a l\'accueil </a>   ';
+                echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             } catch (PDOException $e) {
                 echo $e->getMessage();
             }
@@ -306,7 +306,7 @@ class user extends base
             $_SESSION['mail']=$this->mail;
             $_SESSION['phone']=$this->phone;
             $_SESSION['country']=$this->country;
-            header('Location: ../VIEWS/accueil.php');
+            header('Location: ../VIEWS/view_accueil.php');
         }
 
 
@@ -343,7 +343,7 @@ class user extends base
         if ($newMdp != $confirmMdp)
         {
             echo "les mots de passe ne correspondent pas";
-            echo ' <br/>  <a href=../VIEWS/accueil.php> Retourner a l\'accueil </a>   ';
+            echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
         }
         $hashedOldPass = hash('sha256',$oldMdp);
@@ -357,7 +357,7 @@ class user extends base
                 $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
                 $this->execRequete($query);
                 echo '<br/><strong>Votre mot de passe a bien été modifié !</strong><br/>';
-                echo ' <br/>  <a href=../VIEWS/accueil.php> Retourner a l\'accueil </a>   ';
+                echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             }
             catch (PDOException $e)
             {
