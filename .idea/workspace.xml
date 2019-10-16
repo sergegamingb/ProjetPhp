@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c5c6c51-e808-4a8e-b55b-d7fb053fa2a7" name="Default Changelist" comment="">
+    <list default="true" id="f6922ca2-a9d6-4897-a0d4-afa6bfe4d088" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/test.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
+        <entry file="file://$PROJECT_DIR$/VIEWS/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="4065">
+              <caret line="516" column="5" lean-forward="true" selection-start-line="516" selection-start-column="5" selection-end-line="516" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -29,58 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VIEWS/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/view_login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/view_test.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEWS/menu_login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="309" column="48" selection-start-line="309" selection-start-column="48" selection-end-line="309" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VIEWS/profilePage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="605">
+              <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -88,17 +39,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VIEWS/css/view_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="499">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VIEWS/css/test.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="709">
+              <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -114,6 +83,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -123,19 +93,19 @@
         <option value="$PROJECT_DIR$/MODELS/models_admin.php" />
         <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
         <option value="$PROJECT_DIR$/MODELS/models_message.php" />
-        <option value="$PROJECT_DIR$/VIEWS/index2.php" />
+        <option value="$PROJECT_DIR$/MODELS/models_user.php" />
         <option value="$PROJECT_DIR$/VIEWS/template2.php" />
         <option value="$PROJECT_DIR$/VIEWS/style2.css" />
-        <option value="$PROJECT_DIR$/VIEWS/css/test.css" />
-        <option value="$PROJECT_DIR$/VIEWS/accueil.html" />
-        <option value="$PROJECT_DIR$/VIEWS/css/view_style.css" />
-        <option value="$PROJECT_DIR$/MODELS/models_user.php" />
-        <option value="$PROJECT_DIR$/VIEWS/profilePage.php" />
+        <option value="$PROJECT_DIR$/VIEWS/index2.php" />
+        <option value="$PROJECT_DIR$/VIEWS/profil.php" />
         <option value="$PROJECT_DIR$/VIEWS/template.php" />
+        <option value="$PROJECT_DIR$/VIEWS/css/view_style.css" />
+        <option value="$PROJECT_DIR$/VIEWS/accueil.html" />
+        <option value="$PROJECT_DIR$/VIEWS/css/test.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="28" />
     <option name="width" value="840" />
     <option name="height" value="994" />
@@ -156,11 +126,6 @@
             <path>
               <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="CONTROLLERS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
@@ -209,16 +174,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="template.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjetPhp/VIEWS/template.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.template.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -236,7 +191,49 @@
       <workItem from="1570629861589" duration="1790000" />
       <workItem from="1570697181270" duration="1451000" />
       <workItem from="1571212452940" duration="646000" />
-      <workItem from="1571213406020" duration="693000" />
+      <workItem from="1571213406020" duration="6904000" />
+    </task>
+    <task id="LOCAL-00034" summary="bd">
+      <created>1570700544120</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1570700544120</updated>
+    </task>
+    <task id="LOCAL-00035" summary="bd">
+      <created>1570700613725</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1570700613725</updated>
+    </task>
+    <task id="LOCAL-00036" summary="bd">
+      <created>1570700836325</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1570700836325</updated>
+    </task>
+    <task id="LOCAL-00037" summary="bd">
+      <created>1570701042209</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1570701042209</updated>
+    </task>
+    <task id="LOCAL-00038" summary="bd">
+      <created>1570701228620</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1570701228620</updated>
+    </task>
+    <task id="LOCAL-00039" summary="bd">
+      <created>1570701454803</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1570701454803</updated>
     </task>
     <task id="LOCAL-00040" summary="bd">
       <created>1570701577639</created>
@@ -434,170 +431,128 @@
       <option name="project" value="LOCAL" />
       <updated>1571213837553</updated>
     </task>
-    <task id="LOCAL-00068" summary="accueil">
-      <created>1571215203503</created>
+    <task id="LOCAL-00068" summary="html accueil">
+      <created>1571214110064</created>
       <option name="number" value="00068" />
       <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1571215203503</updated>
+      <updated>1571214110064</updated>
     </task>
-    <task id="LOCAL-00069" summary="accueil">
-      <created>1571215340509</created>
+    <task id="LOCAL-00069" summary="html accueil">
+      <created>1571217311348</created>
       <option name="number" value="00069" />
       <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1571215340509</updated>
+      <updated>1571217311349</updated>
     </task>
-    <task id="LOCAL-00070" summary="accueil">
-      <created>1571215481755</created>
+    <task id="LOCAL-00070" summary="html accueil">
+      <created>1571217368707</created>
       <option name="number" value="00070" />
       <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1571215481755</updated>
+      <updated>1571217368707</updated>
     </task>
-    <task id="LOCAL-00071" summary="accueil">
-      <created>1571215543978</created>
+    <task id="LOCAL-00071" summary="html accueil">
+      <created>1571217690021</created>
       <option name="number" value="00071" />
       <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1571215543978</updated>
+      <updated>1571217690021</updated>
     </task>
-    <task id="LOCAL-00072" summary="accueil">
-      <created>1571215692018</created>
+    <task id="LOCAL-00072" summary="html accueil">
+      <created>1571218040233</created>
       <option name="number" value="00072" />
       <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1571215692020</updated>
+      <updated>1571218040234</updated>
     </task>
-    <task id="LOCAL-00073" summary="accueil">
-      <created>1571215722639</created>
+    <task id="LOCAL-00073" summary="html accueil">
+      <created>1571218094450</created>
       <option name="number" value="00073" />
       <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1571215722639</updated>
+      <updated>1571218094450</updated>
     </task>
-    <task id="LOCAL-00074" summary="accueil">
-      <created>1571215813869</created>
+    <task id="LOCAL-00074" summary="html accueil">
+      <created>1571218139308</created>
       <option name="number" value="00074" />
       <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1571215813869</updated>
+      <updated>1571218139308</updated>
     </task>
-    <task id="LOCAL-00075" summary="accueil">
-      <created>1571215856256</created>
+    <task id="LOCAL-00075" summary="html accueil">
+      <created>1571218402194</created>
       <option name="number" value="00075" />
       <option name="presentableId" value="LOCAL-00075" />
       <option name="project" value="LOCAL" />
-      <updated>1571215856256</updated>
+      <updated>1571218402194</updated>
     </task>
-    <task id="LOCAL-00076" summary="accueil">
-      <created>1571215895463</created>
+    <task id="LOCAL-00076" summary="html accueil">
+      <created>1571218620067</created>
       <option name="number" value="00076" />
       <option name="presentableId" value="LOCAL-00076" />
       <option name="project" value="LOCAL" />
-      <updated>1571215895463</updated>
+      <updated>1571218620067</updated>
     </task>
-    <task id="LOCAL-00077" summary="accueil">
-      <created>1571216308651</created>
+    <task id="LOCAL-00077" summary="html accueil">
+      <created>1571218666537</created>
       <option name="number" value="00077" />
       <option name="presentableId" value="LOCAL-00077" />
       <option name="project" value="LOCAL" />
-      <updated>1571216308651</updated>
+      <updated>1571218666537</updated>
     </task>
-    <task id="LOCAL-00078" summary="accueil">
-      <created>1571216581556</created>
+    <task id="LOCAL-00078" summary="html accueil">
+      <created>1571218854188</created>
       <option name="number" value="00078" />
       <option name="presentableId" value="LOCAL-00078" />
       <option name="project" value="LOCAL" />
-      <updated>1571216581556</updated>
+      <updated>1571218854188</updated>
     </task>
-    <task id="LOCAL-00079" summary="profil">
-      <created>1571217897531</created>
+    <task id="LOCAL-00079" summary="html accueil">
+      <created>1571219142268</created>
       <option name="number" value="00079" />
       <option name="presentableId" value="LOCAL-00079" />
       <option name="project" value="LOCAL" />
-      <updated>1571217897531</updated>
+      <updated>1571219142268</updated>
     </task>
-    <task id="LOCAL-00080" summary="profil">
-      <created>1571218049649</created>
+    <task id="LOCAL-00080" summary="html accueil">
+      <created>1571219444385</created>
       <option name="number" value="00080" />
       <option name="presentableId" value="LOCAL-00080" />
       <option name="project" value="LOCAL" />
-      <updated>1571218049649</updated>
+      <updated>1571219444385</updated>
     </task>
-    <task id="LOCAL-00081" summary="profil">
-      <created>1571218156907</created>
+    <task id="LOCAL-00081" summary="html accueil">
+      <created>1571219563449</created>
       <option name="number" value="00081" />
       <option name="presentableId" value="LOCAL-00081" />
       <option name="project" value="LOCAL" />
-      <updated>1571218156907</updated>
+      <updated>1571219563449</updated>
     </task>
-    <task id="LOCAL-00082" summary="profil">
-      <created>1571218272929</created>
+    <task id="LOCAL-00082" summary="html accueil">
+      <created>1571220112123</created>
       <option name="number" value="00082" />
       <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1571218272929</updated>
+      <updated>1571220112124</updated>
     </task>
-    <task id="LOCAL-00083" summary="profil">
-      <created>1571218320890</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1571218320890</updated>
-    </task>
-    <task id="LOCAL-00084" summary="profil">
-      <created>1571218461412</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1571218461412</updated>
-    </task>
-    <task id="LOCAL-00085" summary="profil">
-      <created>1571218530250</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1571218530250</updated>
-    </task>
-    <task id="LOCAL-00086" summary="profil">
-      <created>1571218684546</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1571218684546</updated>
-    </task>
-    <task id="LOCAL-00087" summary="profil">
-      <created>1571218785064</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1571218785064</updated>
-    </task>
-    <task id="LOCAL-00088" summary="profil">
-      <created>1571219369805</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1571219369805</updated>
-    </task>
-    <option name="localTasksCounter" value="89" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9099000" />
+    <option name="totallyTimeSpent" value="10660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
+    <frame x="0" y="28" width="840" height="994" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590062" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2361111" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -605,7 +560,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -656,10 +611,9 @@
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
     <MESSAGE value="autoload" />
-    <MESSAGE value="html accueil" />
     <MESSAGE value="accueil" />
-    <MESSAGE value="profil" />
-    <option name="LAST_COMMIT_MESSAGE" value="profil" />
+    <MESSAGE value="html accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="html accueil" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MODELS/model_base.php" />
@@ -670,20 +624,23 @@
     <entry file="file://$PROJECT_DIR$/VIEWS/login.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_base.php">
+    <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODELS/models_base.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/logout.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/models_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -703,93 +660,73 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/css/view_style.css">
+    <entry file="file://$PROJECT_DIR$/VIEWS/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_user.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="66" selection-start-line="66" selection-end-line="70" />
+        <state relative-caret-position="544">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VIEWS/template2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/css/test.css">
+    <entry file="file://$PROJECT_DIR$/VIEWS/index2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/style2.css">
+    <entry file="file://$PROJECT_DIR$/VIEWS/profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/menu_login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="309" column="48" selection-start-line="309" selection-start-column="48" selection-end-line="309" selection-end-column="48" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_login.html">
+    <entry file="file://$PROJECT_DIR$/VIEWS/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="4065">
+          <caret line="516" column="5" lean-forward="true" selection-start-line="516" selection-start-column="5" selection-end-line="516" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VIEWS/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        <state relative-caret-position="605">
+          <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/profilePage.php">
+    <entry file="file://$PROJECT_DIR$/VIEWS/css/view_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="499">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/accueil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/css/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
