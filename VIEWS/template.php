@@ -35,7 +35,7 @@ include ( '../MODELS/models_' . $discussion. '.php');
             }
             else
             {
-                echo ' Bienvenue' . $_SESSION['login'] . '.'  ;
+                echo ' Bienvenue ' . $_SESSION['login'] . ' !'  ;
             }
 
             ?>
