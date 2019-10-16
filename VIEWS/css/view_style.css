@@ -38,6 +38,11 @@
 .loginmenuoff {
     position: absolute;
     top: 25%;
+    height: 25%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     transition-duration: 0.4s;
 }
 
@@ -54,6 +59,11 @@
 .registerMenuOff {
     position: absolute;
     top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: 0.4s;
+}
     transition-duration: 0.4s;
 }
 
