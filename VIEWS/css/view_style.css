@@ -16,6 +16,13 @@
 .coin {
     width: 10%;
 }
+
+.coin:hover
+{
+    background-color: red;
+    border-style: groove;
+}
+
 .reg {
     width: 10%;
 }
