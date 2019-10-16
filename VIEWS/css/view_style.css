@@ -36,6 +36,7 @@
 /*}*/
 
 .loginmenuoff {
+    position: absolute;
     top: 25%;
     transition-duration: 0.4s;
 }
@@ -51,6 +52,7 @@
 }
 
 .registerMenuOff {
+    position: absolute;
     top: 25%;
     transition-duration: 0.4s;
 }
@@ -73,6 +75,7 @@
   }
     .loginmenuoff, .registerMenuOff
     {
+
         top: 65%;
     }
 
