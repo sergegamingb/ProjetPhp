@@ -66,6 +66,7 @@ session_start();
             else
             {
                 echo '<a href="view_profilePage.php"><input class="avatar"  type="image"  alt="avatar"  src="Media/login.png"></a>';
+                echo '<a> se déconnecter </a>';
             }
 
             ?>
