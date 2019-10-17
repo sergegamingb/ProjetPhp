@@ -5,7 +5,7 @@ function __autoload($base)
     include ( 'models_' . $base. '.php');
 }
 
-class Discussion
+class discussion
 {
     private $disc_id;
     private $user_id;
@@ -31,7 +31,7 @@ class Discussion
 
     public function getMessageId($pseudo)
     {
-        return $this->get('message_id',$pseudo);
+        return $this->get('$this->message_id',$pseudo);
     }
 
     public function getState($pseudo)
@@ -73,6 +73,12 @@ class Discussion
     {
         $query = ('UPDATE DISCUSSION SET DISCUSSION.message_id =\''.$message_id.'\'');
         $this->execquery($query);
+    }
+
+
+    public function createDiscussion()
+    {
+
     }
 }
 
