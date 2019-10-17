@@ -13,7 +13,9 @@
         <tr> <td> Email :  <?php echo  $_SESSION['mail'];?>       </td> </tr>
         <tr> <td> Numéro : <?php echo  $_SESSION['phone']; ?>    </td> </tr>
         <tr> <td> Pays : <?php echo  $_SESSION['country']; ?>      </td> </tr>
-        <tr> <td> date d'inscription : <?php echo $_SESSION['date']->format('d-m-Y');  ?>      </td> </tr>
+        <tr> <td> date d'inscription : <?php
+                $date = DateTime::createFromFormat('Y-m-d',$_SESSION['date']);
+                echo $date->format('d-m-Y');  ?>      </td> </tr>
 
     </table>
 
