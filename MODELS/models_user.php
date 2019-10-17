@@ -377,6 +377,28 @@ class user extends base
         }
 
     }
+
+    public function genererChaineAleatoire($longueur = 10)
+    {
+        $caracteres = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $longueurMax = strlen($caracteres);
+        $chaineAleatoire = '';
+        for ($i = 0; $i < $longueur; $i++)
+        {
+            $chaineAleatoire .= $caracteres[rand(0, $longueurMax - 1)];
+        }
+        return $chaineAleatoire;
+    }
+
+    public function forgotPwd()
+    {
+        $message = $this->genererChaineAleatoire();
+        $mail = $_POST['mail'];
+        $query = 'UPDATE USER SET password := \'' . $message .'\' WHERE mail = \'' . $mail . '\'';
+        $this->execRequete($query);
+        echo"le mail a bien été envoyé";
+        mail($mail, 'MDP OUBLIE BRO', $message);
+    }
 }
 
 

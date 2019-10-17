@@ -34,5 +34,5 @@ if($action == 'new_discussion')
 
 if($action == 'envoyer')
 {
-    $user->();
+    $user->forgotPwd();
 }
