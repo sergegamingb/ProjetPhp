@@ -14,4 +14,14 @@ class base
         return $this->loadDb()->query($query);
     }
 
+    public function get($attribut,$pseudo)
+    {
+        $query = ('SELECT ' . $attribut . ' FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
+        foreach ($this->execRequete($query) as $row)
+        {
+            $result=$row[$attribut];
+        }
+        return $result;
+    }
+
 }
