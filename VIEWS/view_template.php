@@ -97,7 +97,7 @@ session_start();
 </div>
 <hr>
     <div id="contenu">
-        <?= $content ?>   <!-- Élément spécifique -->
+        <?= $content ?>   <!--  Élément spécifique -->
     </div>
 <hr>
     <footer class="row page-footer" >
