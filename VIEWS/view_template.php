@@ -26,8 +26,8 @@ session_start();
 
     <header class="row">
         <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php"> <img  alt="logo" src="Media/loginFreeNote.png" style="width: 40%"> </a></div>
-        <div class="col-xs-5 col-lg-5 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
-        <div class="col-xs-2 col-lg-2 text-center form" >
+        <div class="col-xs-4 col-lg-4 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
+        <div class="col-xs-3 col-lg-3 text-center form" >
 
             <?php
 
