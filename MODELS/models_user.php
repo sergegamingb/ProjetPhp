@@ -191,6 +191,10 @@ class user extends base
         $row = $this->execRequete($query);
         if($row -> rowCount()==1) return false;
 
+        $query='SELECT email FROM USER WHERE email = \''.$this->mail.'\'';
+        $row = $this->execRequete($query);
+        if($row -> rowCount()==1)  return false;
+
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
         if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {return false;}
         if($this->password != $this->password2) return false;
@@ -236,9 +240,9 @@ class user extends base
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $this->pseudo))
         {
-            echo 'mail : ' . $this->mail;//test
-            echo 'mauvais pseudo';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            $_SESSION['error'] = 'badnickname';
+            header('Location: ../VIEWS/view_error.php');
+
             exit();
         }
 
@@ -273,15 +277,15 @@ class user extends base
 
 
 
-        //plus rapide
+        //plus rapide*
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         $sql->execute(array($login, $hashedPass));
 
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
-            echo 'mauvais pseudo';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            $_SESSION['error'] = 'badnickname2';
+            header('Location: ../VIEWS/view_error.php');
             exit();
         }
 
@@ -292,8 +296,8 @@ class user extends base
         //if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
         {
-            echo '<br/><strong>erreur d\'authentification</strong><br/>';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            $_SESSION['error'] = 'falsemdp';
+            header('Location: ../VIEWS/view_error.php');
         }
         else
         {
@@ -321,7 +325,8 @@ class user extends base
     {
         if($_SESSION['isLogin']!='ok')
         {
-            die('vous n\'etes pas connectés');
+            $_SESSION['error'] = 'notconnected';
+            header('Location: ../VIEWS/view_error.php');
         }
 
 
@@ -336,9 +341,7 @@ class user extends base
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
             $_SESSION['error'] = 'tooshort';
-            echo 'le mot de passe doit faire entre 5 et 20 caracteres';
             header('Location: ../VIEWS/view_error.php');
-            echo ' <br/>  <a href=../VIEWS/view_changePass.php>  réessayer </a>   ';
             exit();
         }
 
@@ -346,8 +349,6 @@ class user extends base
         {
             $_SESSION['error'] = 'notsame';
             header('Location: ../VIEWS/view_error.php');
-
-            echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
         }
         $hashedOldPass = hash('sha256',$oldMdp);
@@ -372,7 +373,6 @@ class user extends base
         else
         {
             $_SESSION['error'] = 'notcorresponding';
-            echo"ancien et nouveau mots de passe différents";
             header('Location: ../VIEWS/view_error.php');
         }
 
