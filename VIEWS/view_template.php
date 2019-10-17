@@ -24,7 +24,8 @@ session_start();
 <div class="container">
 
     <header class="row">
-        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php"> <img  alt="logo" src="Media/loginFreeNote.png" style="width: 70%"> </a></div>
+        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php">
+                <img  alt="logo" src="Media/loginFreeNote.png" style="width: 70%"> </a></div>
         <div class="col-xs-5 col-lg-5 text-center"> <a href="../index.php"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
@@ -34,7 +35,7 @@ session_start();
 
             if ($_SESSION['isLogin']!='ok')
             {
-                echo '<a class="coin" > se connecter </a>';
+                echo '<a class="coin" style="line-height: 80px;" > se connecter </a>';
             }
             else
             {
@@ -61,7 +62,7 @@ session_start();
 
             if($_SESSION['isLogin'] != 'ok')
             {
-                echo '<a class="reg"> s\'inscrire </a>';
+                echo '<a class="reg" style="line-height: 80px;"> s\'inscrire </a>';
             }
             else
             {
