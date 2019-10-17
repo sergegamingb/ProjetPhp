@@ -1,7 +1,8 @@
-<!DOCTYPE HTML>
-<html lang="fr">
-<meta charset="UTF-8">
-<head><h1>Changer mot de passe</h1> <br/>
+<?php $title ='Changement de mot de passe';
+
+ ob_start();
+ session_start();
+?>
 
 
 
@@ -13,4 +14,31 @@
 
     </form>
 
-</html>
+
+<?php $content = ob_get_clean(); ?>
+
+<?php require('view_template.php'); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

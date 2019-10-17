@@ -30,10 +30,11 @@ table,th,td{
     border: 2Px solid black;
     border-collapse: collapse;
     text-align: center;
+    line-height: 80px;
 }
 
 footer {
-    /*/position: fixed;*/
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
