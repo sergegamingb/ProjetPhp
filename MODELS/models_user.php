@@ -349,7 +349,7 @@ class user extends base
         {
             $_SESSION['error'] = 'notsame';
             header('Location: ../VIEWS/view_error.php');
-            echo "les mots de passe ne correspondent pas";
+
             echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
         }
