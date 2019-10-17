@@ -49,8 +49,8 @@ session_start();
                     </tr>
                 </table>
             <div class="col-lg-12 text-center">
-                <input type="image" alt="previous" src="gauche.jpg" width="30px" height="30px">
-                <input type="image" alt="next" src="droite.jpg" width="30px" height="30px" >
+                <input type="image" alt="previous" src="Media/gauche.jpg" width="30px" height="30px">
+                <input type="image" alt="next" src="Media/droite.jpg" width="30px" height="30px" >
             </div>
 
         </section>

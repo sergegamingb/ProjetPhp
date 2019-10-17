@@ -13,7 +13,6 @@ session_start();
 <head>
     <title><?= $title ?></title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/test.css" rel="stylesheet">
     <link rel="stylesheet" href="css/view_style.css">
     <link rel="icon" type="image/png" href="Media/loginFreeNote.png" />
     <style type="text/css">
