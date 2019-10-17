@@ -263,7 +263,7 @@ class user extends base
     public function isSafeLogin() {
 //        $query = 'SELECT password, pseudo FROM USER WHERE pseudo = \''.$login.'\' and password = \'' .$password.'\'';
 //        $row = $this->execRequete($query);
-//        if($row-> rowCount()==0) return false;
+//  *      if($row-> rowCount()==0) return false;
 
     }
 
