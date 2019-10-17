@@ -44,11 +44,13 @@ session_start();
             ?>
 
 
-            <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
-                <input type="text" name="login"  placeholder="Identifiant"/>
-                <input type="password" name="mdp" placeholder="Mot de passe"/>
-                <input type="submit" name="action" value="login"/>
-            </form>
+            <div class="forms">
+                <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
+                    <input type="text" name="login"  placeholder="Identifiant"/>
+                    <input type="password" name="mdp" placeholder="Mot de passe"/>
+                    <input type="submit" name="action" value="login"/>
+                </form>
+                </div>
             <script src="menu_login.js"></script>
         </div >
 
@@ -66,26 +68,27 @@ session_start();
             }
 
             ?>
-
-            <form class="registerMenu" action="../CONTROLLERS/controller_user.php" method="post">
-                <input type="text" placeholder="identifiant" name="identifiant" /> <br>
-                <label> sexe </label> <br>
-                <input type="radio" value="homme" name="genre" checked/> homme <br>
-                <input type="radio" value="femme" name="genre" checked/> femme <br>
-                <input type="text" placeholder="mail" name="mail"/>   <br>
-                <input type="password" placeholder="mot de passe" name="mdp"/> <br>
-                <input type="password" placeholder="confirmer mot de passe" name="cmdp"/> <br>
-                <input type="text" placeholder="telephone" name="phone" /> <br>
-                <select  name="pays">
-                    <option> france </option>
-                    <option> espagne </option>
-                    <option> nigeria</option>
-                    <option> afgranistan </option>
-                </select> <br>
-                <label> conditions generales </label>
-                <input type="checkbox" name="conditions"/> <br>
-                <input type="submit" name="action" value="inscription"/> <br>
-            </form>
+            <div class="forms">
+                <form class="registerMenu" action="../CONTROLLERS/controller_user.php" method="post">
+                    <input type="text" placeholder="identifiant" name="identifiant" /> <br>
+                    <label> sexe </label> <br>
+                    <input type="radio" value="homme" name="genre" checked/> homme <br>
+                    <input type="radio" value="femme" name="genre" checked/> femme <br>
+                    <input type="text" placeholder="mail" name="mail"/>   <br>
+                    <input type="password" placeholder="mot de passe" name="mdp"/> <br>
+                    <input type="password" placeholder="confirmer mot de passe" name="cmdp"/> <br>
+                    <input type="text" placeholder="telephone" name="phone" /> <br>
+                    <select  name="pays">
+                        <option> france </option>
+                        <option> espagne </option>
+                        <option> nigeria</option>
+                        <option> afgranistan </option>
+                    </select> <br>
+                    <label> conditions generales </label>
+                    <input type="checkbox" name="conditions"/> <br>
+                    <input type="submit" name="action" value="inscription"/> <br>
+                </form>
+            </div>
             <script src="menu_login.js"></script>
 
         </div>
