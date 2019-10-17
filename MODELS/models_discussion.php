@@ -19,36 +19,24 @@ class Discussion
     }
 
 
-    /**
-     * @return mixed
-     */
-    public function getUserId()
+    public function getDiscId($pseudo)
     {
-        return $this->user_id;
+        return $this->get('disc_id',$pseudo);
     }
 
-    /**
-     * @return mixed
-     */
-    public function getMessageId()
+    public function getUserId($pseudo)
     {
-        return $this->message_id;
+        return $this->get('user_id',$pseudo);
     }
 
-    /**
-     * @return mixed
-     */
-    public function getDiscId()
+    public function getMessageId($pseudo)
     {
-        return $this->disc_id;
+        return $this->get('message_id',$pseudo);
     }
 
-    /**
-     * @return mixed
-     */
-    public function getState()
+    public function getState($pseudo)
     {
-        return $this->state;
+        return $this->get('state',$pseudo);
     }
 
     /**

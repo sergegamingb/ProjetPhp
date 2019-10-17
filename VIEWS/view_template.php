@@ -94,12 +94,12 @@ session_start();
         </div>
     </header>
 </div>
-
+<hr>
     <div id="contenu">
         <?= $content ?>   <!-- Élément spécifique -->
     </div>
-
-    <footer class="row" >
+<hr>
+    <footer class="row page-footer" >
 
 
         <div class ="col-lg-12 text-center"> Copyright © | FreeNote </div>
