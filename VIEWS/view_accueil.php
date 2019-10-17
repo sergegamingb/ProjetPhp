@@ -7,7 +7,7 @@ session_start();
 
 ?>
 
-<hr>
+
 <div class="container">
 
         <section class="col-lg-12">

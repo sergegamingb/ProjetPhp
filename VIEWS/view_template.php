@@ -94,11 +94,11 @@ session_start();
         </div>
     </header>
 </div>
-
+<hr>
     <div id="contenu">
         <?= $content ?>   <!-- Élément spécifique -->
     </div>
-
+<hr>
     <footer class="row page-footer" >
 
 
