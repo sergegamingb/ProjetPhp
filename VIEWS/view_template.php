@@ -99,7 +99,7 @@ session_start();
         <?= $content ?>   <!-- Élément spécifique -->
     </div>
 
-    <footer class="row" >
+    <footer class="row page-footer" >
 
 
         <div class ="col-lg-12 text-center"> Copyright © | FreeNote </div>

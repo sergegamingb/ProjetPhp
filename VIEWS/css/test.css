@@ -35,14 +35,11 @@ table,th,td{
 }
 
 footer {
-    /*position: relative;*/
-    /*left: 0;*/
-    /*bottom: 0;*/
-    /*width: 100%;*/
-    /*text-align: center;*/
-    clear: both;
-    position: relative;
-    margin-top: -200px;
+   /* position: relative; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 a
