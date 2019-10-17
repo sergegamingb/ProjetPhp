@@ -13,6 +13,7 @@
     justify-content: space-between;
     transition-duration: 0.4s;
     background-color: white;
+    z-index: 1;
 
 }
 .coin {
@@ -56,6 +57,7 @@
     justify-content: space-between;
     transition-duration: 0.4s;
     background-color: white;
+    z-index: 1;
 }
 
 .registerMenuOff {
