@@ -6,8 +6,6 @@ session_start();
 
 
 
-
-
 if  ($_SESSION['error'] == "tooshort")
 {
   echo  'Le mot de passe doit faire entre 5 et 20 caracteres';
@@ -40,7 +38,7 @@ if ($_SESSION['error'] == "badnickname2")
 
 if($_SESSION['error'] == 'notconnected')
 {
-    echo "Vous etes pas connecté";
+    echo "Vous n'etes pas connecté";
     echo ' <br/>  <a href=../VIEWS/view_changePass.php>  Réessayer </a>   ';
 
 }
