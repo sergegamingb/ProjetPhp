@@ -27,7 +27,7 @@ class Message
         return $this->content;
     }
 
-    /**
+    /***
      * @return mixed
      */
     public function getMessageDate()
