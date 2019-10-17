@@ -338,13 +338,16 @@ class user extends base
 
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
+            $_SESSION['error'] = 'tooshort';
             echo 'le mot de passe doit faire entre 5 et 20 caracteres';
+            header('Location: ../VIEWS/view_error.php');
             echo ' <br/>  <a href=../VIEWS/view_changePass.php>  réessayer </a>   ';
             exit();
         }
 
         if ($newMdp != $confirmMdp)
         {
+            $_SESSION['error'] = 'notsame';
             header('Location: ../VIEWS/view_error.php');
             echo "les mots de passe ne correspondent pas";
             echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
@@ -371,6 +374,8 @@ class user extends base
         }
         else
         {
+            $_SESSION['error'] = 'notcorresponding';
+            echo"ancien et nouveau mots de passe différents";
             header('Location: ../VIEWS/view_error.php');
         }
 
