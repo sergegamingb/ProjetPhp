@@ -1,13 +1,20 @@
-<!DOCTYPE HTML>
-<html lang="fr">
-<meta charset="UTF-8">
-<head><h1>Nouvelle discussion</h1> <br/>
+<?php $title ='Nouvelle Discussion'; ?>
+
+<?php ob_start(); ?>
+
+<?php
+session_start();
+
+?>
 
 
-    <form action="../CONTROLLERS/controller_user.php" method="post">
+<form action="../CONTROLLERS/controller_user.php" method="post">
         <input type="text" placeholder="nom_discussion" name="nom_discussion" /> <br>
         <input type="text" placeholder="new_message" name="new_message" /> <br>
         <input type="submit" name="action" value="new_discussion"/> <br>
     </form>
 
-</html>
+<?php $content = ob_get_clean(); ?>
+
+<?php require('view_template.php'); ?>
+

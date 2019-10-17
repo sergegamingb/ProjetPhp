@@ -256,6 +256,7 @@ class user extends base
                 echo $e->getMessage();
             }
         }
+
 //
 
 
