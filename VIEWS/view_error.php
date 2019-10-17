@@ -5,7 +5,7 @@ session_start();
 
 ?>
 <div class="container">
-    <section class="col-lg-12">
+    <section class="col-lg-12 text-center">
 <?php
 if  ($_SESSION['error'] == "tooshort")
 {
@@ -52,8 +52,10 @@ if($_SESSION['error'] == "falsemdp")
 ?>
     </section>
 </div>
+<?php
+
+ $content = ob_get_clean();
 
 
- $content = ob_get_clean(); ?>
 
-<?php require('view_template.php'); ?>
+require('view_template.php'); ?>
