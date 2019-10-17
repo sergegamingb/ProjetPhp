@@ -5,7 +5,7 @@
 .loginmenu {
     position: absolute;
     top: -3000%;
-    left: 165%;
+    left: 15%;
     height: 25%;
     width: 70%;
     display: flex;
@@ -40,7 +40,7 @@
 
 .loginmenuoff {
     position: absolute;
-    top: 35%;
+    top: 50%;
     height: 25%;
     width: 70%;
     display: flex;
@@ -60,9 +60,10 @@
     z-index: 1;
 }
 
+
 .registerMenuOff {
     position: absolute;
-    top: 25%;
+    top: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -125,5 +126,20 @@
         height: 7em;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .changebloc form
+    {
+        display: flex;
+        border-style: groove;
+        border-color: black;
+        height: 2em;
+        margin: 1em;
+        width: 100%;
+    }
+
+    .changebloc input
+    {
+
     }
 }
