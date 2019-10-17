@@ -21,17 +21,17 @@ class Discussion
 
     public function getDiscId($pseudo)
     {
-        return $this->get('disc',$pseudo);
+        return $this->get('disc_id',$pseudo);
     }
 
     public function getUserId($pseudo)
     {
-        return $this->get('user',$pseudo);
+        return $this->get('user_id',$pseudo);
     }
 
     public function getMessageId($pseudo)
     {
-        return $this->get('message',$pseudo);
+        return $this->get('message_id',$pseudo);
     }
 
     public function getState($pseudo)
