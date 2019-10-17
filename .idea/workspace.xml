@@ -86,34 +86,6 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
     </task>
-    <task id="LOCAL-00039" summary="bd">
-      <created>1570701454803</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1570701454803</updated>
-    </task>
-    <task id="LOCAL-00040" summary="bd">
-      <created>1570701577639</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1570701577639</updated>
-    </task>
-    <task id="LOCAL-00041" summary="bd">
-      <created>1570702841611</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1570702841611</updated>
-    </task>
-    <task id="LOCAL-00042" summary="test menu">
-      <created>1570703480396</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1570703480396</updated>
-    </task>
     <task id="LOCAL-00043" summary="test menu">
       <created>1570703782873</created>
       <option name="number" value="00043" />
@@ -429,7 +401,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571294625887</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="page changement mdp">
+      <created>1571295753705</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1571295753705</updated>
+    </task>
+    <task id="LOCAL-00089" summary="page changement mdp">
+      <created>1571295787844</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1571295787845</updated>
+    </task>
+    <task id="LOCAL-00090" summary="page changement mdp">
+      <created>1571295805873</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1571295805873</updated>
+    </task>
+    <task id="LOCAL-00091" summary="page changement mdp">
+      <created>1571295922741</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1571295922741</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
