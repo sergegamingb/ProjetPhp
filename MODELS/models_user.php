@@ -195,7 +195,7 @@ class user extends base
         $row = $this->execRequete($query);
         if($row -> rowCount()==1)  {$_SESSION['error']='mailTaken'; return false;}
 
-        if(strlen($this->password) <5 || strlen($this->password) >20) {$_SESSION['error']='passwordOutOfRange';return false;}
+        if(strlen($this->password) <5 || strlen($this->password) >20) {$_SESSION['error']='passwordOutOfRange'; return false;}
         if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {$_SESSION['error']='invalidateEmail';return false;}
         if($this->password != $this->password2) {$_SESSION['error']='passWordNoCorresponding';return false;}
         if(is_null($this->password)|| is_null($this->password2)) {$_SESSION['error']='passwordNull';return false;}
