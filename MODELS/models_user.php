@@ -189,18 +189,18 @@ class user extends base
     public function isSafeForm() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
         $row = $this->execRequete($query);
-        if($row -> rowCount()==1) return false;
+        if($row -> rowCount()==1) {$_SESSION['error']='pseudoTaken'; return false;}
 
         $query='SELECT mail FROM USER WHERE mail= \''.$this->mail.'\'';
         $row = $this->execRequete($query);
-        if($row -> rowCount()==1)  return false;
+        if($row -> rowCount()==1)  {$_SESSION['error']='mailTaken'; return false;}
 
-        if(strlen($this->password) <5 || strlen($this->password) >20) return false;
-        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {return false;}
-        if($this->password != $this->password2) return false;
-        if(is_null($this->password)|| is_null($this->password2)) return false;
+        if(strlen($this->password) <5 || strlen($this->password) >20) {$_SESSION['error']='passwordOutOfRange';return false;}
+        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {$_SESSION['error']='invalidateEmail';return false;}
+        if($this->password != $this->password2) {$_SESSION['error']='passWordNoCorresponding';return false;}
+        if(is_null($this->password)|| is_null($this->password2)) {$_SESSION['error']='passwordNull';return false;}
 
-        if(empty($_POST['identifiant'])) {$this->pseudo="pseudo requis"; return false;}
+        if(empty($_POST['identifiant'])) { $_SESSION['error']='pseudoNull'; return false;}
 
 
      return true;
