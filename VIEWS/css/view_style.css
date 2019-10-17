@@ -49,7 +49,7 @@
 .registerMenu {
     position: absolute;
     top: -5000%;
-    left: 165%;
+    left: 145%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,6 +78,7 @@
 .avatar{
     width: 300%;
 }
+
 @media (max-width: 992px) {
     .registerMenu{
         left : 0;
