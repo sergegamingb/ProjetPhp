@@ -24,7 +24,8 @@ session_start();
 <div class="container">
 
     <header class="row">
-        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php"> <img  alt="logo" src="Media/loginFreeNote.png" style="width: 70%"> </a></div>
+        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php">
+                <img  alt="logo" src="Media/loginFreeNote.png" style="width: 70%"> </a></div>
         <div class="col-xs-5 col-lg-5 text-center"> <a href="../index.php"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
@@ -34,10 +35,11 @@ session_start();
 
             if ($_SESSION['isLogin']!='ok')
             {
-                echo '<a class="coin" > se connecter </a>';
+                echo '<a class="coin" style="line-height: 80px;" > se connecter </a>';
             }
             else
             {
+                echo '<p> </p>';
                 echo '  Bienvenue ' . $_SESSION['login'] . ' ! '   ;
                 echo '<br/> <a href="../MODELS/logout.php"> se déconnecter </a>';
             }
@@ -49,7 +51,9 @@ session_start();
                 <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
+                    <a href="../VIEWS/view_forgotpwd.php"> mot de passe oublie </a>
                     <input type="submit" name="action" value="login"/>
+
                 </form>
                 </div>
             <script src="menu_login.js"></script>
@@ -61,7 +65,7 @@ session_start();
 
             if($_SESSION['isLogin'] != 'ok')
             {
-                echo '<a class="reg"> s\'inscrire </a>';
+                echo '<a class="reg" style="line-height: 80px;"> s\'inscrire </a>';
             }
             else
             {
