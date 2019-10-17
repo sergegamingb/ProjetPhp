@@ -194,7 +194,9 @@ class user extends base
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
         if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {return false;}
         if($this->password != $this->password2) return false;
-        if(is_null($this->password)||is_null($this->password2)) return false;
+        if(is_null($this->password)|| is_null($this->password2)) return false;
+
+        if(empty($_POST['identifiant'])) {$this->pseudo="pseudo requis"; return false;}
 
 
      return true;
