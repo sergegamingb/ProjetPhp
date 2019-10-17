@@ -28,6 +28,7 @@ session_start();
         <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php"> <img  alt="logo" src="Media/loginFreeNote.png" style="width: 40%"> </a></div>
         <div class="col-xs-7 col-lg-7 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
         <div class="col-xs-2 col-lg-2 text-center form" >
+
             <?php
 
 
