@@ -17,7 +17,7 @@ if  ($_SESSION['error'] == "tooshort")
 if  ($_SESSION['error'] == "notsame")
 {
     echo "Les mots de passe ne correspondent pas";
-    echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
+    echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner à l\'accueil </a>   ';
 }
 if  ($_SESSION['error'] == "notcorresponding")
 {
@@ -29,20 +29,26 @@ if  ($_SESSION['error'] == "notcorresponding")
 if ($_SESSION['error'] =="badnikname")
 {
     echo"Mauvais pseudo";
-    echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
+    echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner à l\'accueil </a>   ';
 }
 
 if ($_SESSION['error'] == "badnickname2")
 {
     echo"Mauvais pseudo";
-    echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
+    echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner à l\'accueil </a>   ';
 }
 
-if($_SESSION['error'] == 'notconnected')
+if($_SESSION['error'] == "notconnected")
 {
     echo "Vous etes pas connecté";
     echo ' <br/>  <a href=../VIEWS/view_changePass.php>  Réessayer </a>   ';
 
+}
+
+if($_SESSION['error'] == "falsemdp")
+{
+    echo "Mauvais mot de passe";
+    echo ' <br/>  <a href=../index.php> Retourner à l\'accueil </a>   ';
 }
  $content = ob_get_clean(); ?>
 

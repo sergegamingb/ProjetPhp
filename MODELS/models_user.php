@@ -237,9 +237,8 @@ class user extends base
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $this->pseudo))
         {
             $_SESSION['error'] = 'badnickname';
-            echo 'mail : ' . $this->mail;//test
-            echo 'mauvais pseudo';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            header('Location: ../VIEWS/view_error.php');
+
             exit();
         }
 
@@ -282,8 +281,7 @@ class user extends base
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
             $_SESSION['error'] = 'badnickname2';
-            echo 'mauvais pseudo';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            header('Location: ../VIEWS/view_error.php');
             exit();
         }
 
@@ -294,8 +292,8 @@ class user extends base
         //if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
         {
-            echo '<br/><strong>erreur d\'authentification</strong><br/>';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            $_SESSION['error'] = 'falsemdp';
+            header('Location: ../VIEWS/view_error.php');
         }
         else
         {
@@ -324,6 +322,7 @@ class user extends base
         if($_SESSION['isLogin']!='ok')
         {
             $_SESSION['error'] = 'notconnected';
+            header('Location: ../VIEWS/view_error.php');
         }
 
 
@@ -338,9 +337,7 @@ class user extends base
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
             $_SESSION['error'] = 'tooshort';
-            echo 'le mot de passe doit faire entre 5 et 20 caracteres';
             header('Location: ../VIEWS/view_error.php');
-            echo ' <br/>  <a href=../VIEWS/view_changePass.php>  réessayer </a>   ';
             exit();
         }
 
@@ -348,8 +345,6 @@ class user extends base
         {
             $_SESSION['error'] = 'notsame';
             header('Location: ../VIEWS/view_error.php');
-
-            echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
         }
         $hashedOldPass = hash('sha256',$oldMdp);
@@ -374,7 +369,6 @@ class user extends base
         else
         {
             $_SESSION['error'] = 'notcorresponding';
-            echo"ancien et nouveau mots de passe différents";
             header('Location: ../VIEWS/view_error.php');
         }
 
