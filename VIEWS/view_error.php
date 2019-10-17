@@ -5,6 +5,7 @@ session_start();
 
 ?>
 <div class="container">
+    <section class="col-lg-12">
 <?php
 if  ($_SESSION['error'] == "tooshort")
 {
@@ -49,6 +50,7 @@ if($_SESSION['error'] == "falsemdp")
     echo ' <br/>  <a href=../index.php> Retourner à l\'accueil </a>   ';
 }
 ?>
+    </section>
 </div>
 
 
