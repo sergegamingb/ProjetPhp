@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: space-between;
     transition-duration: 0.4s;
+    background-color: white;
 }
 .coin {
     width: 10%;
@@ -54,6 +55,7 @@
     flex-direction: column;
     justify-content: space-between;
     transition-duration: 0.4s;
+    background-color: white;
 }
 
 .registerMenuOff {
