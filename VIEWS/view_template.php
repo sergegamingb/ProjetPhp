@@ -44,7 +44,7 @@ session_start();
             ?>
 
 
-            <div class="forms">
+
                 <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
@@ -52,7 +52,7 @@ session_start();
                 </form>
                 </div>
             <script src="menu_login.js"></script>
-        </div >
+
 
         <div class="col-xs-1 col-lg-1 text-center form">
 
@@ -68,7 +68,7 @@ session_start();
             }
 
             ?>
-            <div class="forms">
+
                 <form class="registerMenu" action="../CONTROLLERS/controller_user.php" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
@@ -88,7 +88,7 @@ session_start();
                     <input type="checkbox" name="conditions"/> <br>
                     <input type="submit" name="action" value="inscription"/> <br>
                 </form>
-            </div>
+
             <script src="menu_login.js"></script>
 
         </div>
