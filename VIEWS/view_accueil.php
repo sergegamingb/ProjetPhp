@@ -22,17 +22,12 @@ session_start();
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
                     <a href="../VIEWS/view_discussion.html">
-<!--                    --><?php
-//                      $_SESSION['redirection']='newDisc';
-//                    ?>
                       <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a>
-<!--                        --><?php
-//                        $_SESSION['redirection']='refresh';
-//                        ?>
-                     <input class="refreshbouton" type="button" value="Actualiser"> </a> </div>
+                    <a href="../VIEWS/view_accueil.php">
+                     <input class="refreshbouton" type="button" value="Actualiser"> </a>
+                </div>
             </div>
 <hr>
 
