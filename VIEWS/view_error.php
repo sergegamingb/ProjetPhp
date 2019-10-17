@@ -5,7 +5,7 @@ session_start();
 
 ?>
 <div class="container">
-    <section class="col-lg-12">
+    <section class="col-lg-12 text-center">
 <?php
 if  ($_SESSION['error'] == "tooshort")
 {
