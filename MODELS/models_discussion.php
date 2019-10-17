@@ -5,7 +5,7 @@ function __autoload($base)
     include ( 'models_' . $base. '.php');
 }
 
-class discussion extends base
+class discussion
 {
     private $disc_id;
     private $user_id;
@@ -14,28 +14,29 @@ class discussion extends base
 
     public function __construct()
     {
-
+          $query=('SELECT * FROM DISCUSSION');
+          $this->execRequete($query);
     }
 
 
-    public function getDiscId($id)
+    public function getDiscId($pseudo)
     {
-        return $this->get('disc_id',$id);
+        return $this->get('disc_id',$pseudo);
     }
 
-    public function getUserId($id)
+    public function getUserId($pseudo)
     {
-        return $this->get('user_id',$id);
+        return $this->get('user_id',$pseudo);
     }
 
-    public function getMessageId($id)
+    public function getMessageId($pseudo)
     {
-        return $this->get('$this->message_id',$id);
+        return $this->get('$this->message_id',$pseudo);
     }
 
-    public function getState($id)
+    public function getState($pseudo)
     {
-        return $this->get('state',$id);
+        return $this->get('state',$pseudo);
     }
 
     /**
@@ -43,8 +44,8 @@ class discussion extends base
      */
     public function setDiscId($disc_id)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.disc_id :=\'' .$disc_id.'\'');
-        $this->execRequete($query);
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.disc_id =\'' .$disc_id.'\'');
+        $this->execquery($query);
     }
 
     /**
@@ -52,8 +53,8 @@ class discussion extends base
      */
     public function setState($state)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.state :=\''.$state.'\'');
-        $this->execRequete($query);
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.state =\''.$state.'\'');
+        $this->execquery($query);
     }
 
     /**
@@ -61,8 +62,8 @@ class discussion extends base
      */
     public function setUserId($user_id)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.user_id :=\''.$user_id.'\'');
-        $this->execRequete($query);
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.user_id =\''.$user_id.'\'');
+        $this->execquery($query);
     }
 
     /**
@@ -70,14 +71,13 @@ class discussion extends base
      */
     public function setMessageId($message_id)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.message_id :=\''.$message_id.'\'');
-        $this->execRequete($query);
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.message_id =\''.$message_id.'\'');
+        $this->execquery($query);
     }
 
 
     public function createDiscussion()
     {
-
 
     }
 }
