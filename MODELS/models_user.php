@@ -241,9 +241,8 @@ class user extends base
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $this->pseudo))
         {
             $_SESSION['error'] = 'badnickname';
-            echo 'mail : ' . $this->mail;//test
-            echo 'mauvais pseudo';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            header('Location: ../VIEWS/view_error.php');
+
             exit();
         }
 
@@ -264,7 +263,7 @@ class user extends base
     public function isSafeLogin() {
 //        $query = 'SELECT password, pseudo FROM USER WHERE pseudo = \''.$login.'\' and password = \'' .$password.'\'';
 //        $row = $this->execRequete($query);
-//        if($row-> rowCount()==0) return false;
+//  *      if($row-> rowCount()==0) return false;
 
     }
 
@@ -278,7 +277,7 @@ class user extends base
 
 
 
-        //plus rapide
+        //plus rapide*
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         $sql->execute(array($login, $hashedPass));
 
@@ -286,8 +285,7 @@ class user extends base
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
             $_SESSION['error'] = 'badnickname2';
-            echo 'mauvais pseudo';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            header('Location: ../VIEWS/view_error.php');
             exit();
         }
 
@@ -298,8 +296,8 @@ class user extends base
         //if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
         {
-            echo '<br/><strong>erreur d\'authentification</strong><br/>';
-            echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
+            $_SESSION['error'] = 'falsemdp';
+            header('Location: ../VIEWS/view_error.php');
         }
         else
         {
@@ -328,6 +326,7 @@ class user extends base
         if($_SESSION['isLogin']!='ok')
         {
             $_SESSION['error'] = 'notconnected';
+            header('Location: ../VIEWS/view_error.php');
         }
 
 
@@ -342,9 +341,7 @@ class user extends base
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
             $_SESSION['error'] = 'tooshort';
-            echo 'le mot de passe doit faire entre 5 et 20 caracteres';
             header('Location: ../VIEWS/view_error.php');
-            echo ' <br/>  <a href=../VIEWS/view_changePass.php>  réessayer </a>   ';
             exit();
         }
 
@@ -352,8 +349,6 @@ class user extends base
         {
             $_SESSION['error'] = 'notsame';
             header('Location: ../VIEWS/view_error.php');
-
-            echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
         }
         $hashedOldPass = hash('sha256',$oldMdp);
@@ -378,10 +373,31 @@ class user extends base
         else
         {
             $_SESSION['error'] = 'notcorresponding';
-            echo"ancien et nouveau mots de passe différents";
             header('Location: ../VIEWS/view_error.php');
         }
 
+    }
+
+    public function genererChaineAleatoire($longueur = 10)
+    {
+        $caracteres = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $longueurMax = strlen($caracteres);
+        $chaineAleatoire = '';
+        for ($i = 0; $i < $longueur; $i++)
+        {
+            $chaineAleatoire .= $caracteres[rand(0, $longueurMax - 1)];
+        }
+        return $chaineAleatoire;
+    }
+
+    public function forgotPwd()
+    {
+        $message = $this->genererChaineAleatoire();
+        $mail = $_POST['mail'];
+        $query = 'UPDATE USER SET password := \'' . $message .'\' WHERE mail = \'' . $mail . '\'';
+        $this->execRequete($query);
+        echo"le mail a bien été envoyé";
+        mail($mail, 'MDP OUBLIE BRO', $message);
     }
 }
 
