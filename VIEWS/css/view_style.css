@@ -40,8 +40,8 @@
 
 .loginmenuoff {
     position: absolute;
-    top: 25%;
-    height: 35%;
+    top: 40%;
+    height: 25%;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -60,9 +60,10 @@
     z-index: 1;
 }
 
+
 .registerMenuOff {
     position: absolute;
-    top: 35%;
+    top: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
