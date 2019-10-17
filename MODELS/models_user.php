@@ -191,7 +191,7 @@ class user extends base
         $row = $this->execRequete($query);
         if($row -> rowCount()==1) return false;
 
-        $query='SELECT mail FROM USER WHERE mail = \''.$this->mail.'\'';
+        $query='SELECT mail FROM USER WHERE mail= \''.$this->mail.'\'';
         $row = $this->execRequete($query);
         if($row -> rowCount()==1)  return false;
 
