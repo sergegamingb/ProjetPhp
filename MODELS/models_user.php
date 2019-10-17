@@ -290,7 +290,7 @@ class user extends base
 
         try
         {
-        //*$row = $this->try_it($query);
+        //$row = $this->try_it($query);
 
         //if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
@@ -345,6 +345,7 @@ class user extends base
 
         if ($newMdp != $confirmMdp)
         {
+            header('Location: ../VIEWS/view_error.php');
             echo "les mots de passe ne correspondent pas";
             echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
