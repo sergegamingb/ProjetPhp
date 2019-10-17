@@ -31,3 +31,8 @@ if($action == 'new_discussion')
 {
     $disc->createDiscussion();
 }
+
+if($action == 'envoyer')
+{
+    $user->();
+}
