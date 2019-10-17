@@ -40,7 +40,7 @@ session_start();
             else
             {
                 echo ' Bienvenue ' . $_SESSION['login'] . ' !'  ;
-                echo '<br/> <a> se déconnecter </a>';
+                echo '<br/> <a href="../MODELS/logout.php"> se déconnecter </a>';
             }
 
             ?>
