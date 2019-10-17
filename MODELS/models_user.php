@@ -106,10 +106,10 @@ class user extends base
     /**
      * @return mixed
      */
-    public function getUserDate()
+    public function getUserDate($pseudo)
 
     {
-        return $this->user_date;
+        return $this->get('user_date',$pseudo);
     }
 
     /**
@@ -316,6 +316,7 @@ class user extends base
             $_SESSION['mail']=$this->getMail($login);
             $_SESSION['phone']=$this->getPhone($login);
             $_SESSION['country']=$this->getCountry($login);
+            $_SESSION['date']=$this->getUserDate($login);
             header('Location: ../VIEWS/view_accueil.php');
         }
 
