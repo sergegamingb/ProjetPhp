@@ -263,7 +263,7 @@ class user extends base
     public function isSafeLogin() {
 //        $query = 'SELECT password, pseudo FROM USER WHERE pseudo = \''.$login.'\' and password = \'' .$password.'\'';
 //        $row = $this->execRequete($query);
-//        if($row-> rowCount()==0) return false;
+//  *      if($row-> rowCount()==0) return false;
 
     }
 
@@ -376,6 +376,28 @@ class user extends base
             header('Location: ../VIEWS/view_error.php');
         }
 
+    }
+
+    public function genererChaineAleatoire($longueur = 10)
+    {
+        $caracteres = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $longueurMax = strlen($caracteres);
+        $chaineAleatoire = '';
+        for ($i = 0; $i < $longueur; $i++)
+        {
+            $chaineAleatoire .= $caracteres[rand(0, $longueurMax - 1)];
+        }
+        return $chaineAleatoire;
+    }
+
+    public function forgotPwd()
+    {
+        $message = $this->genererChaineAleatoire();
+        $mail = $_POST['mail'];
+        $query = 'UPDATE USER SET password := \'' . $message .'\' WHERE mail = \'' . $mail . '\'';
+        $this->execRequete($query);
+        echo"le mail a bien été envoyé";
+        mail($mail, 'MDP OUBLIE BRO', $message);
     }
 }
 
