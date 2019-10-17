@@ -20,8 +20,14 @@ session_start();
                     les administrateurs. La politesse et la courtoisie sont donc essentielles. On vous souhaite de vous amuser ! </p>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center"> <a href="view_discussion.html"> <input class="newbouton" type="button" value="Nouvelle Discussion"> </a> </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center"> <input class="refreshbouton" type="button" value="Actualiser"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <a href="../VIEWS/view_discussion.html">
+                      <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <a href="../VIEWS/view_accueil.php">
+                     <input class="refreshbouton" type="button" value="Actualiser"> </a>
+                </div>
             </div>
 <hr>
 
@@ -49,8 +55,8 @@ session_start();
                     </tr>
                 </table>
             <div class="col-lg-12 text-center">
-                <input type="image" alt="previous" src="gauche.jpg" width="30px" height="30px">
-                <input type="image" alt="next" src="droite.jpg" width="30px" height="30px" >
+                <input type="image" alt="previous" src="Media/gauche.jpg" width="30px" height="30px">
+                <input type="image" alt="next" src="Media/droite.jpg" width="30px" height="30px" >
             </div>
 
         </section>

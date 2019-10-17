@@ -13,7 +13,6 @@ session_start();
 <head>
     <title><?= $title ?></title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/test.css" rel="stylesheet">
     <link rel="stylesheet" href="css/view_style.css">
     <link rel="icon" type="image/png" href="Media/loginFreeNote.png" />
     <style type="text/css">
@@ -25,9 +24,9 @@ session_start();
 <div class="container">
 
     <header class="row">
-        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php"> <img  alt="logo" src="Media/loginFreeNote.png" style="width: 40%"> </a></div>
-        <div class="col-xs-7 col-lg-7 text-center"> <a href="../index.php"> <h1>FreeNote</h1> </a></div>
-        <div class="col-xs-2 col-lg-2 text-center form" >
+        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php"> <img  alt="logo" src="Media/loginFreeNote.png" style="width: 70%"> </a></div>
+        <div class="col-xs-5 col-lg-5 text-center"> <a href="../index.php"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
+        <div class="col-xs-3 col-lg-3 text-center form" >
 
             <?php
 
@@ -39,7 +38,8 @@ session_start();
             }
             else
             {
-                echo ' Bienvenue ' . $_SESSION['login'] . ' !'  ;
+                echo '  Bienvenue ' . $_SESSION['login'] . ' ! '   ;
+                echo '<br/> <a href="../MODELS/logout.php"> se déconnecter </a>';
             }
 
             ?>
@@ -55,7 +55,7 @@ session_start();
             <script src="menu_login.js"></script>
 
 
-        <div class="col-xs-1 col-lg-1 text-center form">
+        <div class="col-xs-2 col-lg-2 text-center form">
 
             <?php
 
@@ -97,7 +97,7 @@ session_start();
 </div>
 <hr>
     <div id="contenu">
-        <?= $content ?>   <!-- Élément spécifique -->
+        <?= $content ?>   <!--  Élément spécifique -->
     </div>
 <hr>
     <footer class="row page-footer" >
@@ -106,7 +106,7 @@ session_start();
         <div class ="col-lg-12 text-center"> Copyright © | FreeNote </div>
         <div class="col-lg-3 text-center"> <a href="https://github.com/Vincent-SD" target="_blank">  Vincent Simonetti-Diez </a> </div>
         <div class="col-lg-3 text-center"> <a href="https://github.com/sergegamingb" target="_blank"> Alexandre Salles  </a> </div>
-        <div class="col-lg-3 text-center"> <a href="https://github.com/Ibrahim-Boulahrouz" target="_blank">  Ibrahim Bouhlarouz </a> </div>
+        <div class="col-lg-3 text-center"> <a href="https://github.com/Ibrahim-Boulahrouz" target="_blank">  Ibrahim Boulahrouz </a> </div>
         <div class="col-lg-3 text-center"> <a href="https://github.com/AnthonyZIANE" target="_blank">  Anthony Ziane </a> </div>
 
 

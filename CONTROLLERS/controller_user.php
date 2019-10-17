@@ -6,22 +6,28 @@ spl_autoload_register(function ($class_name) {
 session_start();
 $action = $_POST['action'];
 
-$_SESSION['user']=new user;
+$user=new user;
+$disc = new discussion;
 
 
 if($action =='inscription')
 {
 
-    $_SESSION['user']->register();
+    $user->register();
 }
 
 if($action == 'login')
 {
-    $_SESSION['user'] -> login();
+    $user-> login();
 
 }
 
 if($action == 'modifier')
 {
-    $_SESSION['user']->changePassword();
+    $user->changePassword();
+}
+
+if($action == 'new_discussion')
+{
+    $disc->createDiscussion();
 }

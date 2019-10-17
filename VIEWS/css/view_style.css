@@ -18,7 +18,7 @@
 }
 .coin {
     width: 10%;
-    top: 12%;
+    top: 18%;
 }
 
 /**.coin:hover*/
@@ -30,7 +30,7 @@
 
 .reg {
     width: 10%;
-    top: 12%;
+    top: 18%;
 }
 
 /*.reg:hover*/
@@ -38,7 +38,7 @@
 /*    background-color: #dadada;*/
 /*    border-style: solid;*/
 /*    border-radius: 15%;*/
-/*}*/
+/*}**/
 
 .loginmenuoff {
     position: absolute;
@@ -83,7 +83,7 @@
 }
 
 .avatar{
-    width: 300%;
+    width: 150%;
 }
 
 .changebloc
@@ -91,15 +91,117 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 
 .modif
 {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
 
 }
+
+html{
+    font-family: Verdana;
+    font-size: 1.3em;
+
+}
+
+body {
+    padding-top: 10px;
+    min-height: 100%;
+}
+/*[class*="col-"], footer {*/
+/*     background-color: lightgreen;*/
+/*     border: 2px solid black;*/
+/*     border-radius: 6px;*/
+/*     line-height: 40px;*/
+/*     text-align: center;*/
+/* }*/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+
+}
+
+
+table,th,td{
+    border: 2Px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 80px;
+}
+
+footer {
+    /* position: relative; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*.row*/
+/*{**/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    height: 7em;*/
+/*    margin-top: 4em;*/
+/*    margin-bottom: 4em;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.col-lg-4 col-md-4 col-sm-12 text-center*/
+/*{*/
+/*    display: flex;*/
+/*    height: 2em;*/
+/*    margin: 1em;*/
+/*}*/
+
+.newbouton
+{
+    color: black;
+}
+
+/*.col-lg-4 col-md-4 col-sm-12 text-center*/
+/*{*/
+/*    display: flex;*/
+/*    height: 2em;*/
+/*}*/
+
+.refreshbouton
+{
+    color: black;
+}
+
+.bbloc
+{
+
+    display: flex;
+    border-style: groove;
+    border-color: black;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.longtext
+{
+
+    text-align: center;
+}
+
 
 @media (max-width: 992px) {
     .registerMenu{

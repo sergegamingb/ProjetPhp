@@ -272,16 +272,11 @@ class user extends base
 
 
 
-//        $query='SELECT pseudo, password FROM USER WHERE  pseudo = :pseudo and password = :password'; --plus long mais pareil que juste apres
-//        $sql = $this->loadDb()->prepare($query);
-//        $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
-//        $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
-//        $result = $sql->fetch();
 
         //plus rapide
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         $sql->execute(array($login, $hashedPass));
-      // $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
+
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
@@ -340,14 +335,18 @@ class user extends base
 
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
+            $_SESSION['error'] = 'tooshort';
             echo 'le mot de passe doit faire entre 5 et 20 caracteres';
+            header('Location: ../VIEWS/view_error.php');
             echo ' <br/>  <a href=../VIEWS/view_changePass.php>  réessayer </a>   ';
             exit();
         }
 
         if ($newMdp != $confirmMdp)
         {
-            echo "les mots de passe ne correspondent pas";
+            $_SESSION['error'] = 'notsame';
+            header('Location: ../VIEWS/view_error.php');
+
             echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
         }
@@ -362,6 +361,7 @@ class user extends base
                 $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
                 $this->execRequete($query);
                 echo '<br/><strong>Votre mot de passe a bien été modifié !</strong><br/>';
+                $_SESSION['isLogin']='non';
                 echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             }
             catch (PDOException $e)
@@ -371,9 +371,9 @@ class user extends base
         }
         else
         {
-            echo "mauvais mot de passe";
-            echo ' <br/>  <a href=../VIEWS/view_login.html>  réessayer </a>   ';
-            exit();
+            $_SESSION['error'] = 'notcorresponding';
+            echo"ancien et nouveau mots de passe différents";
+            header('Location: ../VIEWS/view_error.php');
         }
 
     }
