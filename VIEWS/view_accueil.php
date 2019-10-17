@@ -23,7 +23,7 @@ session_start();
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
                     <a href="../CONTROLLERS/controller_user.php"
                     <?php
-                      $_SESSION['redirection']='newDisc'
+                      $_SESSION['redirection']='newDisca'
                     ?>
                      > <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
