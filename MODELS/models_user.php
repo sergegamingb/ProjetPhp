@@ -191,6 +191,10 @@ class user extends base
         $row = $this->execRequete($query);
         if($row -> rowCount()==1) return false;
 
+        $query='SELECT email FROM USER WHERE email = \''.$this->mail.'\'';
+        $row = $this->execRequete($query);
+        if($row -> rowCount()==1) return false;
+
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
         if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {return false;}
         if($this->password != $this->password2) return false;
