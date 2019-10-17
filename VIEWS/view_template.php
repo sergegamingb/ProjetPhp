@@ -50,6 +50,7 @@ session_start();
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
                     <input type="submit" name="action" value="login"/>
+                    <a href="../VIEWS/view_forgotpwd.php"> mot de passe oublie </a>
                 </form>
                 </div>
             <script src="menu_login.js"></script>
