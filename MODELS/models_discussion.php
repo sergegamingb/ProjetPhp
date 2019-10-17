@@ -14,8 +14,7 @@ class discussion
 
     public function __construct()
     {
-          $query=('SELECT * FROM DISCUSSION');
-          $this->execRequete($query);
+
     }
 
 
