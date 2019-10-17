@@ -25,13 +25,3 @@ if($action == 'modifier')
 {
     $_SESSION['user']->changePassword();
 }
-
-if($_SESSION['redirection']  == 'newDisc')
-{
-    header('Location: ../VIEWS/view_discussion.html');
-}
-
-if($_SESSION['redirection']  == 'refresh')
-{
-    header('Location: ../VIEWS/view_accueil.php');
-}
