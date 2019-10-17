@@ -11,7 +11,6 @@
         <input type="password" placeholder="nouveau mot de passe" name="newMdp"/> <br>
         <input type="password" placeholder="confirmer mot de passe" name="confirmMdp"/> <br>
         <input type="submit" name="action" value="modifier"/> <br>
-
     </form>
      </div>
 

@@ -18,6 +18,7 @@
 }
 .coin {
     width: 10%;
+    top: 12%;
 }
 
 /*.coin:hover*/
@@ -29,6 +30,7 @@
 
 .reg {
     width: 10%;
+    top: 12%;
 }
 
 /*.reg:hover*/
@@ -84,6 +86,22 @@
     width: 300%;
 }
 
+.changebloc
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.changebloc form {
+
+}
+
+.changebloc input
+{
+
+}
+
 @media (max-width: 992px) {
     .registerMenu{
         left : 0;
@@ -117,29 +135,5 @@
         width: 30%;
     }
 
-    .changebloc
-    {
-        display: flex;
-        border-style: groove;
-        border-color: black;
-        width: 100%;
-        height: 7em;
-        justify-content: space-around;
-        align-items: center;
-    }
 
-    .changebloc form
-    {
-        display: flex;
-        border-style: groove;
-        border-color: black;
-        height: 2em;
-        margin: 1em;
-        width: 100%;
-    }
-
-    .changebloc input
-    {
-
-    }
 }

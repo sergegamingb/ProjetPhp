@@ -32,17 +32,17 @@ class user extends base
     /**
      * @return mixed
      */
-    public function getState()
+    public function getState($pseudo)
     {
-        return $this->state;
+        return $this->get('state',$pseudo);
     }
 
     /**
      * @return mixed
      */
-    public function getUserId()
+    public function getUserId($pseudo)
     {
-        return $this->user_id;
+        return $this->get('user_id',$pseudo);
     }
 
 
@@ -57,9 +57,9 @@ class user extends base
     /**
      * @return mixed
      */
-    public function getGender()
+    public function getGender($pseudo)
     {
-        return $this->gender;
+        return $this->get('gender',$pseudo);
     }
 
     /**
@@ -75,6 +75,7 @@ class user extends base
      */
     public function getPassword($pseudo)
     {
+        return $this->get('password',$pseudo);
 
     }
 
