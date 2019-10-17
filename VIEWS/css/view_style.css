@@ -93,12 +93,11 @@
     align-items: center;
 }
 
-.changebloc form {
-
-}
-
-.changebloc input
+.modif
 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
