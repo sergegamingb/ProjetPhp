@@ -194,7 +194,9 @@ class user extends base
         if(strlen($this->password) <5 || strlen($this->password) >20) return false;
         if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {return false;}
         if($this->password != $this->password2) return false;
-        if(is_null($this->password)||is_null($this->password2)) return false;
+        if(is_null($this->password)|| is_null($this->password2)) return false;
+
+        if(empty($_POST['identifiant'])) {$this->pseudo="pseudo requis";return false;}
 
 
      return true;
@@ -270,16 +272,11 @@ class user extends base
 
 
 
-//        $query='SELECT pseudo, password FROM USER WHERE  pseudo = :pseudo and password = :password'; --plus long mais pareil que juste apres
-//        $sql = $this->loadDb()->prepare($query);
-//        $sql->bindValue(':pseudo', $login, PDO::PARAM_STR);
-//        $sql->bindValue(':password', $hashedPass, PDO::PARAM_STR);
-//        $result = $sql->fetch();
 
         //plus rapide
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         $sql->execute(array($login, $hashedPass));
-      // $query = 'SELECT pseudo , password  FROM USER where USER.pseudo =  \'' . $login . '\'  and USER.password = \'' . $hashedPass .'\' ';
+
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
