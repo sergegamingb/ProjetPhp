@@ -124,4 +124,19 @@
         justify-content: space-around;
         align-items: center;
     }
+
+    .changebloc form
+    {
+        display: flex;
+        border-style: groove;
+        border-color: black;
+        height: 2em;
+        margin: 1em;
+        width: 100%;
+    }
+
+    .changebloc input
+    {
+
+    }
 }
