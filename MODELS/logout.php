@@ -3,5 +3,5 @@
 session_start();
 
 $_SESSION['isLogin']='no';
-header('Location: ../index.php');
+header('Location: ../VIEWS/view_accueil.php');
 //
