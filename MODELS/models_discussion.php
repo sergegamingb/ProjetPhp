@@ -77,7 +77,12 @@ class discussion
 
     public function createDiscussion()
     {
+        $this ->state='open';
 
+        $query = 'INSERT INTO DISCUSSION (disc_id,user_id, message_id, state)
+        VALUES (
+         \'' . $this->state . '\' ,
+         )';
     }
 }
 

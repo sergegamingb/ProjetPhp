@@ -240,6 +240,7 @@ class user extends base
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $this->pseudo))
         {
+            $_SESSION['error'] = 'badnickname';
             echo 'mail : ' . $this->mail;//test
             echo 'mauvais pseudo';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
@@ -284,6 +285,7 @@ class user extends base
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
+            $_SESSION['error'] = 'badnickname2';
             echo 'mauvais pseudo';
             echo ' <br/>  <a href=../index.php> Retourner a l\'accueil </a>   ';
             exit();
@@ -325,7 +327,7 @@ class user extends base
     {
         if($_SESSION['isLogin']!='ok')
         {
-            die('vous n\'etes pas connectés');
+            $_SESSION['error'] = 'notconnected';
         }
 
 
