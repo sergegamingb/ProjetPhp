@@ -21,18 +21,18 @@ session_start();
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="../VIEWS/view_discussion.html"
+                    <a href="../VIEWS/view_discussion.html">
 <!--                    --><?php
 //                      $_SESSION['redirection']='newDisc';
 //                    ?>
-                     > <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
+                      <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a
+                    <a>
 <!--                        --><?php
 //                        $_SESSION['redirection']='refresh';
 //                        ?>
-                    > <input class="refreshbouton" type="button" value="Actualiser"> </a> </div>
+                     <input class="refreshbouton" type="button" value="Actualiser"> </a> </div>
             </div>
 <hr>
 
