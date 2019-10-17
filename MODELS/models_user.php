@@ -277,7 +277,7 @@ class user extends base
 
 
 
-        //plus rapide
+        //plus rapide*
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         $sql->execute(array($login, $hashedPass));
 
