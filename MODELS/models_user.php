@@ -345,6 +345,7 @@ class user extends base
 
         if ($newMdp != $confirmMdp)
         {
+            header('Location: ../VIEWS/view_error.php');
             echo "les mots de passe ne correspondent pas";
             echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
@@ -370,9 +371,7 @@ class user extends base
         }
         else
         {
-            echo "mauvais mot de passe";
-            echo ' <br/>  <a href=../VIEWS/view_login.html>  réessayer </a>   ';
-            exit();
+            header('Location: ../VIEWS/view_error.php');
         }
 
     }
