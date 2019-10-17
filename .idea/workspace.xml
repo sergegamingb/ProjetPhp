@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="" />
+    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_template.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="371" column="9" selection-start-line="371" selection-start-column="9" selection-end-line="371" selection-end-column="9" />
+            <state relative-caret-position="2284">
+              <caret line="372" column="9" selection-start-line="372" selection-start-column="9" selection-end-line="372" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -93,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VIEWS/view_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="435">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -151,8 +153,8 @@
         <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
         <option value="$PROJECT_DIR$/VIEWS/css/view_style.css" />
         <option value="$PROJECT_DIR$/VIEWS/view_changePass.php" />
-        <option value="$PROJECT_DIR$/VIEWS/view_template.php" />
         <option value="$PROJECT_DIR$/MODELS/models_user.php" />
+        <option value="$PROJECT_DIR$/VIEWS/view_template.php" />
       </list>
     </option>
   </component>
@@ -257,27 +259,6 @@
       <workItem from="1571212452940" duration="646000" />
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
-    </task>
-    <task id="LOCAL-00049" summary="test menu">
-      <created>1570708732891</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1570708732891</updated>
-    </task>
-    <task id="LOCAL-00050" summary="test menu">
-      <created>1570710275238</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1570710275238</updated>
-    </task>
-    <task id="LOCAL-00051" summary="test menu">
-      <created>1570711050664</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1570711050664</updated>
     </task>
     <task id="LOCAL-00052" summary="test menu">
       <created>1570716616950</created>
@@ -601,11 +582,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571298659034</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="page changement mdp">
+      <created>1571299392407</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1571299392407</updated>
+    </task>
+    <task id="LOCAL-00099" summary="page changement mdp">
+      <created>1571299464491</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1571299464491</updated>
+    </task>
+    <task id="LOCAL-00100" summary="page changement mdp">
+      <created>1571299529917</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1571299529917</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3352000" />
+    <option name="totallyTimeSpent" value="3616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
@@ -725,9 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_profilePage.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/VIEWS/view_changePass.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -742,20 +741,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_template.php">
+    <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="2284">
+          <caret line="372" column="9" selection-start-line="372" selection-start-column="9" selection-end-line="372" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_profilePage.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="371" column="9" selection-start-line="371" selection-start-column="9" selection-end-line="371" selection-end-column="9" />
+        <state relative-caret-position="435">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
