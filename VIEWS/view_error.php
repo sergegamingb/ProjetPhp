@@ -3,10 +3,7 @@
 ob_start();
 session_start();
 
-function __autoload($user)
-{
-    include ( 'models_' . $user. '.php');
-}
+
 
 
 
