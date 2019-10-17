@@ -256,6 +256,7 @@ class user extends base
                 echo $e->getMessage();
             }
         }
+
 //
 
 
@@ -393,8 +394,9 @@ class user extends base
     public function forgotPwd()
     {
         $message = $this->genererChaineAleatoire();
+        $hashedPass = hash('sha256',$message);
         $mail = $_POST['mail'];
-        $query = 'UPDATE USER SET password := \'' . $message .'\' WHERE mail = \'' . $mail . '\'';
+        $query = 'UPDATE USER SET password := \'' . $hashedPass .'\' WHERE mail = \'' . $mail . '\'';
         $this->execRequete($query);
         echo"le mail a bien été envoyé";
         mail($mail, 'MDP OUBLIE BRO', $message);

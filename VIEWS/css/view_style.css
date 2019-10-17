@@ -13,9 +13,9 @@
     justify-content: space-between;
     transition-duration: 0.4s;
     background-color: white;
-    z-index: 2;
-
+    z-index: 1;
 }
+
 .coin {
     width: 10%;
     top: 18%;
@@ -49,6 +49,8 @@
     flex-direction: column;
     justify-content: space-between;
     transition-duration: 0.4s;
+    background-color: white;
+    z-index: 1;
 }
 
 .registerMenu {
@@ -178,6 +180,9 @@ a
 /*    display: flex;*/
 /*    height: 2em;*/
 /*}*/
+/*    ms: center;*/
+/*    flex-direction: column;*/
+
 
 .refreshbouton
 {
@@ -202,6 +207,13 @@ a
     text-align: center;
 }
 
+.discbloc
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 
 @media (max-width: 992px) {
     .registerMenu{

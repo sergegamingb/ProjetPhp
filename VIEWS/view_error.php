@@ -3,9 +3,10 @@
 ob_start();
 session_start();
 
-
-
-
+?>
+<div class="container">
+    <section class="col-lg-12 text-center">
+<?php
 if  ($_SESSION['error'] == "tooshort")
 {
   echo  'Le mot de passe doit faire entre 5 et 20 caracteres';
@@ -48,6 +49,13 @@ if($_SESSION['error'] == "falsemdp")
     echo "Mauvais mot de passe";
     echo ' <br/>  <a href=../index.php> Retourner à l\'accueil </a>   ';
 }
- $content = ob_get_clean(); ?>
+?>
+    </section>
+</div>
+<?php
 
-<?php require('view_template.php'); ?>
+ $content = ob_get_clean();
+
+
+
+require('view_template.php'); ?>
