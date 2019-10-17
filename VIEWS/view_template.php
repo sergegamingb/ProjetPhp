@@ -39,6 +39,7 @@ session_start();
             }
             else
             {
+                echo '<p> </p>';
                 echo '  Bienvenue ' . $_SESSION['login'] . ' ! '   ;
                 echo '<br/> <a href="../MODELS/logout.php"> se déconnecter </a>';
             }
@@ -50,8 +51,9 @@ session_start();
                 <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-                    <input type="submit" name="action" value="login"/>
                     <a href="../VIEWS/view_forgotpwd.php"> mot de passe oublie </a>
+                    <input type="submit" name="action" value="login"/>
+
                 </form>
                 </div>
             <script src="menu_login.js"></script>

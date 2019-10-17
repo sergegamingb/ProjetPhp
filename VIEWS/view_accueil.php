@@ -24,7 +24,8 @@ session_start();
                     <a href="../VIEWS/view_discussion.html">
                       <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+
+                <div class="offset-lg-4 col-lg-4 col-md-4 col-sm-12 text-center">
                     <a href="../VIEWS/view_accueil.php">
                      <input class="refreshbouton" type="button" value="Actualiser"> </a>
                 </div>
