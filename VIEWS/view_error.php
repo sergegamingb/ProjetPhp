@@ -52,8 +52,10 @@ if($_SESSION['error'] == "falsemdp")
 ?>
     </section>
 </div>
+<?php
+
+ $content = ob_get_clean();
 
 
- $content = ob_get_clean(); ?>
 
-<?php require('view_template.php'); ?>
+require('view_template.php'); ?>
