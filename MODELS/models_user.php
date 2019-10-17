@@ -345,6 +345,7 @@ class user extends base
 
         if ($newMdp != $confirmMdp)
         {
+            header('Location: ../VIEWS/view_error.php');
             echo "les mots de passe ne correspondent pas";
             echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             exit();
@@ -360,6 +361,7 @@ class user extends base
                 $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
                 $this->execRequete($query);
                 echo '<br/><strong>Votre mot de passe a bien été modifié !</strong><br/>';
+                $_SESSION['isLogin']='non';
                 echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             }
             catch (PDOException $e)
@@ -369,9 +371,7 @@ class user extends base
         }
         else
         {
-            echo "mauvais mot de passe";
-            echo ' <br/>  <a href=../VIEWS/view_login.html>  réessayer </a>   ';
-            exit();
+            header('Location: ../VIEWS/view_error.php');
         }
 
     }
