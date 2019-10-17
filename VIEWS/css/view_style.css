@@ -18,6 +18,7 @@
 }
 .coin {
     width: 10%;
+    top: 12%;
 }
 
 /*.coin:hover*/
@@ -29,6 +30,7 @@
 
 .reg {
     width: 10%;
+    top: 12%;
 }
 
 /*.reg:hover*/
