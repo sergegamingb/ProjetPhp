@@ -51,7 +51,7 @@ session_start();
                 <form class="loginmenu" action="../CONTROLLERS/controller_user.php" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-                    <a href="../VIEWS/view_forgotpwd.php"> mot de passe oublie </a>
+                    <input> <a href="../VIEWS/view_forgotpwd.php"> mot de passe oublie </a> </input>
                     <input type="submit" name="action" value="login"/>
 
                 </form>
