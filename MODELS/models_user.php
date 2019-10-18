@@ -276,11 +276,16 @@ class user extends base
         $hashedPass = hash('sha256',$password);
 
 
-
+        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= :pseudo AND password= :password");
+        $sql->bindValue(':pseudo',$login,PDO::PARAM_STR);
+        $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
+        $sql->execute();
+        $result =$sql->fetch();
+        var_dump($result);
 
         //plus rapide*
-        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
-        $sql->execute(array($login, $hashedPass));
+//        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
+//        $sql->execute(array($login, $hashedPass));
 
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
