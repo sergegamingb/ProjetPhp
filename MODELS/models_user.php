@@ -282,6 +282,7 @@ class user extends base
         $sql->execute();
         $result =$sql->fetch();
         var_dump($result);
+        exit();
 
         //plus rapide*
 //        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
