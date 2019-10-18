@@ -82,14 +82,7 @@
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571325920074" duration="611000" />
       <workItem from="1571341116512" duration="10000" />
-      <workItem from="1571417718743" duration="1135000" />
-    </task>
-    <task id="LOCAL-00063" summary="autoload">
-      <created>1570719061329</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1570719061329</updated>
+      <workItem from="1571417718743" duration="1633000" />
     </task>
     <task id="LOCAL-00064" summary="autoload">
       <created>1570720124981</created>
@@ -427,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571418799296</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="page changement mdp">
+      <created>1571418859285</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1571418859285</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

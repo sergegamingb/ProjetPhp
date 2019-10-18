@@ -279,7 +279,7 @@ class user extends base
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= :pseudo AND password= :password");
         $sql->bindValue(':pseudo',$login,PDO::PARAM_STR);
         $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
-        $sql->execute();
+        //$sql->execute();
 
 
         //plus rapide*
