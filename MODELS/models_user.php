@@ -299,7 +299,7 @@ class user extends base
 
 
         //if($row -> rowCount() == 0)
-            if($result->rowCount()==0)
+            if($sql->rowCount()==0)
         {
             $_SESSION['error'] = 'falsemdp';
             header('Location: ../VIEWS/view_error.php');
